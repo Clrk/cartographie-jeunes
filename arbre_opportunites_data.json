@@ -1,0 +1,1483 @@
+[
+ {
+  "nom": "Espace Personnel Web - France Travail",
+  "publics": [
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'emploi",
+   "Recherche d'information et orientation",
+   "Recherche de formation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Offrir le canal web de référence pour la recherche d'emploi, les démarches administratives et le suivi France Travail",
+  "porteur": "France Travail",
+  "url": "https://candidat.francetravail.fr/espacepersonnel/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "4 - Très forte",
+  "beta": "❌",
+  "justification": "Premier site emploi de France et brique transactionnelle complète sur l'administratif et la candidature, refondue récemment. Pas un service autonome dans la cartographie — c'est un canal de France Travail dont l'analyse se lit avec celle de l'application mobile. Deux faiblesses : pas de parcours dédié pour les jeunes, et une page de statistiques publiques prête depuis plusieurs mois mais non publiée.",
+  "notion": "https://www.notion.so/5de66b24c26a82d9b583815967303a67"
+ },
+ {
+  "nom": "Fil Santé Jeunes",
+  "publics": [
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Santé et santé mentale"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Écouter et informer anonymement les 12-25 ans sur la santé physique, mentale et sociale via téléphone et chat",
+  "porteur": "Santé Publique France",
+  "url": "https://www.filsantejeunes.com/",
+  "statut": "Valeur défendable (impact non mesuré)",
+  "marqueur": [],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Dispositif structurel de l'écosystème santé jeunes, présent depuis trente ans, multi-canal, équipe de professionnels salariés, label santé publique, charte d'anonymat strict. Joue un rôle de premier contact et d'aiguillage vers le soin spécialisé. Mais les dernières données d'audience publiques datent d'une décennie, ce qui empêche tout pilotage. Le besoin existe sans ambiguïté ; ce qui manque, c'est la démonstration qu'il y répond toujours à la bonne échelle.",
+  "notion": "https://www.notion.so/ea666b24c26a835d934501029f3527ff"
+ },
+ {
+  "nom": "Parcoursup",
+  "publics": [
+   "Lycéens",
+   "Équipes pédagogiques",
+   "Étudiants"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Lycée"
+  ],
+  "objectif": "Gérer l'admission dans l'enseignement supérieur pour tous les candidats post-bac via une plateforme nationale unique",
+  "porteur": "MESR",
+  "url": "https://www.parcoursup.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "❌",
+  "justification": "Infrastructure critique de l'enseignement supérieur français, hors périmètre d'arbitrage — aucune alternative à cette échelle n'existe. Résultats techniques en amélioration continue, open data exemplaire. Paradoxe central : efficacité technique forte sur le taux d'admission, mais perception très dégradée sur l'équité et amplification documentée du déterminisme social. L'enjeu pour la cartographie est l'articulation avec l'écosystème en aval — décrochage L1, intégration InserSup incomplète, bacheliers professionnels en hausse.",
+  "notion": "https://www.notion.so/94566b24c26a8201920e01f5cdeb32f3"
+ },
+ {
+  "nom": "Orion",
+  "publics": [
+   "Gestionnaires",
+   "Rectorats / DGESCO",
+   "Équipes produits"
+  ],
+  "categories": [
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Pilotage"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Piloter la carte des formations des lycées professionnels via un partage de données entre tous les décideurs",
+  "porteur": "DNE, MEN",
+  "url": "https://orion.education.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "✅",
+  "justification": "Outil de pilotage et non service utilisateur jeune — donc évalué différemment. Mais c'est précisément ce que l'écosystème devrait produire davantage : une infrastructure de décision partagée entre tous les acteurs de la carte des formations, avec un impact concret mesuré sur la transformation effective des places ouvertes et fermées. Cas de transfert beta.gouv vers la DNE qui semble s'être mieux passé que d'autres ; le ralentissement de mise à jour des statistiques publiques post-transfert mérite vigilance.",
+  "notion": "https://www.notion.so/be766b24c26a82dca79901c693c6d168"
+ },
+ {
+  "nom": "API Engagement",
+  "publics": [
+   "Accompagnants",
+   "Conseillers France Travail",
+   "Conseillers Missions Locales",
+   "Organisation engagement (associatives publiques et privées)",
+   "Prescripteurs",
+   "Structures IJ (CRIJ/BIJ/PIJ)",
+   "Équipes produits"
+  ],
+  "categories": [
+   "Engagement citoyenneté solidarité"
+  ],
+  "use_cases": [
+   "Commun de données"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Mutualiser les missions d'engagement (bénévolat, service civique, réserves, sapeurs-pompiers) entre plateformes associatives, publiques et privées via une API commune qui redistribue le trafic aux diffuseurs",
+  "porteur": "DJEPVA",
+  "url": "https://api-engagement.beta.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "✅",
+  "justification": "Le bon modèle de commun numérique dans le domaine de l'engagement : un service qui agrège les missions de bénévolat et de volontariat venues de plateformes publiques et privées, et les redistribue là où les candidats potentiels se trouvent déjà. Chaque opérateur garde sa marque, aucun ne capte l'audience des autres. A démontré sa valeur en crise (Covid puis Ukraine) et porte aujourd'hui l'extension aux réserves opérationnelles.",
+  "notion": "https://www.notion.so/2b266b24c26a82179cb701b3198ec8b7"
+ },
+ {
+  "nom": "Plateforme de l’engagement",
+  "publics": [
+   "Accompagnants",
+   "Conseillers France Travail",
+   "Conseillers Missions Locales",
+   "Jeunes de 15 à 30 ans",
+   "Prescripteurs",
+   "Structures IJ (CRIJ/BIJ/PIJ)"
+  ],
+  "categories": [
+   "Engagement citoyenneté solidarité"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Mise en relation",
+   "Recherche d'engagement"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Orienter les jeunes (ou les pros qui les accompagnent) vers les missions d'engagement (bénévolat, service civique, réserves, sapeurs-pompiers, gendarmerie, police) via un moteur de recommandation personnalisé agrégeant tous les dispositifs publics et associatifs",
+  "porteur": "DJEPVA",
+  "url": "",
+  "statut": "Service sans signal",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "✅",
+  "justification": "Service en phase de construction, audit Notion non finalisé. Positionnement annoncé cohérent : un moteur de recommandation personnalisé qui agrège tous les dispositifs publics et associatifs d'engagement, en s'appuyant sur l'API Engagement déjà mature. La question stratégique est l'articulation entre les deux briques : l'API Engagement fonctionne comme commun numérique distribué, et la valeur ajoutée d'un service à interface propre reste à démontrer. À surveiller en construction sans préjuger du verdict.",
+  "notion": "https://www.notion.so/3c366b24c26a83df97b781a860671f83"
+ },
+ {
+  "nom": "Jeunes.gouv.fr",
+  "publics": [
+   "Accompagnants",
+   "Chercheurs",
+   "Gestionnaires",
+   "Prescripteurs",
+   "Structures IJ (CRIJ/BIJ/PIJ)",
+   "Équipes pédagogiques"
+  ],
+  "categories": [
+   "Engagement citoyenneté solidarité",
+   "Mobilité nationale et internationale",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Catalogue d'outils",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Tout moment de la vie"
+  ],
+  "objectif": "Présenter les politiques ministérielles de jeunesse (organisation, partenariats, publications DJEPVA/INJEP) et orienter vers les services opérationnels de l'écosystème pour les professionnels, partenaires et relais territoriaux",
+  "porteur": "DJEPVA",
+  "url": "",
+  "statut": "Service sans signal",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Vitrine institutionnelle légitime du ministère sur les politiques de jeunesse, utile aux professionnels et partenaires. Mais le site se présente comme un portail pour les 16-25 ans alors que sa rédaction s'adresse aux adultes du secteur — ambiguïté qui crée un doublon de positionnement avec 1J1S sur le grand public. Aucune donnée d'usage publiée, et accessibilité déclarée « non conforme » par le site lui-même, difficile à tenir pour un portail ministériel.",
+  "notion": "https://www.notion.so/bdc66b24c26a829ca24301ba0a63f200"
+ },
+ {
+  "nom": "Parcours Emploi France Travail",
+  "publics": [
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'emploi",
+   "Recherche d'information et orientation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Offrir le canal mobile de référence pour la recherche d'emploi personnalisée et le suivi France Travail",
+  "porteur": "France Travail",
+  "url": "https://play.google.com/store/apps/details?id=com.poleemploi.pemobile&hl=fr",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "4 - Très forte",
+  "beta": "❌",
+  "justification": "Canal mobile principal de France Travail côté demandeur d'emploi, et un des très rares services à publier un indicateur d'impact réel : taux de retour à l'emploi mesuré qui surperforme les autres canaux. La moitié des candidatures en ligne France Travail passe désormais par l'app. Question stratégique : le service est conçu pour le grand public en autonomie de recherche — pertinent pour les jeunes qui le sont, insuffisant pour ceux qui ne le sont pas et auxquels les apps CEJ et pass emploi répondent.",
+  "notion": "https://www.notion.so/c9466b24c26a83de9871016513ff2aaa"
+ },
+ {
+  "nom": "Trouver ma formation (web) - France Travail",
+  "publics": [
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Recherche d'information et orientation",
+   "Recherche de formation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Rechercher et comparer l'offre de formation professionnelle sur web via le catalogue national Carif-Oref",
+  "porteur": "France Travail",
+  "url": "https://candidat.francetravail.fr/formations/recherche",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Ma Formation app). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Question résiduelle : pourquoi un demandeur d'emploi doit-il choisir entre ce service et Mon Compte Formation pour chercher une formation.",
+  "notion": "https://www.notion.so/4d066b24c26a820ea78481c7bd69fd46"
+ },
+ {
+  "nom": "Mon Master",
+  "publics": [
+   "Étudiants"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche de formation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Gérer l'admission en première année de master pour les candidats post-licence via une plateforme nationale unique",
+  "porteur": "MESR",
+  "url": "https://monmaster.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "❌",
+  "justification": "Infrastructure structurelle de l'enseignement supérieur, équivalent post-licence de Parcoursup, sans alternative possible. Trajectoire d'amélioration solide après un lancement difficile : phase complémentaire qui a divisé par trois les candidats sans solution, ergonomie allégée. Open data exemplaire. Sujets pendants : inflation du nombre de vœux par candidat, calendrier qui collisionne avec les examens, absence de pont vers les données d'insertion (InserSup non intégré aux fiches formation).",
+  "notion": "https://www.notion.so/54266b24c26a833a90b6815ea0ed3fdf"
+ },
+ {
+  "nom": "Ma Formation (app mobile) - France Travail",
+  "publics": [
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Recherche d'information et orientation",
+   "Recherche de formation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Rechercher et comparer l'offre de formation professionnelle sur mobile via le catalogue national Carif-Oref",
+  "porteur": "France Travail",
+  "url": "https://www.francetravail.fr/candidat/vos-services-en-ligne/applications-mobiles/application-mobile-formation.html",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Ma Formation app). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Question résiduelle : pourquoi un demandeur d'emploi doit-il choisir entre ce service et Mon Compte Formation pour chercher une formation.",
+  "notion": "https://www.notion.so/80d66b24c26a83eb8e1c81a674c9d86b"
+ },
+ {
+  "nom": "Santé Psy Étudiant",
+  "publics": [
+   "Étudiants"
+  ],
+  "categories": [
+   "Santé et santé mentale"
+  ],
+  "use_cases": [
+   "Recherche d'aide"
+  ],
+  "etapes": [
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Offrir aux étudiants jusqu'à 12 séances psy gratuites par an avec des psychologues conventionnés",
+  "porteur": "DINUM, MESR",
+  "url": "https://santepsy.etudiant.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "2 - Moyenne",
+  "beta": "✅",
+  "justification": "Dispositif qui répond à un besoin documenté avec une trajectoire de simplification réussie : suppression de l'orientation médicale préalable, alignement tarifaire qui a quintuplé le réseau de psychologues partenaires, doublement du nombre de séances. Croissance d'usage régulière, approche transactionnelle aboutie. Fusion programmée avec Mon Soutien Psy en 2026. Enjeu : préserver l'expérience produit lors de l'absorption dans le dispositif de droit commun.",
+  "notion": "https://www.notion.so/79e66b24c26a82549d2681fd028e4959"
+ },
+ {
+  "nom": "eva - ANLCI",
+  "publics": [
+   "Accompagnants",
+   "Conseillers France Travail",
+   "Conseillers Missions Locales",
+   "Organismes de formation / CFA"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Recherche d'information et orientation",
+   "Simulation et diagnostic",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée"
+  ],
+  "objectif": "Repérer les situations d'illettrisme et positionner les compétences de base de manière non stigmatisante via des jeux sérieux",
+  "porteur": "ANLCI",
+  "url": "https://eva.anlci.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "✅",
+  "justification": "Seul service de la cartographie qui traite l'illettrisme — angle mort partout ailleurs alors que la difficulté avec la lecture, l'écriture ou les nombres concerne une part significative des jeunes éloignés de l'emploi. Approche par jeu sérieux et restitution positive, cohérente avec un public souvent en rupture avec l'expérience scolaire. Mobilisé en routine par le réseau d'accompagnement, label « service à impact » DINUM. Cas singulier de transfert réussi entre incubateur et opérateur historique.",
+  "notion": "https://www.notion.so/64766b24c26a8256b5e50104b960ddbe"
+ },
+ {
+  "nom": "Emploi Store",
+  "publics": [
+   "Accompagnants",
+   "Jeunes de 15 à 30 ans",
+   "Tout public"
+  ],
+  "categories": [
+   "Aides financières et autonomie",
+   "Emploi formation insertion pro",
+   "Mobilité nationale et internationale",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Catalogue d'outils"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Agréger dans un catalogue unique les services digitaux France Travail et tiers (recherche d'emploi, formation, orientation, création d'entreprise) pour tous publics",
+  "porteur": "France Travail",
+  "url": "https://www.emploi-store.fr/portail/accueil",
+  "statut": "Usage sans impact démontré",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "4 - Très forte",
+  "beta": "❌",
+  "justification": "Concept de catalogue d'applications hérité de 2015 que France Travail a lui-même déprioritisé en supprimant le lien depuis sa page d'accueil. Les outils phares qu'il référence existent indépendamment ; les outils tiers (CV, lettre de motivation) sont aujourd'hui concurrencés par les assistants IA. Le service ne génère pas sa propre demande et son porteur ne le défend plus.",
+  "notion": "https://www.notion.so/70d66b24c26a82049a6081259c853c30"
+ },
+ {
+  "nom": "Passeport de compétence",
+  "publics": [
+   "Jeunes de 15 à 30 ans",
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Centraliser les données probantes de carrière, diplômes et formations dans un coffre-fort numérique personnel",
+  "porteur": "Caisse des dépôts",
+  "url": "https://competences.moncompteformation.gouv.fr/espace-public/",
+  "statut": "Service sans signal",
+  "marqueur": [],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Diagnostic en deux briques que la communication institutionnelle confond. Le service grand public — interface, fonctionnalité CV — est en bêta depuis trois ans sans instrument de mesure d'audience, l'authentification renforcée exclut de fait la cible mineure, et le profil d'un jeune en début de parcours est par construction quasi-vide. Le socle data sous-jacent (DSN, AGORA, certificateurs, SI-CPF) est en revanche une infrastructure mutualisée à préserver et exposer en API. Verdict : réorientation — geler l'interface, exposer le socle.",
+  "notion": "https://www.notion.so/b9466b24c26a836b8096815b6d255441"
+ },
+ {
+  "nom": "MétierScope",
+  "publics": [
+   "Accompagnants",
+   "Jeunes de 15 à 30 ans",
+   "Prescripteurs"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Recherche d'information et orientation",
+   "Simulation et diagnostic"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée"
+  ],
+  "objectif": "Faciliter l'accès grand public aux informations sur les métiers et les compétences via la vitrine consultable du référentiel ROME 4.0, en appui du niveau 1 du Conseil en Évolution Professionnelle",
+  "porteur": "France Travail",
+  "url": "https://candidat.francetravail.fr/metierscope/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "✅",
+  "justification": "Vitrine grand public du référentiel ROME 4.0, actif stratégique pour la politique d'approche par compétences. Cas réussi de transfert beta.gouv vers l'opérateur public. Positionnement juste : un service d'exploration des métiers qui n'essaie pas de faire du transactionnel et articule proprement les renvois vers les services d'action. Limite : opacité héritée — aucune statistique publique alors que les données sont collectées. La pérennisation impose le standard de transparence.",
+  "notion": "https://www.notion.so/4cd66b24c26a83e5927101f98daab300"
+ },
+ {
+  "nom": "Anotéa",
+  "publics": [
+   "Gestionnaires",
+   "Organismes de formation / CFA",
+   "Prescripteurs"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Recherche de formation"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Collecter et diffuser les avis vérifiés des stagiaires demandeurs d'emploi sur les formations professionnelles qu'ils ont suivies, pour éclairer le choix des futurs stagiaires et fournir un indicateur qualité aux financeurs",
+  "porteur": "France Travail",
+  "url": "https://anotea.francetravail.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "✅",
+  "justification": "Actif d'infrastructure rare : un système d'évaluation publique avec vérification à la source — seuls les stagiaires effectivement passés en formation reçoivent le questionnaire. Garantie de confiance que les plateformes privées d'avis ne peuvent pas reproduire. Diffusé par API sur les sites où les jeunes cherchent. Limite structurelle : ne couvre que les formations financées pour demandeurs d'emploi, donc apprentis et étudiants hors champ.",
+  "notion": "https://www.notion.so/b7f66b24c26a8245bff60197a9cfeae7"
+ },
+ {
+  "nom": "Mon Projet Sup",
+  "publics": [
+   "Lycéens",
+   "Équipes pédagogiques"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Recherche d'information et orientation",
+   "Recherche de formation",
+   "Simulation et diagnostic"
+  ],
+  "etapes": [
+   "Lycée"
+  ],
+  "objectif": "Accompagner la construction du projet d'orientation post-bac des lycéens via des suggestions personnalisées de formations",
+  "porteur": "MESR, ONISEP",
+  "url": "https://app-mps.avenirs.onisep.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "✅",
+  "justification": "Brique spécialisée d'Avenir(s) au taux de complétion exceptionnel — un jeune qui arrive sur le service va jusqu'au bout du parcours, signal rare dans l'écosystème. Le pont vers Parcoursup fonctionne effectivement. Choix produit délibéré et pertinent : suggérer par appétence et non par résultats scolaires, ce qui répond directement au constat de la Cour des comptes sur l'autocensure. Modèle d'intégration d'une brique spécialisée dans un écosystème plus large, plutôt que site isolé.",
+  "notion": "https://www.notion.so/84e66b24c26a82bdb704015a15c2d004"
+ },
+ {
+  "nom": "Avenir(s)",
+  "publics": [
+   "Collégiens",
+   "Lycéens",
+   "Lycéens voie pro / apprentis",
+   "Équipes pédagogiques"
+  ],
+  "categories": [
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Recherche d'information et orientation",
+   "Simulation et diagnostic",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Collège",
+   "Lycée"
+  ],
+  "objectif": "Développer les compétences d'orientation des élèves de la 5e à la terminale via un portfolio pédagogique",
+  "porteur": "MEN, ONISEP",
+  "url": "https://reso-avenirs.onisep.fr/",
+  "statut": "Valeur défendable (impact non mesuré)",
+  "marqueur": [],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Seul outil de la cartographie qui traite l'orientation comme une compétence à construire dans le temps plutôt qu'un guichet à utiliser au moment des choix. Positionnement en amont de tout le reste, fondé sur la recherche, financé sur la durée. Déployé depuis six mois seulement, donc trop tôt pour juger l'adoption effective. La promesse stratégique d'un portfolio de compétences portable du collège à l'emploi tient si l'interopérabilité avec le passeport de compétences est tenue.",
+  "notion": "https://www.notion.so/48766b24c26a823c91d7815689952aca"
+ },
+ {
+  "nom": "Mes evenements emploi",
+  "publics": [
+   "Employeurs / Entreprises",
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Faciliter l'inscription aux événements emploi et formation (job datings, forums, rencontres) via un agenda national agrégé",
+  "porteur": "France Travail",
+  "url": "https://mesevenementsemploi.francetravail.fr/mes-evenements-emploi/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "4 - Très forte",
+  "beta": "❌",
+  "justification": "Service massif largement sous-estimé : audience comparable aux grands sites d'emploi nationaux, taux de présence effective remarquable, près d'un quart de million de participations réelles chaque mois à des événements emploi. Quand un jeune s'inscrit, il vient — signal que le besoin est réel. Le sujet n'est pas de défendre le service mais de diffuser son catalogue d'événements dans les plateformes où les jeunes sont déjà (LBA, 1J1S, app Parcours Emploi).",
+  "notion": "https://www.notion.so/67f66b24c26a83b1824a81e6bfddfc13"
+ },
+ {
+  "nom": "Immersion facilitée",
+  "publics": [
+   "Accompagnants",
+   "Conseillers France Travail",
+   "Conseillers Missions Locales",
+   "Employeurs / Entreprises",
+   "Jeunes de 15 à 30 ans",
+   "Jeunes en insertion (NEET décrocheurs)",
+   "Prescripteurs"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'information et orientation",
+   "Recherche de stage"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Dématérialiser les conventions d'immersion professionnelle (PMSMP) pour mettre en relation candidats, entreprises accueillantes et prescripteurs en 48h au lieu de 15 jours",
+  "porteur": "France Travail, GIP de l'inclusion",
+  "url": "https://immersion-facile.beta.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "✅",
+  "justification": "Démontre que le numérique public peut transformer un irritant administratif en parcours fluide, avec un effet causal mesuré : une part substantielle des bénéficiaires déclare qu'elle n'aurait pas fait d'immersion sans le service. Adoption croissante, satisfaction haute, coût marginal très bas. Le principal angle mort n'est pas le produit lui-même mais sa découvrabilité : plébiscité par ceux qui le connaissent, peu connu hors du réseau prescripteur.",
+  "notion": "https://www.notion.so/e3866b24c26a8297ba0481632222b0be"
+ },
+ {
+  "nom": "Contrat d’Engagement Jeune Appli",
+  "publics": [
+   "Conseillers France Travail",
+   "Conseillers Missions Locales",
+   "Jeunes en insertion (NEET décrocheurs)"
+  ],
+  "categories": [
+   "Aides financières et autonomie",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Candidature",
+   "Recherche d'emploi",
+   "Recherche d'information et orientation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Outiller le Contrat d'Engagement Jeune pour limiter le décrochage via une communication de proximité conseiller-jeune",
+  "porteur": "France Travail",
+  "url": "https://apps.apple.com/us/app/contrat-dengagement-jeune/id1581603519",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "✅",
+  "justification": "Exemple le plus abouti dans l'écosystème de ce qu'un outil numérique peut faire quand il sert la relation d'accompagnement plutôt que de prétendre la remplacer. Les conseillers gagnent un temps réel sur l'administratif, les jeunes déclarent gagner en autonomie sur leur projet. Adoption massive et engagement structurel des deux côtés. Reste à mesurer l'impact final sur le décrochage et les sorties positives, objectif principal aujourd'hui non chiffré.",
+  "notion": "https://www.notion.so/2b066b24c26a825b86aa013d48e66fad"
+ },
+ {
+  "nom": "IJ box",
+  "publics": [
+   "Accompagnants",
+   "Prescripteurs",
+   "Structures IJ (CRIJ/BIJ/PIJ)",
+   "Équipes pédagogiques"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Catalogue d'outils",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Outiller les professionnels de l'information jeunesse avec une base documentaire commune de référence",
+  "porteur": "CIDJ, DJEPVA",
+  "url": "https://www.ijbox.fr/",
+  "statut": "Service sans signal",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Outil métier qui homogénéise la documentation du réseau Info Jeunes — environ mille structures de proximité partout sur le territoire. Le positionnement est juste : outiller le médiateur humain, pas se substituer à lui. Mais huit années d'opération sans aucune donnée d'usage publiée pour un service financé par l'État. Production parallèle de fiches métiers avec l'ONISEP, sans articulation visible.",
+  "notion": "https://www.notion.so/ae366b24c26a831ea25f81228cc545cf"
+ },
+ {
+  "nom": "Pass Culture",
+  "publics": [
+   "Collégiens",
+   "Jeunes de 15 à 30 ans",
+   "Lycéens",
+   "Étudiants"
+  ],
+  "categories": [
+   "Culture vie étudiante loisirs"
+  ],
+  "use_cases": [
+   "Recherche d'aide"
+  ],
+  "etapes": [
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Favoriser la découverte culturelle des jeunes via un crédit individuel et une part collective scolaire",
+  "porteur": "Ministère de la Culture",
+  "url": "https://pass.culture.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "4 - Très forte",
+  "beta": "✅",
+  "justification": "Adoption la plus élevée de toute la cartographie auprès du public cible — l'application est entrée dans les usages quotidiens des 15-20 ans. Mesure d'impact rigoureuse via études cohortes successives. Mais lucidité nécessaire : c'est un dispositif de politique culturelle, pas d'insertion — son inclusion tient à son échelle, non à sa fonction. Pour l'écosystème insertion, c'est avant tout un canal de contact massif vers les jeunes.",
+  "notion": "https://www.notion.so/0d466b24c26a821c85ac01effb18b29b"
+ },
+ {
+  "nom": "1jeune1solution",
+  "publics": [
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Aides financières et autonomie",
+   "Culture vie étudiante loisirs",
+   "Emploi formation insertion pro",
+   "Engagement citoyenneté solidarité",
+   "Mobilité nationale et internationale",
+   "Orientation parcours et accès aux droits",
+   "Santé et santé mentale"
+  ],
+  "use_cases": [
+   "Mobilité internationale",
+   "Recherche d'aide",
+   "Recherche d'emploi",
+   "Recherche d'engagement",
+   "Recherche d'information et orientation",
+   "Recherche de formation",
+   "Recherche de stage"
+  ],
+  "etapes": [
+   "Tout moment de la vie"
+  ],
+  "objectif": "Centraliser toutes les opportunités (emploi, formation, aides, engagement) pour les jeunes sur un portail unique",
+  "porteur": "DGEFP, Ministère du travail",
+  "url": "https://www.1jeune1solution.gouv.fr/",
+  "statut": "Usage sans impact démontré",
+  "marqueur": [
+   "Périmètre dilaté",
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "4 - Très forte",
+  "beta": "❌",
+  "justification": "Le portail vit aujourd'hui de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation — un méta-moteur d'offres d'emploi qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides en autonomie complète, des pages dispositif qui captent du trafic SEO mais le retiennent peu. La promesse d'orientation différenciée selon le profil n'est pas tenue. La marque est trop installée pour être supprimée, mais sa fonction reste à construire.",
+  "notion": "https://www.notion.so/63566b24c26a8256ab3b0176e50f2513"
+ },
+ {
+  "nom": "Les sites régionaux de formation (Carif-Oref)",
+  "publics": [
+   "Accompagnants",
+   "Gestionnaires",
+   "Jeunes de 15 à 30 ans",
+   "Jeunes en insertion (NEET décrocheurs)",
+   "Prescripteurs"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Pilotage",
+   "Recherche d'information et orientation",
+   "Recherche de formation"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Informer les publics et professionnels sur l'offre de formation, les métiers et l'orientation dans leur région, via des portails gérés par les Carif-Oref financés par l'État et les Régions",
+  "porteur": "",
+  "url": "https://www.intercariforef.org/",
+  "statut": "Valeur défendable (impact non mesuré)",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Infrastructure invisible mais critique : les Carif-Oref produisent et qualifient au niveau régional le catalogue national de formations professionnelles qui alimente toutes les plateformes. La fonction de producteur de données est irremplaçable. C'est le maintien parallèle de dix-huit portails grand public régionaux, avec des noms et UX différents, qui pose question — la recherche grand public est aujourd'hui mieux servie par les plateformes nationales. Aucune donnée d'usage consolidée nationalement.",
+  "notion": "https://www.notion.so/b2e66b24c26a8346a7e581aa39b5196f"
+ },
+ {
+  "nom": "Les emplois de l’inclusion",
+  "publics": [
+   "Accompagnants",
+   "Employeurs / Entreprises",
+   "Prescripteurs"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'emploi"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Mettre en relation candidats éloignés de l'emploi, employeurs solidaires et prescripteurs de l’insertion par l’activité économique (IAE)",
+  "porteur": "GIP de l'inclusion",
+  "url": "https://emplois.inclusion.beta.gouv.fr/search/employers",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "✅",
+  "justification": "Service le plus mature et le plus efficient de la cartographie sur le volet insertion : volume d'embauches cumulées exceptionnel, satisfaction très supérieure à la moyenne, coût à l'impact remarquablement bas, budget public détaillé. Standard de transparence à proposer comme modèle. Hors périmètre stricto sensu jeunes, mais en pratique passage obligé pour une partie des publics prioritaires (NEET, sortie ASE, sortie PJJ) via prescription des missions locales et du CEJ.",
+  "notion": "https://www.notion.so/9c666b24c26a837b92df81e9f27222e9"
+ },
+ {
+  "nom": "Hub AGORA",
+  "publics": [
+   "Chercheurs",
+   "Gestionnaires",
+   "Équipes produits"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Pilotage"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Data-hub de référence de la formation professionnelle financée sur fonds publics ou mutualisés : centraliser et exposer en temps réel les entrées et sorties de formation, parcours et accompagnements, pour les financeurs et les politiques publiques",
+  "porteur": "Caisse des dépôts, DGEFP",
+  "url": "https://hub-agora.moncompteformation.gouv.fr/espace-public/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Couche basse mature de l'écosystème formation professionnelle, adossée à une obligation légale d'alimentation. Sans équivalent en France sur la vision unifiée des parcours de formation financés. La fragilité ne porte pas sur le service mais sur sa sous-exploitation par les outils destinés aux jeunes et aux accompagnants : la donnée existe, peu de services s'en servent. Risque inverse à anticiper : être mobilisé pour porter une infrastructure monolithique au détriment d'usages plus ciblés.",
+  "notion": "https://www.notion.so/56a66b24c26a826291730188bec5ef74"
+ },
+ {
+  "nom": "Futur Pro",
+  "publics": [
+   "Accompagnants",
+   "Collégiens",
+   "Équipes pédagogiques"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Recherche d'information et orientation",
+   "Recherche de formation"
+  ],
+  "etapes": [
+   "Post-collège"
+  ],
+  "objectif": "Futur Pro aide les accompagnateurs de l’orientation et les élèves de collège à découvrir les formations professionnelles les plus adaptées pour l’après 3ᵉ",
+  "porteur": "DNE, MEN",
+  "url": "https://data.education.gouv.fr/futur-pro/accueil/",
+  "statut": "Service sans signal",
+  "marqueur": [],
+  "volume": "2 - Moyenne",
+  "beta": "✅",
+  "justification": "Vraie brique manquante de l'orientation post-3e : rendre concrètes sur le territoire les formations professionnelles accessibles, avec des données d'insertion qu'aucun autre acteur ne peut produire. Croissance forte avant transfert. Mais cas d'école de l'anti-pattern de transfert : l'équipe initiale n'a pas été reprise, l'outil reconstruit en interne sans approche produit, la page d'usage perdue. La valeur potentielle est dans l'intégration des données dans Affelnet, pas dans le maintien d'un front-end séparé.",
+  "notion": "https://www.notion.so/73966b24c26a82deadad014ed4748ef0"
+ },
+ {
+  "nom": "etudiant.gouv.fr",
+  "publics": [
+   "Lycéens",
+   "Étudiants"
+  ],
+  "categories": [
+   "Aides financières et autonomie",
+   "Culture vie étudiante loisirs",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Catalogue d'outils",
+   "Recherche d'aide",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Portail éditorial / informationnel de référence pour les étudiants, vitrine du CNOUS sur les bourses, le logement, la CVEC, le guide de l'étudiant et les statuts particuliers",
+  "porteur": "CROUS, MESR",
+  "url": "https://www.etudiant.gouv.fr/fr",
+  "statut": "Service sans signal",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Site vitrine institutionnel cohérent dans son positionnement éditorial — informer en amont des démarches, qui se font sur le portail transactionnel. Le contenu est sourcé et à jour, le positionnement légitime. Mais aucune donnée d'usage publiée : on ne sait ni combien d'étudiants le consultent, ni s'il convertit vers la démarche de bourse, ni quel non-recours il contribue à réduire.",
+  "notion": "https://www.notion.so/e6766b24c26a836f801b01cbb0e37075"
+ },
+ {
+  "nom": "Pass et Choisir le service public",
+  "publics": [
+   "Employeurs / Entreprises",
+   "Jeunes de 15 à 30 ans",
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Engagement citoyenneté solidarité"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'emploi",
+   "Recherche de formation",
+   "Recherche de stage"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée"
+  ],
+  "objectif": "Centraliser les offres d'emploi, stage et apprentissage de la fonction publique sur un portail unique",
+  "porteur": "DGAFP",
+  "url": "https://www.pass.fonction-publique.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "PASS est un filtre transformé en site séparé qui ne représente qu'une fraction marginale du volume d'offres de Choisir le service public, opéré par la même direction — fusion déjà actée à l'horizon CSP V2. Sujet plus structurant : Choisir le service public a fait le choix assumé de ne pas exposer ses offres en API ouverte — posture défendable côté marque employeur, mais à contre-courant du principe d'interopérabilité, et à arbitrer face au projet FT-Jeunes.",
+  "notion": "https://www.notion.so/47566b24c26a821c9fdf01bea490570e"
+ },
+ {
+  "nom": "Aides Jeunes",
+  "publics": [
+   "Accompagnants",
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Aides financières et autonomie"
+  ],
+  "use_cases": [
+   "Recherche d'aide",
+   "Simulation et diagnostic"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Simuler l'ensemble des aides financières et dispositifs accessibles aux jeunes 15-30 ans via un questionnaire unique",
+  "porteur": "DGCS",
+  "url": "https://mes-aides.1jeune1solution.beta.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "4 - Très forte",
+  "beta": "✅",
+  "justification": "Cas presque unique de service public numérique qui mesure rigoureusement sa valeur d'usage et son taux d'activation effective. Le service révèle aux jeunes des droits qu'ils ignoraient et oriente vers la démarche, avec une instrumentation produit que le reste de l'écosystème devrait prendre comme modèle. La friction restante n'est pas un défaut produit : elle reflète la réalité du recours aux droits chez le public cible.",
+  "notion": "https://www.notion.so/6ff66b24c26a8254999d0130364f30a6"
+ },
+ {
+  "nom": "SNU",
+  "publics": [
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Engagement citoyenneté solidarité"
+  ],
+  "use_cases": [
+   "Recherche d'engagement"
+  ],
+  "etapes": [
+   "Lycée",
+   "Post-Lycée"
+  ],
+  "objectif": "Proposer un parcours d'engagement civique de cohésion et de mission d'intérêt général aux 15-17 ans",
+  "porteur": "DJEPVA, Minisère des Armées",
+  "url": "https://www.snu.gouv.fr/",
+  "statut": "",
+  "marqueur": [
+   "Hors arbitrage cartographie"
+  ],
+  "volume": "2 - Moyenne",
+  "beta": "✅",
+  "justification": "Hors arbitrage de la cartographie : dispositif en mise en extinction effective au 1er janvier 2026 après vote parlementaire et annonce du Premier ministre. La cartographie n'a pas à statuer sur un service qui n'existera plus. L'enseignement à retenir est le pattern : créer un nouveau dispositif à coût élevé sans évaluation préalable plutôt que renforcer ce qui fonctionne déjà (le Service Civique) est l'anti-pattern récurrent à éviter.",
+  "notion": "https://www.notion.so/ecc66b24c26a8266adad81d4366ab449"
+ },
+ {
+  "nom": "Diagoriente",
+  "publics": [
+   "Accompagnants",
+   "Jeunes de 15 à 30 ans",
+   "Jeunes en insertion (NEET décrocheurs)"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Recherche d'emploi",
+   "Recherche de formation",
+   "Simulation et diagnostic",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée"
+  ],
+  "objectif": "Orienter les jeunes par les compétences en valorisant les expériences formelles et informelles via un référentiel unifié ROME 4.0",
+  "porteur": "DGEFP, Id6",
+  "url": "https://diagoriente.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "2 - Moyenne",
+  "beta": "✅",
+  "justification": "Outil le plus avancé dans l'écosystème pour valoriser les expériences extra-professionnelles en compétences exploitables — précisément ce dont les publics sans CV classique (NEET, sortis du système scolaire, PJJ) ont besoin. Adopté en routine par les conseillers qui y voient un changement de pratique. Joue un rôle de tiers de confiance : bilan obligatoire des volontaires Service Civique, partenariats Justice, Défense, fédérations sportives. Le moteur de compétences sous-jacent est une brique data utilisée par une dizaine d'autres services.",
+  "notion": "https://www.notion.so/2cd66b24c26a831688ee81ec285b02c0"
+ },
+ {
+  "nom": "MesServices.etudiant.gouv.fr",
+  "publics": [
+   "Étudiants"
+  ],
+  "categories": [
+   "Aides financières et autonomie",
+   "Culture vie étudiante loisirs",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Catalogue d'outils",
+   "Recherche d'aide",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Centraliser les démarches de vie étudiante (DSE, logement, emploi, restauration, santé) pour tous les étudiants du supérieur",
+  "porteur": "CROUS, MESR",
+  "url": "https://messervices.etudiant.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "3 - Forte",
+  "beta": "❌",
+  "justification": "Hub vie étudiante le mieux intégré de l'écosystème, organisé par moments de vie réels et non par catalogue de liens. Monopole de fait sur le Dossier Social Étudiant — passage obligé pour des centaines de milliers de boursiers chaque année. Cohabitation à clarifier avec 1J1S sur l'emploi et Aides Jeunes sur les droits : l'enjeu n'est pas de fusionner les hubs mais de définir ce que chacun fait au bon moment. Aucune donnée d'usage publiée.",
+  "notion": "https://www.notion.so/cb966b24c26a82cd8a048164b4247b3b"
+ },
+ {
+  "nom": "Service civique",
+  "publics": [
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Engagement citoyenneté solidarité"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'engagement"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Proposer aux 16-25 ans des missions d'engagement volontaire de 6 à 12 mois dans 9 domaines d'intérêt général",
+  "porteur": "Agence du Service Civique, DJEPVA",
+  "url": "https://www.service-civique.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "❌",
+  "justification": "Programme à plus fort impact social de la cartographie — la moitié des volontaires sont demandeurs d'emploi ou inactifs à l'entrée, un quart sans baccalauréat, surreprésentation des quartiers prioritaires. Le tour de force est de toucher massivement ces publics sans être étiqueté « dispositif d'insertion ». Notoriété exceptionnelle, satisfaction très élevée, impact employabilité documenté. Coupe budgétaire 2025 qui fragilise à contretemps le programme qui touche le mieux les publics les plus éloignés.",
+  "notion": "https://www.notion.so/30b66b24c26a83548f17819c1b7fed35"
+ },
+ {
+  "nom": "1eleve1stage",
+  "publics": [
+   "Collégiens",
+   "Employeurs / Entreprises",
+   "Lycéens",
+   "Équipes pédagogiques"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche de stage"
+  ],
+  "etapes": [
+   "Collège",
+   "Lycée",
+   "Post-collège"
+  ],
+  "objectif": "Faciliter la recherche de stages de 3e et de seconde pour tous les élèves via une plateforme nationale",
+  "porteur": "DNE",
+  "url": "https://1eleve1stage.education.gouv.fr/",
+  "statut": "Valeur défendable (impact non mesuré)",
+  "marqueur": [],
+  "volume": "2 - Moyenne",
+  "beta": "✅",
+  "justification": "Brique structurelle de l'écosystème scolaire qui répond à une obligation légale concernant plus d'un million d'élèves par an, sans alternative publique équivalente. Trajectoire d'usage tangible, satisfaction très élevée. Mais le test central de la mission — réduire le déterminisme social dans l'accès aux stages — n'est pas instrumenté : les indicateurs ne distinguent pas REP/REP+, boursiers ou élèves sans réseau familial. Transfert en cours qui doit activer la transparence et la mesure d'impact différentiel.",
+  "notion": "https://www.notion.so/a6b66b24c26a83e0911781fc39fb0095"
+ },
+ {
+  "nom": "Découvrir le Monde",
+  "publics": [
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Mobilité nationale et internationale"
+  ],
+  "use_cases": [
+   "Mobilité internationale"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Orienter les 13-35 ans vers les programmes de mobilité européenne et internationale via un agrégateur national",
+  "porteur": "DJEPVA",
+  "url": "https://www.decouvrirlemonde.jeunes.gouv.fr/",
+  "statut": "Service sans signal",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Positionnement juste — agréger les programmes de mobilité plutôt que d'opérer un programme de plus — et brique technique pertinente. Mais service largement méconnu des jeunes, qui passent directement par les opérateurs spécialisés. La vraie valeur est dans le moteur réutilisable, pas dans le portail comme destination. Aucune donnée d'usage publiée depuis dix ans pour un service de 2015.",
+  "notion": "https://www.notion.so/20d66b24c26a82c19a04815761fd92dc"
+ },
+ {
+  "nom": "Mon Volontariat International",
+  "publics": [
+   "Employeurs / Entreprises",
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Mobilité nationale et internationale"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Mobilité internationale"
+  ],
+  "etapes": [
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Permettre aux 18-28 ans d'effectuer un Volontariat International en Entreprise ou en Administration",
+  "porteur": "Business France",
+  "url": "https://mon-vie-via.businessfrance.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "1 - Niche",
+  "beta": "❌",
+  "justification": "Programme qui démontre un impact direct et massif sur l'emploi — taux de recrutement post-mission sans équivalent dans l'écosystème, satisfaction quasi-unanime, croissance continue. Mais lucidité sur le périmètre : ce n'est pas un levier d'insertion pour les publics fragiles. Le public est massivement diplômé bac+5 de grandes écoles. Bon positionnement : référencé comme une option de mobilité internationale, sans tentative d'en faire un outil de politique d'insertion sociale.",
+  "notion": "https://www.notion.so/40a66b24c26a825b9c1e01326aa3d998"
+ },
+ {
+  "nom": "Exposition API InserJeunes",
+  "publics": [
+   "Chercheurs",
+   "Gestionnaires",
+   "Équipes produits"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Pilotage"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Exposer les indicateurs d'insertion des sortants de formation via une API publique aux plateformes consommatrices",
+  "porteur": "DEPP, Dares",
+  "url": "https://www.inserjeunes.education.gouv.fr/diffusion/accueil",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Modèle de référence du commun numérique : une obligation légale qui produit une donnée fiable, exposée par API, consommée massivement par les plateformes où les jeunes sont déjà. Aucun jeune ne sait que ce service existe, mais ses données alimentent les choix d'orientation de millions de candidats à Parcoursup, Affelnet, LBA. La logique « les données vont aux plateformes, pas l'inverse » fonctionne ici comme elle devrait fonctionner partout.",
+  "notion": "https://www.notion.so/2ba66b24c26a834ba1b90145e59c8bf8"
+ },
+ {
+  "nom": "InserSup",
+  "publics": [
+   "Chercheurs",
+   "Gestionnaires",
+   "Équipes produits"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Commun de données",
+   "Pilotage"
+  ],
+  "etapes": [
+   "Hors parcours"
+  ],
+  "objectif": "Mesurer et publier les taux d'insertion des formations du supérieur via le croisement DSN × bases scolarité",
+  "porteur": "MESR, SIES",
+  "url": "",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Pendant supérieur d'InserJeunes, même logique de commun numérique : un dispositif statistique qui produit la mesure d'insertion à partir de sources administratives et expose ses indicateurs là où les choix se font — Parcoursup, Mon Master, ONISEP, L'Étudiant. L'étudiant ne consulte jamais le service, mais en lit les données chaque fois qu'il compare des formations. Modèle abouti à proposer comme cadre pour les services dont le transfert reste à structurer.",
+  "notion": "https://www.notion.so/ea066b24c26a836fbdc901dbb1c9d7fb"
+ },
+ {
+  "nom": "Up'2C",
+  "publics": [
+   "Accompagnants",
+   "Jeunes en insertion (NEET décrocheurs)"
+  ],
+  "categories": [
+   "Mobilité nationale et internationale"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Catalogue d'outils",
+   "Recherche d'emploi",
+   "Recherche d'information et orientation",
+   "Suivi de parcours"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Outiller le parcours de formation des stagiaires en École de la 2e chance via des services numériques agrégés",
+  "porteur": "Reseau E2C",
+  "url": "https://up2c.reseau-e2c.fr/",
+  "statut": "",
+  "marqueur": [
+   "Hors arbitrage cartographie"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Hors arbitrage de la cartographie : outil interne du Réseau E2C destiné à ses propres stagiaires, évalué par la gouvernance du réseau et non par un arbitrage national. Présence légitime comme service touchant un public extrêmement fragile (jeunes sans qualification, sortis du système scolaire). Points de vigilance : le portefeuille de compétences doit être interopérable avec le passeport de compétences pour ne pas créer un silo, et l'intégration de solutions privées plutôt que des outils publics reproduit un pattern à questionner.",
+  "notion": "https://www.notion.so/86766b24c26a82cc9825016003903d11"
+ },
+ {
+  "nom": "1jeune1mentor",
+  "publics": [
+   "Jeunes de 15 à 30 ans",
+   "Jeunes en insertion (NEET décrocheurs)"
+  ],
+  "categories": [
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Mise en relation"
+  ],
+  "etapes": [
+   "Collège",
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Accompagner individuellement par un mentor bénévole les jeunes issus de milieux défavorisés sur 6 mois minimum",
+  "porteur": "Collectif Mentorat, DGEFP, DJEPVA",
+  "url": "https://www.1jeune1mentor.fr/",
+  "statut": "Valeur défendable (impact non mesuré)",
+  "marqueur": [],
+  "volume": "3 - Forte",
+  "beta": "❌",
+  "justification": "Dispositif qui atteint son public prioritaire et démontre une capacité à passer à l'échelle, mais ce n'est pas une plateforme numérique au sens propre — c'est un plan de financement associatif avec une page de redirection. La valeur publique est dans le maillage associatif, pas dans l'outil. L'évaluation est sérieuse mais ne démontre pas encore d'effet causal.",
+  "notion": "https://www.notion.so/08c66b24c26a8201bea58126324a7567"
+ },
+ {
+  "nom": "JeVeuxAider",
+  "publics": [
+   "Organisation engagement (associatives publiques et privées)",
+   "Tout public"
+  ],
+  "categories": [
+   "Engagement citoyenneté solidarité"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'engagement"
+  ],
+  "etapes": [
+   "Tout moment de la vie"
+  ],
+  "objectif": "Mettre en relation bénévoles et associations via une plateforme nationale de missions d'engagement",
+  "porteur": "DJEPVA, Plateformes de l'Engagement Civique.",
+  "url": "https://www.jeveuxaider.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [],
+  "volume": "4 - Très forte",
+  "beta": "✅",
+  "justification": "Cas de référence pour l'engagement bénévole : adoption massive, satisfaction très élevée des bénévoles comme des associations, impact mesuré en heures de bénévolat réelles produites. Le service démontre qu'une plateforme publique peut concurrencer les acteurs privés sur leur terrain quand elle est conçue avec rigueur produit. Standard de transparence exemplaire — matrice d'impact publique, NPS publié, coût d'efficience en baisse. Modèle de ce que la cartographie devrait viser.",
+  "notion": "https://www.notion.so/13366b24c26a825bacf4018c3a19097b"
+ },
+ {
+  "nom": "La Boussole des Jeunes",
+  "publics": [
+   "Accompagnants",
+   "Jeunes de 15 à 30 ans"
+  ],
+  "categories": [
+   "Aides financières et autonomie",
+   "Emploi formation insertion pro",
+   "Orientation parcours et accès aux droits"
+  ],
+  "use_cases": [
+   "Accompagnement humain",
+   "Mise en relation",
+   "Recherche d'aide",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée"
+  ],
+  "objectif": "Orienter les jeunes vers les services et dispositifs locaux auxquels ils ont droit via une mise en relation humaine sous 7 jours",
+  "porteur": "DJEPVA, InfosJeunes",
+  "url": "https://boussole.jeunes.gouv.fr/",
+  "statut": "Service sans signal",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "L'angle mort le plus spectaculaire de la cartographie : sept ans de déploiement sans aucune donnée d'usage ou d'impact publiée, pour un service de l'État qui prétend précisément répondre au non-recours aux droits. L'intuition initiale est juste — orientation territorialisée plus mise en relation humaine — mais l'exécution ne suit pas : couverture territoriale partielle, modèle de déploiement artisanal. Le mécanisme de rappel par un professionnel garde une valeur réelle, à reprendre dans Aides Jeunes plutôt que maintenir une plateforme autonome.",
+  "notion": "https://www.notion.so/27a66b24c26a83298b2b817b68a4fcda"
+ },
+ {
+  "nom": "La Bonne Alternance",
+  "publics": [
+   "Employeurs / Entreprises",
+   "Jeunes de 15 à 30 ans",
+   "Lycéens voie pro / apprentis",
+   "Organismes de formation / CFA",
+   "Étudiants"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'emploi",
+   "Recherche d'information et orientation",
+   "Recherche de formation"
+  ],
+  "etapes": [
+   "Collège",
+   "Lycée",
+   "Post-Lycée",
+   "Post-collège",
+   "Études supérieures"
+  ],
+  "objectif": "Faciliter la recherche d'alternance pour les jeunes via un algorithme de candidature spontanée ciblée",
+  "porteur": "DINUM",
+  "url": "https://labonnealternance.apprentissage.beta.gouv.fr/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "4 - Très forte",
+  "beta": "✅",
+  "justification": "Vrai hub de l'écosystème — un des deux services qui sert simultanément plusieurs profils de jeunes (lycéens en voie pro, étudiants, jeunes en insertion). Catalogue de formations le plus complet, taux de contactabilité direct CFA supérieur aux autres, algorithme prédictif unique sur le marché caché, distribution massive en API et widget. Sujets pendants identifiés par l'étude utilisateurs : hiérarchie d'affichage qui induit en erreur, recherche par métier inadaptée aux débutants, parcours recruteur peu visible.",
+  "notion": "https://www.notion.so/d3b66b24c26a838aa53281bef1e2c8fd"
+ },
+ {
+  "nom": "Le portail de l’alternance",
+  "publics": [
+   "Employeurs / Entreprises",
+   "Lycéens voie pro / apprentis",
+   "Organismes de formation / CFA",
+   "Étudiants"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'information et orientation",
+   "Recherche de formation",
+   "Simulation et diagnostic"
+  ],
+  "etapes": [
+   "Lycée",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Informer sur le cadre réglementaire de l'alternance et simuler les rémunérations pour tous les acteurs",
+  "porteur": "DGEFP, Ministère du travail",
+  "url": "https://www.alternance.emploi.gouv.fr/accueil",
+  "statut": "Usage sans impact démontré",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "",
+  "beta": "❌",
+  "justification": "Décision déjà prise par le ministère : le portail bascule vers La Bonne Alternance et le site institutionnel du Travail. La seule question stratégique restante est d'éviter la perte de l'actif SEO accumulé sur dix ans — le portail reste leader sur les requêtes Google de l'alternance et ce capital doit être transféré, pas perdu. Les CFA jugent l'expérience site trop formelle pour les jeunes et certains simulateurs trop imprécis.",
+  "notion": "https://www.notion.so/6b166b24c26a8352914681bdb7d0ac2b"
+ },
+ {
+  "nom": "La bonne boite",
+  "publics": [
+   "Jeunes de 15 à 30 ans",
+   "Jeunes en insertion (NEET décrocheurs)",
+   "Tout public"
+  ],
+  "categories": [
+   "Emploi formation insertion pro"
+  ],
+  "use_cases": [
+   "Candidature",
+   "Mise en relation",
+   "Recherche d'emploi",
+   "Recherche d'information et orientation"
+  ],
+  "etapes": [
+   "Hors parcours",
+   "Post-Lycée",
+   "Études supérieures"
+  ],
+  "objectif": "Faciliter la candidature spontanée auprès des entreprises à fort potentiel d'embauche via un algorithme prédictif",
+  "porteur": "France Travail",
+  "url": "https://labonneboite.francetravail.fr/",
+  "statut": "Référence établie",
+  "marqueur": [
+   "Recouvrement à arbitrer"
+  ],
+  "volume": "4 - Très forte",
+  "beta": "✅",
+  "justification": "Un des très rares services à mesurer son impact final par croisement automatisé avec les déclarations d'embauche — méthode qui devrait servir de référence. L'algorithme prédictif qui identifie le marché caché est un actif stratégique. Mais situation paradoxale : ce produit phare est le plus ancien produit de l'incubateur France Travail non repris par une direction métier après une décennie — fragilité institutionnelle qui bloque son évolution. La fonctionnalité existe sur trois canaux.",
+  "notion": "https://www.notion.so/f9d66b24c26a83dba91f81ecd48d0863"
+ }
+]

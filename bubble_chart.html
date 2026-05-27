@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cartographie de l'écosystème numérique d'insertion des jeunes</title>
+<style>
+  @font-face{font-family:'Marianne';src:url('https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.14.4/dist/fonts/Marianne-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;}
+  @font-face{font-family:'Marianne';src:url('https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.14.4/dist/fonts/Marianne-Medium.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap;}
+  @font-face{font-family:'Marianne';src:url('https://cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.14.4/dist/fonts/Marianne-Bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap;}
+  :root{
+    --canvas:#EAE8E0; --bar:#F2F1EB; --raised:#E4E2D9; --node:#FFFFFF;
+    --ink:#1C1C1A; --muted:#66655D;
+    --hair:#DCDACF; --hair-strong:#C4C2B6;
+    --accent:#6A6AF4; --accent-soft:rgba(106,106,244,.14);
+    --glyph:#7C7A70;
+    --r-card:14px; --r-modal:16px; --chip:999px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;height:100%;}
+  body{font-family:'Marianne',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--ink);background:var(--canvas);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased;}
+  .app{display:flex;flex-direction:column;height:100vh;}
+  @media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation-duration:.01ms!important;}}
+
+  /* en-tête */
+  header.head{padding:24px 32px;border-bottom:1px solid var(--hair);background:var(--bar);}
+  .head-top{display:flex;align-items:center;justify-content:space-between;gap:24px;}
+  header.head h1{font-size:20px;font-weight:600;margin:0;letter-spacing:-.01em;line-height:1.3;}
+  .info-btn{flex:none;display:inline-flex;align-items:center;gap:7px;padding:10px 18px;
+    border-radius:var(--chip);border:1px solid var(--hair-strong);background:var(--node);
+    font-family:inherit;font-size:14px;font-weight:500;color:var(--ink);cursor:pointer;
+    transition:background .13s,border-color .13s;}
+  .info-btn:hover{border-color:var(--ink);}
+  .info-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .info-btn .ic{width:16px;height:16px;flex:none;color:var(--muted);}
+
+  /* bandeau de contrôles */
+  .controls{display:flex;flex-wrap:wrap;align-items:flex-start;gap:16px 28px;
+    padding:16px 32px;background:var(--bar);border-bottom:1px solid var(--hair);}
+  .ctl-block{display:flex;flex-direction:column;gap:9px;}
+  .ctl-title{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);}
+  .porteurs{display:flex;flex-wrap:wrap;gap:8px;}
+  .pf{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--hair-strong);
+    background:var(--node);border-radius:var(--chip);padding:9px 14px;cursor:pointer;
+    font-size:14px;font-weight:500;color:var(--ink);user-select:none;font-family:inherit;
+    transition:background .13s,border-color .13s,opacity .13s;}
+  .pf .dot{width:12px;height:12px;border-radius:50%;flex:none;}
+  .pf.off{background:transparent;opacity:.5;}
+  .pf:hover{border-color:var(--ink);}
+  .pf:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .sizes{display:flex;align-items:flex-end;gap:16px;}
+  .size-item{display:flex;flex-direction:column;align-items:center;gap:5px;font-size:12px;color:var(--muted);}
+  .size-disc{border-radius:50%;background:#D9D6CB;border:1px solid var(--hair-strong);}
+  .legnote{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);max-width:230px;}
+  .legnote .ring{width:18px;height:18px;border-radius:50%;border:2px dashed var(--hair-strong);flex:none;}
+  /* zone de contenu */
+  .content{flex:1;overflow:auto;background:var(--canvas);padding:32px;}
+
+  /* matrice */
+  .grid{display:grid;grid-template-columns:160px repeat(5,1fr);
+    border:1px solid var(--hair-strong);border-radius:var(--r-card);overflow:hidden;background:var(--node);}
+  .corner{background:var(--bar);}
+  .colhead{background:var(--bar);padding:14px 12px;text-align:center;
+    border-left:1px solid var(--hair);border-bottom:1px solid var(--hair-strong);}
+  .colhead .ch-t{font-weight:600;font-size:14px;color:var(--ink);line-height:1.3;}
+  .colhead .ch-n{font-size:12px;color:var(--muted);margin-top:3px;}
+  .rowhead{background:var(--bar);padding:14px;border-top:1px solid var(--hair);
+    display:flex;flex-direction:column;justify-content:center;}
+  .rowhead .rh-t{font-weight:600;font-size:14px;color:var(--ink);line-height:1.3;}
+  .rowhead .rh-n{font-size:12px;color:var(--muted);margin-top:3px;}
+  .cell{border-left:1px solid var(--hair);border-top:1px solid var(--hair);
+    padding:14px 10px;display:flex;flex-wrap:wrap;gap:8px 4px;align-content:flex-start;
+    min-height:104px;position:relative;background:var(--node);}
+  .cell.empty{background:var(--canvas);}
+  .cell.empty::after{content:"aucun service";position:absolute;top:50%;left:50%;
+    transform:translate(-50%,-50%);font-size:12px;color:var(--muted);font-style:italic;}
+  .cell.hot{background:var(--accent-soft);}
+  .cell-count{position:absolute;top:6px;right:8px;font-size:12px;font-weight:600;color:var(--muted);}
+
+  /* bulle */
+  .svc{width:92px;display:flex;flex-direction:column;align-items:center;padding-top:3px;}
+  .bub{border-radius:50%;display:flex;align-items:center;justify-content:center;
+    border:2px solid;transition:transform .12s;}
+  .svc:hover .bub{transform:scale(1.1);}
+  .bub .vlab{font-weight:700;font-size:12px;}
+  .svc .nm{font-size:10px;line-height:1.2;text-align:center;margin-top:5px;
+    color:var(--ink);max-width:92px;}
+  .svc.dim{opacity:.12;}
+
+  /* bande transverse */
+  .bandhead{background:var(--raised);padding:13px 16px;border-top:1px solid var(--hair-strong);
+    display:flex;align-items:baseline;gap:8px;}
+  .bandhead .bh-t{font-weight:600;font-size:14px;color:var(--ink);}
+  .bandhead .bh-n{font-size:12px;color:var(--muted);}
+  .band{grid-column:2 / span 5;border-top:1px solid var(--hair-strong);border-left:1px solid var(--hair);
+    background:var(--node);padding:14px 10px;display:flex;flex-wrap:wrap;gap:8px 4px;}
+
+  /* infobulle */
+  #tip{position:fixed;z-index:50;max-width:340px;background:var(--node);border:1px solid var(--hair-strong);
+    border-radius:var(--r-card);box-shadow:0 16px 40px rgba(28,28,24,.22);padding:16px 18px;
+    font-size:13px;display:none;pointer-events:none;}
+  #tip .t-nm{font-weight:600;font-size:15px;color:var(--ink);margin-bottom:5px;}
+  #tip .t-ob{color:var(--muted);line-height:1.5;margin-bottom:12px;}
+  #tip .t-row{display:flex;gap:8px;margin:4px 0;}
+  #tip .t-k{color:var(--muted);flex:none;width:96px;}
+  #tip .t-v{font-weight:600;color:var(--ink);}
+  #tip .t-mq{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;}
+  #tip .chip{display:inline-block;background:var(--raised);color:#3A3A36;border:1px solid var(--hair-strong);
+    border-radius:var(--chip);padding:3px 10px;font-size:12px;font-weight:500;}
+  #tip .chip.gray{background:#F4F3EE;color:var(--muted);}
+
+  /* constats */
+  .constats{margin-top:28px;display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+  .cst{border:1px solid var(--hair);border-radius:var(--r-card);padding:18px 20px;background:var(--node);
+    box-shadow:0 1px 2px rgba(28,28,24,.04);}
+  .cst h3{margin:0 0 8px;font-size:14px;font-weight:600;color:var(--ink);
+    display:flex;align-items:center;gap:9px;}
+  .cst p{margin:0;font-size:14px;color:var(--muted);line-height:1.55;}
+  .cst .tag{flex:none;display:inline-flex;align-items:center;justify-content:center;
+    width:22px;height:22px;border-radius:50%;background:var(--ink);color:#fff;font-size:12px;font-weight:600;}
+  footer{margin-top:24px;font-size:12px;color:var(--muted);line-height:1.6;}
+
+  /* modale « En savoir plus » */
+  @keyframes overlayIn{from{opacity:0;}to{opacity:1;}}
+  @keyframes modalIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+  .overlay{position:fixed;inset:0;background:rgba(26,26,24,.46);backdrop-filter:blur(3px);
+    -webkit-backdrop-filter:blur(3px);z-index:60;display:none;
+    align-items:flex-start;justify-content:center;padding:48px 24px;overflow-y:auto;}
+  .overlay.on{display:flex;animation:overlayIn .15s ease-out;}
+  .overlay.on .modal{animation:modalIn .19s ease-out;}
+  .modal{background:#fff;border-radius:var(--r-modal);max-width:640px;width:100%;border:1px solid var(--hair);
+    box-shadow:0 24px 64px rgba(26,26,24,.28);position:relative;}
+  .modal-x{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;
+    border:1px solid var(--hair);background:#fff;cursor:pointer;font-size:18px;color:var(--muted);
+    display:flex;align-items:center;justify-content:center;line-height:1;transition:background .13s,color .13s;}
+  .modal-x:hover{background:var(--canvas);color:var(--ink);}
+  .modal-x:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .modal-body{padding:32px;}
+  .modal h2{font-size:24px;margin:0 0 8px;font-weight:600;letter-spacing:-.01em;line-height:1.25;padding-right:44px;}
+  .m-obj{font-size:14px;color:#3A3A36;margin:0 0 16px;line-height:1.55;}
+  .m-sec{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:600;color:var(--muted);
+    margin:24px 0 10px;border-top:1px solid var(--hair);padding-top:20px;}
+  .howto{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;}
+  .howto li{font-size:14px;line-height:1.55;color:#2A2A28;padding-left:20px;position:relative;}
+  .howto li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;
+    border-radius:50%;background:var(--accent);}
+  .howto b{font-weight:600;color:var(--ink);}
+  .content::-webkit-scrollbar,.overlay::-webkit-scrollbar{width:10px;height:10px;}
+  .content::-webkit-scrollbar-thumb,.overlay::-webkit-scrollbar-thumb{background:#C4C2B6;border-radius:999px;}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="head">
+    <div class="head-top">
+      <h1>Cartographie de l'écosystème numérique d'insertion des jeunes</h1>
+      <button class="info-btn" id="info-btn"><svg class="ic" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="6.2" r="1.15" fill="currentColor"/><line x1="10" y1="9.2" x2="10" y2="14.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>En savoir plus</button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="ctl-block">
+      <div class="ctl-title">Famille de porteur — cliquer pour filtrer</div>
+      <div class="porteurs" id="porteurs"></div>
+    </div>
+    <div class="ctl-block">
+      <div class="ctl-title">Volume d'usage</div>
+      <div class="sizes" id="sizes"></div>
+    </div>
+    <div class="ctl-block">
+      <div class="ctl-title">Mesure</div>
+      <div class="legnote"><span class="ring"></span> contour pointillé = volume d'usage non publié</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="grid" id="grid"></div>
+    <div class="constats" id="constats"></div>
+    <footer id="footer"></footer>
+  </div>
+</div>
+
+<div class="overlay" id="info-overlay">
+  <div class="modal">
+    <div class="modal-body">
+      <button class="modal-x" onclick="closeInfo()" aria-label="Fermer">×</button>
+      <h2>À propos de cette cartographie</h2>
+      <p class="m-obj">Cette cartographie situe les 48 services numériques publics d'insertion des jeunes dans une matrice de lecture : les familles de public en lignes, les domaines fonctionnels en colonnes. Chaque service est placé sur sa cellule dominante. Elle fait apparaître les zones de saturation, les angles morts et l'inégale culture de la mesure. Source : base Notion « Insertion des jeunes — Mapping existant », mai 2026.</p>
+      <div class="m-sec">Comment lire la carte</div>
+      <ul class="howto">
+        <li><b>Chaque bulle est un service.</b> Sa couleur indique la famille de porteur, sa taille le volume d'usage publié.</li>
+        <li><b>Lignes et colonnes.</b> Les lignes regroupent les familles de public, les colonnes les domaines fonctionnels ; la bande basse rassemble les communs numériques (API, données, pilotage).</li>
+        <li><b>Contour pointillé.</b> Une bulle au contour en pointillés est un service dont le volume d'usage n'est pas publié.</li>
+        <li><b>Survolez une bulle</b> pour afficher le détail du service ; cliquez pour l'ouvrir en ligne.</li>
+        <li><b>Filtrez par famille de porteur</b> en cliquant les pastilles de couleur ; un nouveau clic réaffiche la famille.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="tip"></div>
+
+<script>
+/* ---------- données : 48 services ---------- */
+const SERVICES = [
+{"nom":"Service Civique","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":false,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Missions d'engagement volontaire de 6 à 12 mois pour les 16-25 ans.","url":"https://www.service-civique.gouv.fr/"},
+{"nom":"La Boussole des Jeunes","domaine":"aides","public":"jeunes","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Orienter les jeunes vers les services et dispositifs locaux via une mise en relation humaine sous 7 jours.","url":"https://boussole.jeunes.gouv.fr/"},
+{"nom":"Fil Santé Jeunes","domaine":"sante","public":"jeunes","porteur":"autres","beta":false,"volume":null,"statut":"defendable","marqueur":[],"maturite":null,"objectif":"Écouter et informer anonymement les 12-25 ans sur la santé physique, mentale et sociale.","url":"https://www.filsantejeunes.com/"},
+{"nom":"Parcours Emploi (France Travail)","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Canal mobile de référence pour la recherche d'emploi personnalisée et le suivi France Travail.","url":"https://play.google.com/store/apps/details?id=com.poleemploi.pemobile"},
+{"nom":"Mes événements emploi","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Agenda national des événements emploi et formation (job datings, forums, rencontres).","url":"https://mesevenementsemploi.francetravail.fr/"},
+{"nom":"Emploi Store","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"usage","marqueur":["Recouvrement à arbitrer"],"maturite":"En cours d'arrêt","objectif":"Catalogue des services digitaux France Travail et tiers (emploi, formation, orientation).","url":"https://www.emploi-store.fr/"},
+{"nom":"Pass et Choisir le service public","domaine":"emploi","public":"jeunes","porteur":"autres","beta":false,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Centraliser les offres d'emploi, stage et apprentissage de la fonction publique.","url":"https://www.pass.fonction-publique.gouv.fr/"},
+{"nom":"Jeunes.gouv.fr","domaine":"orientation","public":"pros","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Présenter les politiques ministérielles de jeunesse et orienter les professionnels et relais.","url":"https://www.jeunes.gouv.fr/"},
+{"nom":"Aides Jeunes","domaine":"aides","public":"jeunes","porteur":"travail","beta":true,"volume":4,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Simuler l'ensemble des aides financières accessibles aux jeunes 15-30 ans.","url":"https://mes-aides.1jeune1solution.beta.gouv.fr/"},
+{"nom":"Découvrir le Monde","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":null,"objectif":"Orienter les 13-35 ans vers les programmes de mobilité européenne et internationale.","url":"https://www.decouvrirlemonde.jeunes.gouv.fr/"},
+{"nom":"MesServices.etudiant.gouv.fr","domaine":"aides","public":"etudiants","porteur":"education","beta":false,"volume":3,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Centraliser les démarches de vie étudiante (bourse, logement, emploi, restauration, santé).","url":"https://messervices.etudiant.gouv.fr/"},
+{"nom":"1jeune1mentor","domaine":"orientation","public":"jeunes","porteur":"jeunesse","beta":false,"volume":3,"statut":"defendable","marqueur":[],"maturite":"Déployé massivement","objectif":"Accompagner par un mentor bénévole les jeunes issus de milieux défavorisés.","url":"https://www.1jeune1mentor.fr/"},
+{"nom":"InserSup","domaine":"transverse","public":"communs","porteur":"education","beta":false,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Mesurer et publier les taux d'insertion des formations du supérieur.","url":""},
+{"nom":"Exposition API InserJeunes","domaine":"transverse","public":"communs","porteur":"education","beta":false,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Exposer les indicateurs d'insertion des sortants de formation via une API publique.","url":"https://www.inserjeunes.education.gouv.fr/"},
+{"nom":"Up'2C","domaine":"orientation","public":"neet","porteur":"travail","beta":false,"volume":null,"statut":null,"marqueur":["Hors arbitrage cartographie"],"maturite":"Accélération","objectif":"Outiller le parcours de formation des stagiaires en École de la 2e chance.","url":"https://up2c.reseau-e2c.fr/"},
+{"nom":"Orion","domaine":"transverse","public":"communs","porteur":"education","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Piloter la carte des formations des lycées professionnels par le partage de données.","url":"https://orion.education.gouv.fr/"},
+{"nom":"eva - ANLCI","domaine":"orientation","public":"neet","porteur":"autres","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Repérer l'illettrisme et positionner les compétences de base via des jeux sérieux.","url":"https://eva.anlci.gouv.fr/"},
+{"nom":"Les emplois de l'inclusion","domaine":"emploi","public":"neet","porteur":"travail","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Mettre en relation candidats éloignés de l'emploi, employeurs solidaires et prescripteurs IAE.","url":"https://emplois.inclusion.beta.gouv.fr/"},
+{"nom":"API Engagement","domaine":"transverse","public":"communs","porteur":"jeunesse","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Mutualiser les missions d'engagement entre plateformes via une API commune.","url":"https://api-engagement.beta.gouv.fr/"},
+{"nom":"Passeport de compétences","domaine":"transverse","public":"communs","porteur":"autres","beta":false,"volume":null,"statut":"signal","marqueur":[],"maturite":"Construction","objectif":"Centraliser les données probantes de carrière, diplômes et formations dans un coffre-fort numérique.","url":"https://competences.moncompteformation.gouv.fr/"},
+{"nom":"Le portail de l'alternance","domaine":"emploi","public":"jeunes","porteur":"travail","beta":false,"volume":null,"statut":"usage","marqueur":["Recouvrement à arbitrer"],"maturite":"En cours d'absorption","objectif":"Informer sur le cadre réglementaire de l'alternance et simuler les rémunérations.","url":"https://www.alternance.emploi.gouv.fr/"},
+{"nom":"Diagoriente","domaine":"orientation","public":"neet","porteur":"travail","beta":true,"volume":2,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Orienter les jeunes par les compétences en valorisant les expériences formelles et informelles.","url":"https://diagoriente.fr/"},
+{"nom":"SNU","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":true,"volume":2,"statut":null,"marqueur":["Hors arbitrage cartographie"],"maturite":"En cours d'arrêt","objectif":"Parcours d'engagement civique de cohésion et de mission d'intérêt général pour les 15-17 ans.","url":"https://www.snu.gouv.fr/"},
+{"nom":"Avenir(s)","domaine":"orientation","public":"scolaires","porteur":"education","beta":false,"volume":null,"statut":"defendable","marqueur":[],"maturite":"Déployé massivement","objectif":"Développer les compétences d'orientation des élèves de la 5e à la terminale via un portfolio.","url":"https://reso-avenirs.onisep.fr/"},
+{"nom":"Parcoursup","domaine":"orientation","public":"scolaires","porteur":"education","beta":false,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Gérer l'admission dans l'enseignement supérieur pour tous les candidats post-bac.","url":"https://www.parcoursup.gouv.fr/"},
+{"nom":"Mon Master","domaine":"orientation","public":"etudiants","porteur":"education","beta":false,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Gérer l'admission en première année de master pour les candidats post-licence.","url":"https://monmaster.gouv.fr/"},
+{"nom":"Futur Pro","domaine":"orientation","public":"scolaires","porteur":"education","beta":true,"volume":2,"statut":"signal","marqueur":[],"maturite":"Transféré","objectif":"Aider les accompagnateurs et les collégiens à découvrir les formations professionnelles post-3e.","url":"https://data.education.gouv.fr/futur-pro/accueil/"},
+{"nom":"1élève1stage","domaine":"orientation","public":"scolaires","porteur":"education","beta":true,"volume":2,"statut":"defendable","marqueur":[],"maturite":"Transféré","objectif":"Faciliter la recherche de stages de 3e et de seconde pour tous les élèves.","url":"https://1eleve1stage.education.gouv.fr/"},
+{"nom":"Pass Culture","domaine":"aides","public":"jeunes","porteur":"autres","beta":true,"volume":4,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Favoriser la découverte culturelle des jeunes via un crédit individuel et une part collective scolaire.","url":"https://pass.culture.fr/"},
+{"nom":"MétierScope","domaine":"orientation","public":"jeunes","porteur":"ft","beta":true,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Vitrine grand public du référentiel ROME 4.0 — informations sur les métiers et compétences.","url":"https://candidat.francetravail.fr/metierscope/"},
+{"nom":"1jeune1solution","domaine":"emploi","public":"jeunes","porteur":"travail","beta":false,"volume":4,"statut":"usage","marqueur":["Périmètre dilaté","Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Centraliser toutes les opportunités (emploi, formation, aides, engagement) sur un portail unique.","url":"https://www.1jeune1solution.gouv.fr/"},
+{"nom":"IJ box","domaine":"orientation","public":"pros","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Outiller les professionnels de l'information jeunesse avec une base documentaire commune.","url":"https://www.ijbox.fr/"},
+{"nom":"Mon Projet Sup","domaine":"orientation","public":"scolaires","porteur":"education","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Accompagner la construction du projet d'orientation post-bac via des suggestions personnalisées.","url":"https://app-mps.avenirs.onisep.fr/"},
+{"nom":"Immersion facilitée","domaine":"emploi","public":"neet","porteur":"travail","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Dématérialiser les conventions d'immersion professionnelle (PMSMP) et mettre en relation candidats et entreprises.","url":"https://immersion-facile.beta.gouv.fr/"},
+{"nom":"La Bonne Alternance","domaine":"emploi","public":"jeunes","porteur":"travail","beta":true,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Faciliter la recherche d'alternance via un algorithme de candidature spontanée ciblée.","url":"https://labonnealternance.apprentissage.beta.gouv.fr/"},
+{"nom":"Santé Psy Étudiant","domaine":"sante","public":"etudiants","porteur":"education","beta":true,"volume":2,"statut":null,"marqueur":["Recouvrement à arbitrer"],"maturite":null,"objectif":"Offrir aux étudiants jusqu'à 12 séances psy gratuites par an avec des psychologues conventionnés.","url":"https://santepsy.etudiant.gouv.fr/"},
+{"nom":"etudiant.gouv.fr","domaine":"aides","public":"etudiants","porteur":"education","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Portail éditorial de référence pour les étudiants (bourses, logement, CVEC, vie étudiante).","url":"https://www.etudiant.gouv.fr/fr"},
+{"nom":"Trouver ma formation (web) — FT","domaine":"orientation","public":"jeunes","porteur":"ft","beta":false,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Rechercher et comparer l'offre de formation professionnelle sur web via le catalogue Carif-Oref.","url":"https://candidat.francetravail.fr/formations/recherche"},
+{"nom":"Ma Formation (app) — FT","domaine":"orientation","public":"jeunes","porteur":"ft","beta":false,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Rechercher et comparer l'offre de formation professionnelle sur mobile via le catalogue Carif-Oref.","url":"https://www.francetravail.fr/candidat/vos-services-en-ligne/applications-mobiles/application-mobile-formation.html"},
+{"nom":"Sites régionaux de formation (Carif-Oref)","domaine":"orientation","public":"jeunes","porteur":"autres","beta":false,"volume":null,"statut":"defendable","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Informer sur l'offre de formation, les métiers et l'orientation en région (portails Carif-Oref).","url":"https://www.intercariforef.org/"},
+{"nom":"Hub AGORA","domaine":"transverse","public":"communs","porteur":"autres","beta":false,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Data-hub de référence de la formation professionnelle financée sur fonds publics.","url":"https://hub-agora.moncompteformation.gouv.fr/espace-public/"},
+{"nom":"La Bonne Boîte","domaine":"emploi","public":"jeunes","porteur":"ft","beta":true,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Faciliter la candidature spontanée auprès des entreprises à fort potentiel d'embauche.","url":"https://labonneboite.francetravail.fr/"},
+{"nom":"Anotéa","domaine":"transverse","public":"communs","porteur":"ft","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Collecter et diffuser les avis vérifiés des stagiaires sur les formations professionnelles.","url":"https://anotea.francetravail.fr/"},
+{"nom":"Contrat d'Engagement Jeune (appli)","domaine":"emploi","public":"neet","porteur":"ft","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Déployé massivement","objectif":"Outiller le Contrat d'Engagement Jeune pour limiter le décrochage via une communication conseiller-jeune.","url":"https://apps.apple.com/fr/app/contrat-dengagement-jeune/id1581603519"},
+{"nom":"Espace Personnel Web — France Travail","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Canal web de référence pour la recherche d'emploi, les démarches et le suivi France Travail.","url":"https://candidat.francetravail.fr/espacepersonnel/"},
+{"nom":"JeVeuxAider","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":true,"volume":4,"statut":"reference","marqueur":[],"maturite":"Transféré","objectif":"Mettre en relation bénévoles et associations via une plateforme nationale de missions d'engagement.","url":"https://www.jeveuxaider.gouv.fr/"},
+{"nom":"Plateforme de l'engagement","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":true,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Construction","objectif":"Orienter les jeunes vers les missions d'engagement via un moteur de recommandation.","url":""},
+{"nom":"Mon Volontariat International","domaine":"engagement","public":"jeunes","porteur":"autres","beta":false,"volume":1,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Permettre aux 18-28 ans d'effectuer un Volontariat International en Entreprise ou en Administration.","url":"https://mon-vie-via.businessfrance.fr/"}
+];
+
+/* ---------- référentiels ---------- */
+const DOMAINES=[
+  {id:"orientation",t:"Formation & orientation"},
+  {id:"emploi",t:"Emploi & insertion"},
+  {id:"engagement",t:"Engagement & mobilité"},
+  {id:"aides",t:"Aides & droits"},
+  {id:"sante",t:"Santé"}
+];
+const PUBLICS=[
+  {id:"scolaires",t:"Scolaires",n:"collège · lycée"},
+  {id:"etudiants",t:"Étudiants",n:"enseignement supérieur"},
+  {id:"jeunes",t:"Jeunes 18-25 généralistes",n:"tout public jeune"},
+  {id:"neet",t:"NEET & jeunes fragiles",n:"éloignés de l'emploi"},
+  {id:"pros",t:"Pros & prescripteurs",n:"conseillers, structures"}
+];
+const FAMILLES={
+  ft:{t:"France Travail",c:"#2563eb"},
+  betagouv:{t:"beta.gouv / startup d'État",c:"#7c3aed"},
+  education:{t:"Éducation & Enseignement sup.",c:"#0d9488"},
+  jeunesse:{t:"Jeunesse & engagement",c:"#d97706"},
+  travail:{t:"Travail & insertion",c:"#be123c"},
+  autres:{t:"Autres porteurs",c:"#64748b"}
+};
+const SIZE={4:64,3:53,2:44,1:37,"null":30};
+const VLAB={4:"Très forte",3:"Forte",2:"Moyenne",1:"Niche","null":"Non publié"};
+const SLAB={reference:"Référence établie",defendable:"Valeur défendable (impact non mesuré)",
+  usage:"Usage sans impact démontré",signal:"Service sans signal","null":"—"};
+
+const famKey=s=>s.beta?"betagouv":s.porteur;
+const active=new Set(Object.keys(FAMILLES));
+
+/* ---------- contrôles ---------- */
+const pBox=document.getElementById("porteurs");
+Object.entries(FAMILLES).forEach(([k,f])=>{
+  const el=document.createElement("div");
+  el.className="pf";el.dataset.k=k;
+  el.tabIndex=0;el.setAttribute("role","button");el.setAttribute("aria-pressed","true");
+  el.innerHTML='<span class="dot" style="background:'+f.c+'"></span>'+f.t;
+  const toggle=()=>{
+    if(el.classList.contains("off")){active.add(k);el.classList.remove("off");}
+    else{active.delete(k);el.classList.add("off");}
+    el.setAttribute("aria-pressed",!el.classList.contains("off"));
+    render();
+  };
+  el.onclick=toggle;
+  el.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); toggle(); } };
+  pBox.appendChild(el);
+});
+const sBox=document.getElementById("sizes");
+[4,3,2,1,"null"].forEach(v=>{
+  const d=SIZE[v];
+  const it=document.createElement("div");it.className="size-item";
+  it.innerHTML='<div class="size-disc" style="width:'+d+'px;height:'+d+'px"></div>'+VLAB[v];
+  sBox.appendChild(it);
+});
+
+/* ---------- tooltip ---------- */
+const tip=document.getElementById("tip");
+function showTip(s,e){
+  const f=FAMILLES[famKey(s)];
+  let mq="";
+  (s.marqueur||[]).forEach(m=>mq+='<span class="chip">'+m+'</span>');
+  if(s.maturite&&/arrêt|absorption|Construction/.test(s.maturite))
+    mq+='<span class="chip gray">'+s.maturite+'</span>';
+  tip.innerHTML='<div class="t-nm">'+s.nom+'</div>'+
+    '<div class="t-ob">'+s.objectif+'</div>'+
+    '<div class="t-row"><span class="t-k">Porteur</span><span class="t-v" style="color:'+f.c+'">'+f.t+'</span></div>'+
+    '<div class="t-row"><span class="t-k">Volume d\'usage</span><span class="t-v">'+VLAB[s.volume]+'</span></div>'+
+    '<div class="t-row"><span class="t-k">Statut</span><span class="t-v">'+SLAB[s.statut]+'</span></div>'+
+    (mq?'<div class="t-mq">'+mq+'</div>':'')+
+    (s.url?'<div class="t-row" style="margin-top:8px"><span class="t-v" style="color:#6A6AF4">Ouvrir le service ↗</span></div>':'');
+  tip.style.display="block";
+  positionTip(e);
+}
+function positionTip(e){
+  const w=tip.offsetWidth,h=tip.offsetHeight;
+  let x=e.clientX+16,y=e.clientY+16;
+  if(x+w>innerWidth-10)x=e.clientX-w-16;
+  if(y+h>innerHeight-10)y=innerHeight-h-10;
+  tip.style.left=x+"px";tip.style.top=y+"px";
+}
+function hideTip(){tip.style.display="none";}
+
+/* ---------- bulle ---------- */
+function bubble(s){
+  const wrap=document.createElement("div");
+  wrap.className="svc";wrap.dataset.fam=famKey(s);
+  const d=SIZE[s.volume];
+  const f=FAMILLES[famKey(s)];
+  const b=document.createElement("div");
+  b.className="bub";
+  b.style.width=d+"px";b.style.height=d+"px";
+  b.style.background=f.c+"26";
+  b.style.borderColor=f.c;
+  b.style.borderStyle=(s.volume===null)?"dashed":"solid";
+  if(s.volume!==null)b.innerHTML='<span class="vlab" style="color:'+f.c+'">'+s.volume+'</span>';
+  wrap.appendChild(b);
+  const nm=document.createElement("div");
+  nm.className="nm";nm.textContent=s.nom;
+  wrap.appendChild(nm);
+  wrap.addEventListener("mousemove",e=>{if(!wrap.classList.contains("dim"))showTip(s,e);});
+  wrap.addEventListener("mouseleave",hideTip);
+  if(s.url)wrap.style.cursor="pointer",wrap.onclick=()=>window.open(s.url,"_blank");
+  return wrap;
+}
+
+/* ---------- rendu grille ---------- */
+const grid=document.getElementById("grid");
+function render(){
+  grid.innerHTML="";
+  const corner=document.createElement("div");corner.className="corner";grid.appendChild(corner);
+  DOMAINES.forEach(d=>{
+    const h=document.createElement("div");h.className="colhead";
+    const n=SERVICES.filter(s=>s.domaine===d.id&&s.public!=="communs").length;
+    h.innerHTML='<div class="ch-t">'+d.t+'</div><div class="ch-n">'+n+' services</div>';
+    grid.appendChild(h);
+  });
+  PUBLICS.forEach(p=>{
+    const rh=document.createElement("div");rh.className="rowhead";
+    rh.innerHTML='<div class="rh-t">'+p.t+'</div><div class="rh-n">'+p.n+'</div>';
+    grid.appendChild(rh);
+    DOMAINES.forEach(d=>{
+      const cell=document.createElement("div");cell.className="cell";
+      const list=SERVICES.filter(s=>s.public===p.id&&s.domaine===d.id);
+      if(list.length===0){cell.classList.add("empty");}
+      if(list.length>=8){cell.classList.add("hot");}
+      if(list.length){
+        const cnt=document.createElement("div");cnt.className="cell-count";
+        cnt.textContent=list.length;cell.appendChild(cnt);
+      }
+      list.forEach(s=>{
+        const b=bubble(s);
+        if(!active.has(famKey(s)))b.classList.add("dim");
+        cell.appendChild(b);
+      });
+      grid.appendChild(cell);
+    });
+  });
+  /* bande transverse */
+  const bh=document.createElement("div");bh.className="bandhead";
+  bh.innerHTML='<span class="bh-t">Transverse / communs numériques</span>'+
+    '<span class="bh-n">briques d\'infrastructure — données, API, pilotage</span>';
+  grid.appendChild(bh);
+  const band=document.createElement("div");band.className="band";
+  SERVICES.filter(s=>s.public==="communs").forEach(s=>{
+    const b=bubble(s);
+    if(!active.has(famKey(s)))b.classList.add("dim");
+    band.appendChild(b);
+  });
+  grid.appendChild(band);
+}
+render();
+window.addEventListener("scroll",hideTip,true);
+
+/* ---------- constats ---------- */
+const CONSTATS=[
+  {n:"1",h:"Une zone de saturation",p:"La ligne « Jeunes 18-25 généralistes » croisée avec « Emploi & insertion » concentre 9 services aux fonctions très proches — c'est là que se logent la majorité des recouvrements à arbitrer."},
+  {n:"2",h:"Un désert sur les publics fragiles",p:"La ligne « NEET & jeunes fragiles » ne compte que 6 services, tous médiés par un professionnel, et aucun sur l'engagement, les aides ou la santé — alors que ce public justifie politiquement l'écosystème."},
+  {n:"3",h:"Mesurer reste l'exception",p:"23 services sur 48 ont un contour pointillé : aucun volume d'usage publié. Les bulles pleines et larges sont massivement bleues (France Travail) et violettes (beta.gouv) — la culture de la mesure n'est pas partagée."},
+  {n:"4",h:"Le poids du transverse",p:"7 communs numériques (API, données, pilotage) irriguent tout l'écosystème depuis la bande basse, mais restent invisibles côté usagers — leur consolidation est un enjeu propre."}
+];
+const cBox=document.getElementById("constats");
+CONSTATS.forEach(c=>{
+  const el=document.createElement("div");el.className="cst";
+  el.innerHTML='<h3><span class="tag">'+c.n+'</span>'+c.h+'</h3><p>'+c.p+'</p>';
+  cBox.appendChild(el);
+});
+
+/* ---------- footer ---------- */
+const nv=SERVICES.filter(s=>s.volume===null).length;
+document.getElementById("footer").innerHTML=
+  "48 services audités · "+(48-nv)+" avec un volume d'usage publié, "+nv+" non mesurés ("+
+  Math.round(nv/48*100)+" %). "+
+  "Placement de chaque service sur sa cellule dominante — les dimensions secondaires ne sont pas représentées. "+
+  "La « myriade régionale » est figurée par une vignette unique (Carif-Oref). "+
+  "Cartographie de travail — section 4 du rapport. Données : base Notion, export du 23 mai 2026.";
+
+/* ---------- modale « En savoir plus » ---------- */
+let lastModalFocus=null;
+function openInfo(){
+  lastModalFocus=document.activeElement;
+  document.getElementById("info-overlay").classList.add("on");
+  const x=document.querySelector("#info-overlay .modal-x"); if(x)x.focus();
+}
+function closeInfo(){
+  document.getElementById("info-overlay").classList.remove("on");
+  if(lastModalFocus){ try{lastModalFocus.focus();}catch(e){} lastModalFocus=null; }
+}
+document.getElementById("info-btn").onclick=openInfo;
+document.getElementById("info-overlay").addEventListener("click",e=>{ if(e.target.id==="info-overlay")closeInfo(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape")closeInfo(); });
+</script>
+</body>
+</html>
