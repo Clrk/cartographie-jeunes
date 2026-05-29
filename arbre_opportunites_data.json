@@ -30,7 +30,7 @@
     ],
     "volume": "2 - Moyenne",
     "beta": "✅",
-    "justification": "Brique structurelle de l'écosystème scolaire qui répond à une obligation légale concernant plus d'un million d'élèves par an, sans alternative publique équivalente. Trajectoire d'usage tangible, satisfaction très élevée. Mais le test central de la mission — réduire le déterminisme social dans l'accès aux stages — n'est pas instrumenté : les indicateurs ne distinguent pas REP/REP+, boursiers ou élèves sans réseau familial. Transfert en cours qui doit activer la transparence et la mesure d'impact différentiel.",
+    "justification": "Brique structurelle de l'écosystème scolaire qui répond à une obligation légale concernant plus d'un million d'élèves par an, sans alternative publique équivalente. Trajectoire d'usage tangible, satisfaction très élevée. Mais le test central de la mission — réduire le déterminisme social dans l'accès aux stages — n'est pas instrumenté : les indicateurs ne distinguent pas REP/REP+, boursiers ou élèves sans réseau familial. Transfert en cours. Pas de mesure d’impact publiée.",
     "notion": "https://www.notion.so/31708bca602980768769f2d362c5726d",
     "quand_mobiliser": "Pour aider un collégien (3e) ou un lycéen (2de) à trouver son stage obligatoire. Surveillez l'accès des jeunes sans réseau familial."
   },
@@ -105,7 +105,7 @@
     ],
     "volume": "3 - Forte",
     "beta": "❌",
-    "justification": "Le portail vit de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation : un méta-moteur d'offres qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides dont l'acquisition est en réalité portée par le SEO du portail, des pages dispositif qui orientent correctement mais ne sont pas reliées entre elles. La promesse d'orientation différenciée n'est pas tenue. Verdict : la marque est trop forte pour être supprimée, sa fonction est tranchée, devenir un orienteur qui renvoie vers la solution existante et abandonner le moteur d'offres.",
+    "justification": "Le portail vit de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation : un méta-moteur d'offres qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides dont l'acquisition est en réalité portée par le SEO du portail, des pages dispositif qui orientent correctement mais ne sont pas reliées entre elles. La promesse d'orientation différenciée n'est pas tenue. Verdict : la marque est trop forte pour être supprimée, mais il lui faut une valeur ajoutée propre et lisible :  devenir un orienteur qui renvoie vers la solution existante et abandonner le modèle meta moteur d'offres, stages, formation pour augmenter sa propre lisibilité, et celle de tout l’écosystème.",
     "notion": "https://www.notion.so/31708bca602980b88506d7728a1a7d23",
     "quand_mobiliser": "Point d'entrée généraliste quand un jeune ne sait pas où chercher. À utiliser comme aiguilleur vers le service spécialisé, pas comme destination finale."
   },
@@ -203,7 +203,7 @@
     "marqueur": [
       "Impact mesuré et publié"
     ],
-    "volume": "",
+    "volume": "3 - Forte",
     "beta": "✅",
     "justification": "Le bon modèle de commun numérique dans le domaine de l'engagement : un service qui agrège les missions de bénévolat et de volontariat venues de plateformes publiques et privées, et les redistribue là où les candidats potentiels se trouvent déjà. Chaque opérateur garde sa marque, aucun ne capte l'audience des autres. A démontré sa valeur en crise (Covid puis Ukraine) et porte aujourd'hui l'extension aux réserves opérationnelles.",
     "notion": "https://www.notion.so/34308bca602980af9ba2f82b9980c6a3",
@@ -312,7 +312,7 @@
     ],
     "volume": "2 - Moyenne",
     "beta": "✅",
-    "justification": "Outil le plus avancé dans l'écosystème pour valoriser les expériences extra-professionnelles en compétences exploitables — précisément ce dont les publics sans CV classique (NEET, sortis du système scolaire, PJJ) ont besoin. Adopté en routine par les conseillers qui y voient un changement de pratique. Joue un rôle de tiers de confiance : bilan obligatoire des volontaires Service Civique, partenariats Justice, Défense, fédérations sportives. Le moteur de compétences sous-jacent est une brique data utilisée par une dizaine d'autres services.",
+    "justification": "Outil le plus avancé dans l'écosystème pour valoriser les expériences extra-professionnelles en compétences exploitables — précisément ce dont les publics sans CV classique (NEET, sortis du système scolaire, PJJ) ont besoin. Adopté en routine par les conseillers qui y voient un changement de pratique. Joue un rôle de tiers de confiance : bilan obligatoire des volontaires Service Civique, partenariats Justice, Défense, fédérations sportives. Le moteur de compétences sous-jacent est une brique data utilisée par une dizaine d'autres services. Peu connu par les accompagnants, mais ceux qui l’utilisent en son satisfait dans les ateliers menés en avril 2026",
     "notion": "https://www.notion.so/31808bca602980449e3dd9d04b9ac064",
     "quand_mobiliser": "Pour un jeune sans CV classique (NEET, sorti du système scolaire, PJJ) : valoriser ses expériences vécues, formelles et informelles, en compétences exploitables. Mobilisé avec vous."
   },
@@ -416,7 +416,7 @@
     ],
     "volume": "4 - Très forte",
     "beta": "❌",
-    "justification": "Premier site emploi de France et brique transactionnelle complète sur l'administratif et la candidature, refondue récemment. Pas un service autonome dans la cartographie — c'est un canal de France Travail dont l'analyse se lit avec celle de l'application mobile. Deux faiblesses : pas de parcours dédié pour les jeunes, et une page de statistiques publiques prête depuis plusieurs mois mais non publiée.",
+    "justification": "Premier site emploi de France et brique transactionnelle complète sur l'administratif et la candidature, refondue récemment. Pas un service autonome dans la cartographie — c'est un canal de France Travail dont l'analyse se lit avec celle de l'application mobile. Deux faiblesses : pas de parcours dédié pour les jeunes, et une page de statistiques publiques prête depuis plusieurs mois mais non publiée. Devrait intégrer l’algo de la bonne boite.",
     "notion": "https://www.notion.so/33308bca602980af9af4e8a3554492e3",
     "quand_mobiliser": "Pour un jeune autonome qui gère ses démarches France Travail depuis un ordinateur : recherche d'offres, candidature, suivi administratif. Canal web grand public, à articuler avec l'app Parcours Emploi."
   },
@@ -577,9 +577,9 @@
     "marqueur": [
       "Pas de mesure d'impact"
     ],
-    "volume": "0 - Inconnu",
+    "volume": "1 - Niche",
     "beta": "✅",
-    "justification": "Vraie brique manquante de l'orientation post-3e : rendre concrètes sur le territoire les formations professionnelles accessibles, avec des données d'insertion qu'aucun autre acteur ne peut produire. Croissance forte avant transfert. Mais cas d'école de l'anti-pattern de transfert : l'équipe initiale n'a pas été reprise, l'outil reconstruit en interne sans approche produit, la page d'usage perdue. La valeur potentielle est dans l'intégration des données dans Affelnet, pas dans le maintien d'un front-end séparé.",
+    "justification": "Vraie brique manquante de l'orientation post-3e : rendre concrètes sur le territoire les formations professionnelles accessibles, avec des données d'insertion qu'aucun autre acteur ne peut produire. Croissance forte avant transfert. Mais cas d'école de l'anti-pattern de transfert : l'équipe initiale n'a pas été reprise, l'outil reconstruit en interne sans approche produit, la page d'usage perdue. Le produit est prometteur, risque idendtifié sur le transfert. Indispensable de republier les statistiques d’usage et d’impact",
     "notion": "https://www.notion.so/32d08bca602980338acaf5d8fdf9d272",
     "quand_mobiliser": "Pour aider un collégien à découvrir les formations pro accessibles après la 3e sur son territoire. Mobilisé par l'accompagnant ; outil en reconstruction."
   },
@@ -604,7 +604,7 @@
     "url": "https://hub-agora.moncompteformation.gouv.fr/espace-public/",
     "statut": "Référence établie",
     "marqueur": [],
-    "volume": "",
+    "volume": "3 - Forte",
     "beta": "❌",
     "justification": "Couche basse mature de l'écosystème formation professionnelle, adossée à une obligation légale d'alimentation. Sans équivalent en France sur la vision unifiée des parcours de formation financés. La fragilité ne porte pas sur le service mais sur sa sous-exploitation par les outils destinés aux jeunes et aux accompagnants : la donnée existe, peu de services s'en servent. Risque inverse à anticiper : être mobilisé pour porter une infrastructure monolithique au détriment d'usages plus ciblés.",
     "notion": "https://www.notion.so/36608bca6029817a8581c2af5a0264d4",
@@ -778,7 +778,9 @@
       "Lycéens voie pro / apprentis",
       "Employeurs / Entreprises",
       "Étudiants",
-      "Organismes de formation / CFA"
+      "Organismes de formation / CFA",
+      "Collégiens",
+      "Lycéens"
     ],
     "categories": [
       "Emploi formation insertion pro"
@@ -807,7 +809,7 @@
     ],
     "volume": "4 - Très forte",
     "beta": "✅",
-    "justification": "Vrai hub de l'écosystème — un des deux services qui sert simultanément plusieurs profils de jeunes (lycéens en voie pro, étudiants, jeunes en insertion). Catalogue de formations le plus complet, taux de contactabilité direct CFA supérieur aux autres, algorithme prédictif unique sur le marché caché, distribution massive en API et widget. Sujets pendants identifiés par l'étude utilisateurs : hiérarchie d'affichage qui induit en erreur, recherche par métier inadaptée aux débutants, parcours recruteur peu visible.",
+    "justification": "Vrai hub de l'écosystème — un des deux services qui sert simultanément plusieurs profils de jeunes (lycéens en voie pro, étudiants, jeunes en insertion). Catalogue de formations le plus complet, taux de contactabilité direct CFA supérieur aux autres, algorithme prédictif unique sur le marché caché, distribution massive en API et widget. Sujets pendants identifiés par l'étude utilisateurs : hiérarchie d'affichage qui induit en erreur, recherche par métier inadaptée aux débutants, parcours recruteur peu visible, offres postées par des écoles dans une logique de prospection (pas par des employeurs réels), absence recurrente de réponse aux candidatures.\nDoit continuer au détriment du portail de l’alternance",
     "notion": "https://www.notion.so/31708bca602980c48aadf1ca6517a4ac",
     "quand_mobiliser": "Pour un jeune cherchant une alternance (lycéen pro, étudiant, en insertion) : catalogue de formations complet, repérage du marché caché par algorithme prédictif."
   },
@@ -843,7 +845,7 @@
     ],
     "volume": "3 - Forte",
     "beta": "✅",
-    "justification": "Un des très rares services à mesurer son impact final par croisement automatisé avec les déclarations d'embauche — méthode qui devrait servir de référence. L'algorithme prédictif qui identifie le marché caché est un actif stratégique. Mais situation paradoxale : ce produit phare est le plus ancien produit de l'incubateur France Travail non repris par une direction métier après une décennie — fragilité institutionnelle qui bloque son évolution. La fonctionnalité existe sur trois canaux.",
+    "justification": "Un des très rares services à mesurer son impact final par croisement automatisé avec les déclarations d'embauche — méthode qui devrait servir de référence. L'algorithme prédictif qui identifie le marché caché est un actif stratégique. La vraie valeur propre de la plateforme est son algorithme prédictif, qui est déjà intégré dans parcours emploi. S’il intègre également l’espace personnel Web, plus vraiment de valeur propre à exister. Doit fusionner avec l’espace personnel web (partie offre)",
     "notion": "https://www.notion.so/32008bca602980faad5cd2174e3c5d1b",
     "quand_mobiliser": "Pour un jeune en candidature spontanée : l'algorithme identifie les entreprises à fort potentiel d'embauche. Impact mesuré par croisement avec les embauches réelles."
   },
@@ -879,7 +881,7 @@
     ],
     "volume": "0 - Inconnu",
     "beta": "❌",
-    "justification": "L'angle mort le plus spectaculaire de la cartographie : sept ans de déploiement sans aucune donnée d'usage ou d'impact publiée, pour un service de l'État qui prétend précisément répondre au non-recours aux droits. L'intuition initiale est juste — orientation territorialisée plus mise en relation humaine — mais l'exécution ne suit pas : couverture territoriale partielle, modèle de déploiement artisanal. Le mécanisme de rappel par un professionnel garde une valeur réelle, à reprendre dans Aides Jeunes plutôt que maintenir une plateforme autonome.",
+    "justification": "Sept ans de déploiement sans aucune donnée d'usage ou d'impact publiée, pour un service de l'État qui prétend précisément répondre au non-recours aux droits. L'intuition initiale est juste — orientation territorialisée plus mise en relation humaine — mais l'exécution ne suit pas : couverture territoriale partielle, modèle de déploiement artisanal. Le mécanisme de rappel par un professionnel garde une valeur réelle, à reprendre dans Aides Jeunes plutôt que maintenir une plateforme autonome.",
     "notion": "https://www.notion.so/31708bca60298062b53bea30084dc6fe",
     "quand_mobiliser": "Mécanisme de rappel par un professionnel sous 7 jours, à l'intuition juste mais sans données depuis sept ans. Sa fonction a vocation à être reprise dans Aides Jeunes."
   },
@@ -917,7 +919,7 @@
     ],
     "volume": "0 - Inconnu",
     "beta": "❌",
-    "justification": "Décision déjà prise par le ministère : le portail bascule vers La Bonne Alternance et le site institutionnel du Travail. La seule question stratégique restante est d'éviter la perte de l'actif SEO accumulé sur dix ans — le portail reste leader sur les requêtes Google de l'alternance et ce capital doit être transféré, pas perdu. Les CFA jugent l'expérience site trop formelle pour les jeunes et certains simulateurs trop imprécis.",
+    "justification": "Doit basculer vers La Bonne Alternance. La seule question stratégique restante est d'éviter la perte de l'actif SEO accumulé sur dix ans — le portail reste leader sur les requêtes Google de l'alternance et ce capital doit être transféré, pas perdu. Les CFA jugent l'expérience site trop formelle pour les jeunes et certains simulateurs trop imprécis.",
     "notion": "https://www.notion.so/32008bca60298063811ffc97515a09ae",
     "quand_mobiliser": "Bascule actée vers La Bonne Alternance. Orientez désormais les jeunes vers LBA pour la recherche d'alternance."
   },
@@ -1019,7 +1021,7 @@
     ],
     "volume": "3 - Forte",
     "beta": "❌",
-    "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Trouver ma formation web). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal.",
+    "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Trouver ma formation web). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Pourquoi le canal web et mobile n’ont pas le même parcours ?",
     "notion": "https://www.notion.so/33008bca602980f9b391ee8f26282abc",
     "quand_mobiliser": "Pour aider un jeune à chercher une formation professionnelle sur mobile : même catalogue que le canal web, tri des favoris."
   },
@@ -1116,7 +1118,7 @@
     ],
     "volume": "3 - Forte",
     "beta": "❌",
-    "justification": "Infrastructure structurelle de l'enseignement supérieur, équivalent post-licence de Parcoursup, sans alternative possible. Trajectoire d'amélioration solide après un lancement difficile : phase complémentaire qui a divisé par trois les candidats sans solution, ergonomie allégée. Open data exemplaire. Sujets pendants : inflation du nombre de vœux par candidat, calendrier qui collisionne avec les examens, absence de pont vers les données d'insertion (InserSup non intégré aux fiches formation).",
+    "justification": "Infrastructure structurelle de l'enseignement supérieur, équivalent post-licence de Parcoursup, sans alternative. Trajectoire d'amélioration solide après un lancement difficile : phase complémentaire qui a divisé par trois les candidats sans solution, ergonomie allégée. Open data exemplaire. Sujets pendants : inflation du nombre de vœux par candidat, calendrier qui collisionne avec les examens, absence de pont vers les données d'insertion (InserSup non intégré aux fiches formation).",
     "notion": "https://www.notion.so/33408bca60298017b751ddd1cc9bb00f",
     "quand_mobiliser": "Incontournable pour un étudiant candidatant en première année de master. Infrastructure nationale, pas d'alternative."
   },
@@ -1148,7 +1150,7 @@
     ],
     "volume": "2 - Moyenne",
     "beta": "✅",
-    "justification": "Brique spécialisée d'Avenir(s) au taux de complétion exceptionnel — un jeune qui arrive sur le service va jusqu'au bout du parcours, signal rare dans l'écosystème. Le pont vers Parcoursup fonctionne effectivement. Choix produit délibéré et pertinent : suggérer par appétence et non par résultats scolaires, ce qui répond directement au constat de la Cour des comptes sur l'autocensure. Modèle d'intégration d'une brique spécialisée dans un écosystème plus large, plutôt que site isolé.",
+    "justification": "Brique spécialisée d'Avenir(s) au taux de complétion exceptionnel — un jeune qui arrive sur le service va jusqu'au bout du parcours, signal rare dans l'écosystème. Le pont vers Parcoursup fonctionne effectivement. Choix produit délibéré et pertinent : suggérer par appétence et non par résultats scolaires, ce qui répond directement au constat de la Cour des comptes sur l'autocensure. Modèle d'intégration d'une brique spécialisée dans un écosystème plus large, plutôt que site isolé. Aucun impact mesuré.",
     "notion": "https://www.notion.so/32d08bca60298001bb70f94b40cd1959",
     "quand_mobiliser": "Pour accompagner un lycéen dans la construction de son projet post-bac : suggestions de formations par appétence, pont vers Parcoursup. Fort taux de complétion."
   },
@@ -1239,7 +1241,7 @@
     "marqueur": [
       "Impact mesuré et publié"
     ],
-    "volume": "",
+    "volume": "2 - Moyenne",
     "beta": "✅",
     "justification": "Outil de pilotage et non service utilisateur jeune — donc évalué différemment. Mais c'est précisément ce que l'écosystème devrait produire davantage : une infrastructure de décision partagée entre tous les acteurs de la carte des formations, avec un impact concret mesuré sur la transformation effective des places ouvertes et fermées. Cas de transfert beta.gouv vers la DNE qui semble s'être mieux passé que d'autres ; le ralentissement de mise à jour des statistiques publiques post-transfert mérite vigilance.",
     "notion": "https://www.notion.so/32d08bca602980d3bf8aef01eece9a3c",
@@ -1277,7 +1279,7 @@
     ],
     "volume": "4 - Très forte",
     "beta": "❌",
-    "justification": "Canal mobile principal de France Travail côté demandeur d'emploi, et un des très rares services à publier un indicateur d'impact réel : taux de retour à l'emploi mesuré qui surperforme les autres canaux. La moitié des candidatures en ligne France Travail passe désormais par l'app. Question stratégique : le service est conçu pour le grand public en autonomie de recherche — pertinent pour les jeunes qui le sont, insuffisant pour ceux qui ne le sont pas et auxquels les apps CEJ et pass emploi répondent.",
+    "justification": "Canal mobile principal de France Travail côté demandeur d'emploi, et un des très rares services à mesurer un indicateur d'impact réel : taux de retour à l'emploi mesuré qui surperforme les autres canaux. La moitié des candidatures en ligne France Travail passe désormais par l'app. Question stratégique : le service est conçu pour le grand public en autonomie de recherche — pertinent pour les jeunes qui le sont, insuffisant pour ceux qui ne le sont pas et auxquels les apps CEJ et pass emploi répondent.\nLa différence de parcours entre l’app Parcours Emploi et l’espace personnel Web partie offre apporte de la confusion à l’écosysteme. La partie offre de l’espace personnel Web et Parcours Emploi devrait être identiques",
     "notion": "https://www.notion.so/32f08bca60298018aedeca80ba3b0db5",
     "quand_mobiliser": "Pour un jeune autonome en recherche active d'emploi : offres, candidature, suivi sur mobile. Canal grand public, pas spécifique jeunes ; orientez vers le CEJ le jeune qui a besoin d'accompagnement."
   },
@@ -1310,7 +1312,7 @@
     ],
     "volume": "3 - Forte",
     "beta": "❌",
-    "justification": "Infrastructure critique de l'enseignement supérieur français, hors périmètre d'arbitrage — aucune alternative à cette échelle n'existe. Résultats techniques en amélioration continue, open data exemplaire. Paradoxe central : efficacité technique forte sur le taux d'admission, mais perception très dégradée sur l'équité et amplification documentée du déterminisme social. L'enjeu pour la cartographie est l'articulation avec l'écosystème en aval — décrochage L1, intégration InserSup incomplète, bacheliers professionnels en hausse.",
+    "justification": "Infrastructure critique de l'enseignement supérieur français — aucune alternative à cette échelle n'existe. Résultats techniques en amélioration continue, open data exemplaire. Paradoxe central : efficacité technique forte sur le taux d'admission, mais perception très dégradée sur l'équité et amplification documentée du déterminisme social. L'enjeu pour la cartographie est l'articulation avec l'écosystème en aval — décrochage L1, intégration InserSup incomplète, bacheliers professionnels en hausse.",
     "notion": "https://www.notion.so/31708bca6029808f9cd4eb51b8008704",
     "quand_mobiliser": "Incontournable pour tout lycéen en phase d'admission post-bac. À surveiller en aval : un candidat qui sort sans solution doit être réorienté vers le réseau pour l'emploi."
   },
@@ -1520,7 +1522,7 @@
     "objectif": "Proposer un parcours d'engagement civique de cohésion et de mission d'intérêt général aux 15-17 ans",
     "porteur": "Minisère des Armées, DJEPVA",
     "url": "https://www.snu.gouv.fr/",
-    "statut": "Hors arbitrage cartographie",
+    "statut": "Usage sans impact démontré",
     "marqueur": [
       "Hors arbitrage cartographie"
     ],
@@ -1559,7 +1561,7 @@
     ],
     "volume": "4 - Très forte",
     "beta": "❌",
-    "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Ma Formation app). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Question résiduelle : pourquoi un demandeur d'emploi doit-il choisir entre ce service et Mon Compte Formation pour chercher une formation.",
+    "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Ma Formation app). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Question résiduelle : pourquoi un demandeur d'emploi doit-il choisir entre ce service et Mon Compte Formation pour chercher une formation. Pourquoi le canal web et mobile n’ont pas le même parcours ?",
     "notion": "https://www.notion.so/33608bca60298147b760cca071574746",
     "quand_mobiliser": "Pour aider un jeune à chercher et comparer une formation professionnelle sur le catalogue national, depuis un ordinateur."
   },
