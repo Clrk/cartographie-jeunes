@@ -1,50 +1,960 @@
 [
-{"nom":"Service Civique","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":false,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Missions d'engagement volontaire de 6 à 12 mois pour les 16-25 ans","url":"https://www.service-civique.gouv.fr/"},
-{"nom":"La Boussole des Jeunes","domaine":"aides","public":"jeunes","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Orienter les jeunes vers les services et dispositifs locaux via une mise en relation humaine sous 7 jours","url":"https://boussole.jeunes.gouv.fr/"},
-{"nom":"Fil Santé Jeunes","domaine":"sante","public":"jeunes","porteur":"autres","beta":false,"volume":null,"statut":"defendable","marqueur":[],"maturite":null,"objectif":"Écouter et informer anonymement les 12-25 ans sur la santé physique, mentale et sociale","url":"https://www.filsantejeunes.com/"},
-{"nom":"Parcours Emploi (France Travail)","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Canal mobile de référence pour la recherche d'emploi personnalisée et le suivi France Travail","url":"https://play.google.com/store/apps/details?id=com.poleemploi.pemobile"},
-{"nom":"Mes événements emploi","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Agenda national des événements emploi et formation (job datings, forums, rencontres)","url":"https://mesevenementsemploi.francetravail.fr/"},
-{"nom":"Emploi Store","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"usage","marqueur":["Recouvrement à arbitrer"],"maturite":"En cours d'arrêt","objectif":"Catalogue des services digitaux France Travail et tiers (emploi, formation, orientation)","url":"https://www.emploi-store.fr/"},
-{"nom":"Pass et Choisir le service public","domaine":"emploi","public":"jeunes","porteur":"autres","beta":false,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Centraliser les offres d'emploi, stage et apprentissage de la fonction publique","url":"https://www.pass.fonction-publique.gouv.fr/"},
-{"nom":"Jeunes.gouv.fr","domaine":"orientation","public":"pros","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Présenter les politiques ministérielles de jeunesse et orienter les professionnels et relais","url":"https://www.jeunes.gouv.fr/"},
-{"nom":"Aides Jeunes","domaine":"aides","public":"jeunes","porteur":"travail","beta":true,"volume":4,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Simuler l'ensemble des aides financières accessibles aux jeunes 15-30 ans","url":"https://mes-aides.1jeune1solution.beta.gouv.fr/"},
-{"nom":"Découvrir le Monde","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":null,"objectif":"Orienter les 13-35 ans vers les programmes de mobilité européenne et internationale","url":"https://www.decouvrirlemonde.jeunes.gouv.fr/"},
-{"nom":"MesServices.etudiant.gouv.fr","domaine":"aides","public":"etudiants","porteur":"education","beta":false,"volume":3,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Centraliser les démarches de vie étudiante (bourse, logement, emploi, restauration, santé)","url":"https://messervices.etudiant.gouv.fr/"},
-{"nom":"1jeune1mentor","domaine":"orientation","public":"jeunes","porteur":"jeunesse","beta":false,"volume":3,"statut":"defendable","marqueur":[],"maturite":"Déployé massivement","objectif":"Accompagner par un mentor bénévole les jeunes issus de milieux défavorisés","url":"https://www.1jeune1mentor.fr/"},
-{"nom":"InserSup","domaine":"transverse","public":"communs","porteur":"education","beta":false,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Mesurer et publier les taux d'insertion des formations du supérieur","url":""},
-{"nom":"Exposition API InserJeunes","domaine":"transverse","public":"communs","porteur":"education","beta":false,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Exposer les indicateurs d'insertion des sortants de formation via une API publique","url":"https://www.inserjeunes.education.gouv.fr/"},
-{"nom":"Up'2C","domaine":"orientation","public":"neet","porteur":"travail","beta":false,"volume":null,"statut":null,"marqueur":["Hors arbitrage cartographie"],"maturite":"Accélération","objectif":"Outiller le parcours de formation des stagiaires en École de la 2e chance","url":"https://up2c.reseau-e2c.fr/"},
-{"nom":"Orion","domaine":"transverse","public":"communs","porteur":"education","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Piloter la carte des formations des lycées professionnels par le partage de données","url":"https://orion.education.gouv.fr/"},
-{"nom":"eva - ANLCI","domaine":"orientation","public":"neet","porteur":"autres","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Repérer l'illettrisme et positionner les compétences de base via des jeux sérieux","url":"https://eva.anlci.gouv.fr/"},
-{"nom":"Les emplois de l'inclusion","domaine":"emploi","public":"neet","porteur":"travail","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Mettre en relation candidats éloignés de l'emploi, employeurs solidaires et prescripteurs IAE","url":"https://emplois.inclusion.beta.gouv.fr/"},
-{"nom":"API Engagement","domaine":"transverse","public":"communs","porteur":"jeunesse","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Mutualiser les missions d'engagement entre plateformes via une API commune","url":"https://api-engagement.beta.gouv.fr/"},
-{"nom":"Passeport de compétences","domaine":"transverse","public":"communs","porteur":"autres","beta":false,"volume":null,"statut":"signal","marqueur":[],"maturite":"Construction","objectif":"Centraliser les données probantes de carrière, diplômes et formations dans un coffre-fort numérique","url":"https://competences.moncompteformation.gouv.fr/"},
-{"nom":"Le portail de l'alternance","domaine":"emploi","public":"jeunes","porteur":"travail","beta":false,"volume":null,"statut":"usage","marqueur":["Recouvrement à arbitrer"],"maturite":"En cours d'absorption","objectif":"Informer sur le cadre réglementaire de l'alternance et simuler les rémunérations","url":"https://www.alternance.emploi.gouv.fr/"},
-{"nom":"Diagoriente","domaine":"orientation","public":"neet","porteur":"travail","beta":true,"volume":2,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Orienter les jeunes par les compétences en valorisant les expériences formelles et informelles","url":"https://diagoriente.fr/"},
-{"nom":"SNU","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":true,"volume":2,"statut":null,"marqueur":["Hors arbitrage cartographie"],"maturite":"En cours d'arrêt","objectif":"Parcours d'engagement civique de cohésion et de mission d'intérêt général pour les 15-17 ans","url":"https://www.snu.gouv.fr/"},
-{"nom":"Avenir(s)","domaine":"orientation","public":"scolaires","porteur":"education","beta":false,"volume":null,"statut":"defendable","marqueur":[],"maturite":"Déployé massivement","objectif":"Développer les compétences d'orientation des élèves de la 5e à la terminale via un portfolio","url":"https://reso-avenirs.onisep.fr/"},
-{"nom":"Parcoursup","domaine":"orientation","public":"scolaires","porteur":"education","beta":false,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Gérer l'admission dans l'enseignement supérieur pour tous les candidats post-bac","url":"https://www.parcoursup.gouv.fr/"},
-{"nom":"Mon Master","domaine":"orientation","public":"etudiants","porteur":"education","beta":false,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Gérer l'admission en première année de master pour les candidats post-licence","url":"https://monmaster.gouv.fr/"},
-{"nom":"Futur Pro","domaine":"orientation","public":"scolaires","porteur":"education","beta":true,"volume":2,"statut":"signal","marqueur":[],"maturite":"Transféré","objectif":"Aider les accompagnateurs et les collégiens à découvrir les formations professionnelles post-3e","url":"https://data.education.gouv.fr/futur-pro/accueil/"},
-{"nom":"1élève1stage","domaine":"orientation","public":"scolaires","porteur":"education","beta":true,"volume":2,"statut":"defendable","marqueur":[],"maturite":"Transféré","objectif":"Faciliter la recherche de stages de 3e et de seconde pour tous les élèves","url":"https://1eleve1stage.education.gouv.fr/"},
-{"nom":"Pass Culture","domaine":"aides","public":"jeunes","porteur":"autres","beta":true,"volume":4,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Favoriser la découverte culturelle des jeunes via un crédit individuel et une part collective scolaire","url":"https://pass.culture.fr/"},
-{"nom":"MétierScope","domaine":"orientation","public":"jeunes","porteur":"ft","beta":true,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Vitrine grand public du référentiel ROME 4.0 — informations sur les métiers et compétences","url":"https://candidat.francetravail.fr/metierscope/"},
-{"nom":"1jeune1solution","domaine":"emploi","public":"jeunes","porteur":"travail","beta":false,"volume":4,"statut":"usage","marqueur":["Périmètre dilaté","Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Centraliser toutes les opportunités (emploi, formation, aides, engagement) sur un portail unique","url":"https://www.1jeune1solution.gouv.fr/"},
-{"nom":"IJ box","domaine":"orientation","public":"pros","porteur":"jeunesse","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Outiller les professionnels de l'information jeunesse avec une base documentaire commune","url":"https://www.ijbox.fr/"},
-{"nom":"Mon Projet Sup","domaine":"orientation","public":"scolaires","porteur":"education","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Accélération","objectif":"Accompagner la construction du projet d'orientation post-bac via des suggestions personnalisées de formations","url":"https://app-mps.avenirs.onisep.fr/"},
-{"nom":"Immersion facilitée","domaine":"emploi","public":"neet","porteur":"travail","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Dématérialiser les conventions d'immersion professionnelle (PMSMP) pour mettre en relation candidats et entreprises","url":"https://immersion-facile.beta.gouv.fr/"},
-{"nom":"La Bonne Alternance","domaine":"emploi","public":"jeunes","porteur":"travail","beta":true,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Faciliter la recherche d'alternance via un algorithme de candidature spontanée ciblée","url":"https://labonnealternance.apprentissage.beta.gouv.fr/"},
-{"nom":"Santé Psy Étudiant","domaine":"sante","public":"etudiants","porteur":"education","beta":true,"volume":2,"statut":null,"marqueur":["Recouvrement à arbitrer"],"maturite":null,"objectif":"Offrir aux étudiants jusqu'à 12 séances psy gratuites par an avec des psychologues conventionnés","url":"https://santepsy.etudiant.gouv.fr/"},
-{"nom":"etudiant.gouv.fr","domaine":"aides","public":"etudiants","porteur":"education","beta":false,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Portail éditorial de référence pour les étudiants (bourses, logement, CVEC, vie étudiante)","url":"https://www.etudiant.gouv.fr/fr"},
-{"nom":"Trouver ma formation (web) - France Travail","domaine":"orientation","public":"jeunes","porteur":"ft","beta":false,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Rechercher et comparer l'offre de formation professionnelle sur web via le catalogue Carif-Oref","url":"https://candidat.francetravail.fr/formations/recherche"},
-{"nom":"Ma Formation (app) - France Travail","domaine":"orientation","public":"jeunes","porteur":"ft","beta":false,"volume":null,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Rechercher et comparer l'offre de formation professionnelle sur mobile via le catalogue Carif-Oref","url":"https://www.francetravail.fr/candidat/vos-services-en-ligne/applications-mobiles/application-mobile-formation.html"},
-{"nom":"Sites régionaux de formation (Carif-Oref)","domaine":"orientation","public":"jeunes","porteur":"autres","beta":false,"volume":null,"statut":"defendable","marqueur":["Recouvrement à arbitrer"],"maturite":"Déployé massivement","objectif":"Informer sur l'offre de formation, les métiers et l'orientation en région (portails Carif-Oref)","url":"https://www.intercariforef.org/"},
-{"nom":"Hub AGORA","domaine":"transverse","public":"communs","porteur":"autres","beta":false,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Data-hub de référence de la formation professionnelle financée sur fonds publics","url":"https://hub-agora.moncompteformation.gouv.fr/espace-public/"},
-{"nom":"La Bonne Boîte","domaine":"emploi","public":"jeunes","porteur":"ft","beta":true,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Faciliter la candidature spontanée auprès des entreprises à fort potentiel d'embauche via un algorithme prédictif","url":"https://labonneboite.francetravail.fr/"},
-{"nom":"Anotéa","domaine":"transverse","public":"communs","porteur":"ft","beta":true,"volume":null,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Collecter et diffuser les avis vérifiés des stagiaires sur les formations professionnelles","url":"https://anotea.francetravail.fr/"},
-{"nom":"Contrat d'Engagement Jeune (appli)","domaine":"emploi","public":"neet","porteur":"ft","beta":true,"volume":3,"statut":"reference","marqueur":[],"maturite":"Déployé massivement","objectif":"Outiller le Contrat d'Engagement Jeune pour limiter le décrochage via une communication conseiller-jeune","url":"https://apps.apple.com/fr/app/contrat-dengagement-jeune/id1581603519"},
-{"nom":"Espace Personnel Web - France Travail","domaine":"emploi","public":"jeunes","porteur":"ft","beta":false,"volume":4,"statut":"reference","marqueur":["Recouvrement à arbitrer"],"maturite":"Pérennisé","objectif":"Canal web de référence pour la recherche d'emploi, les démarches et le suivi France Travail","url":"https://candidat.francetravail.fr/espacepersonnel/"},
-{"nom":"JeVeuxAider","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":true,"volume":4,"statut":"reference","marqueur":[],"maturite":"Transféré","objectif":"Mettre en relation bénévoles et associations via une plateforme nationale de missions d'engagement","url":"https://www.jeveuxaider.gouv.fr/"},
-{"nom":"Plateforme de l'engagement","domaine":"engagement","public":"jeunes","porteur":"jeunesse","beta":true,"volume":null,"statut":"signal","marqueur":["Recouvrement à arbitrer"],"maturite":"Construction","objectif":"Orienter les jeunes vers les missions d'engagement via un moteur de recommandation agrégeant tous les dispositifs","url":""},
-{"nom":"Mon Volontariat International","domaine":"engagement","public":"jeunes","porteur":"autres","beta":false,"volume":1,"statut":"reference","marqueur":[],"maturite":"Pérennisé","objectif":"Permettre aux 18-28 ans d'effectuer un Volontariat International en Entreprise ou en Administration","url":"https://mon-vie-via.businessfrance.fr/"}
+  {
+    "nom": "1jeune1mentor",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": 3,
+    "arbitrage": "Impact à publier pour continuation",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "justification": "",
+    "objectif": "Accompagner par un mentor bénévole les jeunes issus de milieux défavorisés",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.1jeune1mentor.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "1jeune1solution",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": 4,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Usage sans impact démontré",
+    "justification": "",
+    "objectif": "Centraliser toutes les opportunités (emploi, formation, aides, engagement) sur un portail unique",
+    "marqueur": [
+      "Périmètre dilaté",
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.1jeune1solution.gouv.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "1élève1stage",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "volume": 2,
+    "arbitrage": "Impact à publier pour continuation",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "justification": "",
+    "objectif": "Faciliter la recherche de stages de 3e et de seconde pour tous les élèves",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://1eleve1stage.education.gouv.fr/",
+    "notion": "",
+    "maturite": "Transféré",
+    "publics": [
+      "Scolaires"
+    ]
+  },
+  {
+    "nom": "Aides Jeunes",
+    "segments": [
+      "Aides et droits sociaux"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Simuler l'ensemble des aides financières accessibles aux jeunes 15-30 ans",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://mes-aides.1jeune1solution.beta.gouv.fr/",
+    "notion": "",
+    "maturite": "Accélération",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Anotéa",
+    "segments": [
+      "Recherche de formation professionnelle"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Collecter et diffuser les avis vérifiés des stagiaires sur les formations professionnelles",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://anotea.francetravail.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "API Engagement",
+    "segments": [
+      "Communs numériques"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Mutualiser les missions d'engagement entre plateformes via une API commune",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://api-engagement.beta.gouv.fr/",
+    "notion": "",
+    "maturite": "Accélération",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "Avenir(s)",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "volume": null,
+    "arbitrage": "Impact à publier pour continuation",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "justification": "",
+    "objectif": "Développer les compétences d'orientation des élèves de la 5e à la terminale via un portfolio",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://reso-avenirs.onisep.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Scolaires"
+    ]
+  },
+  {
+    "nom": "Contrat d'Engagement Jeune (appli)",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Outiller le Contrat d'Engagement Jeune pour limiter le décrochage via une communication conseiller-jeune",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://apps.apple.com/fr/app/contrat-dengagement-jeune/id1581603519",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "NEET & jeunes fragiles"
+    ]
+  },
+  {
+    "nom": "Diagoriente",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": 2,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Orienter les jeunes par les compétences en valorisant les expériences formelles et informelles",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://diagoriente.fr/",
+    "notion": "",
+    "maturite": "Accélération",
+    "publics": [
+      "NEET & jeunes fragiles"
+    ]
+  },
+  {
+    "nom": "Découvrir le Monde",
+    "segments": [
+      "Engagement et service civique"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Orienter les 13-35 ans vers les programmes de mobilité européenne et internationale",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.decouvrirlemonde.jeunes.gouv.fr/",
+    "notion": "",
+    "maturite": "",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Emploi Store",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": 4,
+    "arbitrage": "A fermer",
+    "statut": "Usage sans impact démontré",
+    "justification": "",
+    "objectif": "Catalogue des services digitaux France Travail et tiers (emploi, formation, orientation)",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.emploi-store.fr/",
+    "notion": "",
+    "maturite": "En cours d'arrêt",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Espace Personnel Web - France Travail",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Canal web de référence pour la recherche d'emploi, les démarches et le suivi France Travail",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://candidat.francetravail.fr/espacepersonnel/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "etudiant.gouv.fr",
+    "segments": [
+      "Aides et droits sociaux"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Portail éditorial de référence pour les étudiants (bourses, logement, CVEC, vie étudiante)",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.etudiant.gouv.fr/fr",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Étudiants"
+    ]
+  },
+  {
+    "nom": "eva - ANLCI",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Repérer l'illettrisme et positionner les compétences de base via des jeux sérieux",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://eva.anlci.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "NEET & jeunes fragiles"
+    ]
+  },
+  {
+    "nom": "Exposition API InserJeunes",
+    "segments": [
+      "Communs numériques"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Exposer les indicateurs d'insertion des sortants de formation via une API publique",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.inserjeunes.education.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "Fil Santé Jeunes",
+    "segments": [
+      "Aides et droits sociaux"
+    ],
+    "volume": null,
+    "arbitrage": "Impact à publier pour continuation",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "justification": "",
+    "objectif": "Écouter et informer anonymement les 12-25 ans sur la santé physique, mentale et sociale",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.filsantejeunes.com/",
+    "notion": "",
+    "maturite": "",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Futur Pro",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "volume": 2,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Aider les accompagnateurs et les collégiens à découvrir les formations professionnelles post-3e",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://data.education.gouv.fr/futur-pro/accueil/",
+    "notion": "",
+    "maturite": "Transféré",
+    "publics": [
+      "Scolaires"
+    ]
+  },
+  {
+    "nom": "Hub AGORA",
+    "segments": [
+      "Communs numériques"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Data-hub de référence de la formation professionnelle financée sur fonds publics",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://hub-agora.moncompteformation.gouv.fr/espace-public/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "IJ box",
+    "segments": [
+      "Information et orientation grand public"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Outiller les professionnels de l'information jeunesse avec une base documentaire commune",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.ijbox.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "Immersion facilitée",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Dématérialiser les conventions d'immersion professionnelle (PMSMP) pour mettre en relation candidats et entreprises",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://immersion-facile.beta.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "NEET & jeunes fragiles"
+    ]
+  },
+  {
+    "nom": "InserSup",
+    "segments": [
+      "Communs numériques"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Mesurer et publier les taux d'insertion des formations du supérieur",
+    "marqueur": [],
+    "doublons": [],
+    "url": "",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "Jeunes.gouv.fr",
+    "segments": [
+      "Information et orientation grand public"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Présenter les politiques ministérielles de jeunesse et orienter les professionnels et relais",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.jeunes.gouv.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "JeVeuxAider",
+    "segments": [
+      "Engagement et service civique"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Mettre en relation bénévoles et associations via une plateforme nationale de missions d'engagement",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.jeveuxaider.gouv.fr/",
+    "notion": "",
+    "maturite": "Transféré",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "La Bonne Alternance",
+    "segments": [
+      "Alternance"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Faciliter la recherche d'alternance via un algorithme de candidature spontanée ciblée",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://labonnealternance.apprentissage.beta.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "La Bonne Boîte",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Faciliter la candidature spontanée auprès des entreprises à fort potentiel d'embauche via un algorithme prédictif",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://labonneboite.francetravail.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "La Boussole des Jeunes",
+    "segments": [
+      "Information et orientation grand public",
+      "Aides et droits sociaux"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Orienter les jeunes vers les services et dispositifs locaux via une mise en relation humaine sous 7 jours",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://boussole.jeunes.gouv.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Le portail de l'alternance",
+    "segments": [
+      "Alternance"
+    ],
+    "volume": null,
+    "arbitrage": "A fusionner",
+    "statut": "Usage sans impact démontré",
+    "justification": "",
+    "objectif": "Informer sur le cadre réglementaire de l'alternance et simuler les rémunérations",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.alternance.emploi.gouv.fr/",
+    "notion": "",
+    "maturite": "En cours d'absorption",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Les emplois de l'inclusion",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Mettre en relation candidats éloignés de l'emploi, employeurs solidaires et prescripteurs IAE",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://emplois.inclusion.beta.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "NEET & jeunes fragiles"
+    ]
+  },
+  {
+    "nom": "Ma Formation (app) - France Travail",
+    "segments": [
+      "Recherche de formation professionnelle"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Rechercher et comparer l'offre de formation professionnelle sur mobile via le catalogue Carif-Oref",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.francetravail.fr/candidat/vos-services-en-ligne/applications-mobiles/application-mobile-formation.html",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Mes événements emploi",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Agenda national des événements emploi et formation (job datings, forums, rencontres)",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://mesevenementsemploi.francetravail.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "MesServices.etudiant.gouv.fr",
+    "segments": [
+      "Aides et droits sociaux"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Centraliser les démarches de vie étudiante (bourse, logement, emploi, restauration, santé)",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://messervices.etudiant.gouv.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Étudiants"
+    ]
+  },
+  {
+    "nom": "Mon Master",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Gérer l'admission en première année de master pour les candidats post-licence",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://monmaster.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Étudiants"
+    ]
+  },
+  {
+    "nom": "Mon Projet Sup",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Accompagner la construction du projet d'orientation post-bac via des suggestions personnalisées de formations",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://app-mps.avenirs.onisep.fr/",
+    "notion": "",
+    "maturite": "Accélération",
+    "publics": [
+      "Scolaires"
+    ]
+  },
+  {
+    "nom": "Mon Volontariat International",
+    "segments": [
+      "Engagement et service civique"
+    ],
+    "volume": 1,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Permettre aux 18-28 ans d'effectuer un Volontariat International en Entreprise ou en Administration",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://mon-vie-via.businessfrance.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "MétierScope",
+    "segments": [
+      "Information et orientation grand public"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Vitrine grand public du référentiel ROME 4.0 — informations sur les métiers et compétences",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://candidat.francetravail.fr/metierscope/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Orion",
+    "segments": [
+      "Communs numériques"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Piloter la carte des formations des lycées professionnels par le partage de données",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://orion.education.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "Parcours Emploi (France Travail)",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Canal mobile de référence pour la recherche d'emploi personnalisée et le suivi France Travail",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://play.google.com/store/apps/details?id=com.poleemploi.pemobile",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Parcoursup",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Gérer l'admission dans l'enseignement supérieur pour tous les candidats post-bac",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.parcoursup.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Scolaires"
+    ]
+  },
+  {
+    "nom": "Pass Culture",
+    "segments": [
+      "Aides et droits sociaux"
+    ],
+    "volume": 4,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Favoriser la découverte culturelle des jeunes via un crédit individuel et une part collective scolaire",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://pass.culture.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Pass et Choisir le service public",
+    "segments": [
+      "Recherche d'emploi"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Centraliser les offres d'emploi, stage et apprentissage de la fonction publique",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.pass.fonction-publique.gouv.fr/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Passeport de compétences",
+    "segments": [
+      "Communs numériques"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Centraliser les données probantes de carrière, diplômes et formations dans un coffre-fort numérique",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://competences.moncompteformation.gouv.fr/",
+    "notion": "",
+    "maturite": "Construction",
+    "publics": [
+      "Pros & structures"
+    ]
+  },
+  {
+    "nom": "Plateforme de l'engagement",
+    "segments": [
+      "Engagement et service civique"
+    ],
+    "volume": null,
+    "arbitrage": "Réorientation et impact à publier",
+    "statut": "Service sans signal",
+    "justification": "",
+    "objectif": "Orienter les jeunes vers les missions d'engagement via un moteur de recommandation agrégeant tous les dispositifs",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "",
+    "notion": "",
+    "maturite": "Construction",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Santé Psy Étudiant",
+    "segments": [
+      "Aides et droits sociaux"
+    ],
+    "volume": 2,
+    "arbitrage": "",
+    "statut": "",
+    "justification": "",
+    "objectif": "Offrir aux étudiants jusqu'à 12 séances psy gratuites par an avec des psychologues conventionnés",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://santepsy.etudiant.gouv.fr/",
+    "notion": "",
+    "maturite": "",
+    "publics": [
+      "Étudiants"
+    ]
+  },
+  {
+    "nom": "Service Civique",
+    "segments": [
+      "Engagement et service civique"
+    ],
+    "volume": 3,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Missions d'engagement volontaire de 6 à 12 mois pour les 16-25 ans",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.service-civique.gouv.fr/",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Sites régionaux de formation (Carif-Oref)",
+    "segments": [
+      "Recherche de formation professionnelle"
+    ],
+    "volume": null,
+    "arbitrage": "Impact à publier pour continuation",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "justification": "",
+    "objectif": "Informer sur l'offre de formation, les métiers et l'orientation en région (portails Carif-Oref)",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://www.intercariforef.org/",
+    "notion": "",
+    "maturite": "Déployé massivement",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "SNU",
+    "segments": [
+      "Engagement et service civique"
+    ],
+    "volume": 2,
+    "arbitrage": "A fermer",
+    "statut": "",
+    "justification": "",
+    "objectif": "Parcours d'engagement civique de cohésion et de mission d'intérêt général pour les 15-17 ans",
+    "marqueur": [
+      "Hors arbitrage cartographie"
+    ],
+    "doublons": [],
+    "url": "https://www.snu.gouv.fr/",
+    "notion": "",
+    "maturite": "En cours d'arrêt",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Trouver ma formation (web) - France Travail",
+    "segments": [
+      "Recherche de formation professionnelle"
+    ],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "",
+    "objectif": "Rechercher et comparer l'offre de formation professionnelle sur web via le catalogue Carif-Oref",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "doublons": [],
+    "url": "https://candidat.francetravail.fr/formations/recherche",
+    "notion": "",
+    "maturite": "Pérennisé",
+    "publics": [
+      "Jeunes généralistes"
+    ]
+  },
+  {
+    "nom": "Up'2C",
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
+    "volume": null,
+    "arbitrage": "Hors arbitrage",
+    "statut": "",
+    "justification": "",
+    "objectif": "Outiller le parcours de formation des stagiaires en École de la 2e chance",
+    "marqueur": [
+      "Hors arbitrage cartographie"
+    ],
+    "doublons": [],
+    "url": "https://up2c.reseau-e2c.fr/",
+    "notion": "",
+    "maturite": "Accélération",
+    "publics": [
+      "NEET & jeunes fragiles"
+    ]
+  }
 ]
