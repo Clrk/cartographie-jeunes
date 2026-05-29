@@ -185,7 +185,8 @@
     "nom": "API Engagement",
     "publics": [
       "Accompagnants",
-      "Organisation engagement (associatives publiques et privées)"
+      "Organisation engagement (associatives publiques et privées)",
+      "Jeunes de 15 à 30 ans"
     ],
     "categories": [
       "Engagement citoyenneté solidarité"
@@ -491,7 +492,10 @@
     "nom": "Exposition API InserJeunes",
     "publics": [
       "Chercheurs",
-      "Gestionnaires"
+      "Gestionnaires",
+      "Collégiens",
+      "Lycéens voie pro / apprentis",
+      "Lycéens"
     ],
     "categories": [
       "Emploi formation insertion pro"
@@ -587,7 +591,8 @@
     "nom": "Hub AGORA",
     "publics": [
       "Gestionnaires",
-      "Chercheurs"
+      "Chercheurs",
+      "Lycéens voie pro / apprentis"
     ],
     "categories": [
       "Emploi formation insertion pro"
@@ -685,7 +690,10 @@
     "nom": "InserSup",
     "publics": [
       "Chercheurs",
-      "Gestionnaires"
+      "Gestionnaires",
+      "Lycéens",
+      "Étudiants",
+      "Lycéens voie pro / apprentis"
     ],
     "categories": [
       "Emploi formation insertion pro"
@@ -1222,7 +1230,8 @@
   {
     "nom": "Orion",
     "publics": [
-      "Gestionnaires"
+      "Gestionnaires",
+      "Lycéens voie pro / apprentis"
     ],
     "categories": [
       "Orientation parcours et accès aux droits"

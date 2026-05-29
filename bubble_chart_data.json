@@ -134,6 +134,7 @@
       "Communs numériques"
     ],
     "publics": [
+      "Jeunes généralistes",
       "Pros & structures"
     ],
     "volume": 3,
@@ -351,6 +352,7 @@
       "Communs numériques"
     ],
     "publics": [
+      "Scolaires",
       "Pros & structures"
     ],
     "volume": 4,
@@ -419,6 +421,7 @@
       "Communs numériques"
     ],
     "publics": [
+      "Scolaires",
       "Pros & structures"
     ],
     "volume": 3,
@@ -486,6 +489,8 @@
       "Communs numériques"
     ],
     "publics": [
+      "Scolaires",
+      "Étudiants",
       "Pros & structures"
     ],
     "volume": 4,
@@ -883,6 +888,7 @@
       "Communs numériques"
     ],
     "publics": [
+      "Scolaires",
       "Pros & structures"
     ],
     "volume": 2,
@@ -999,7 +1005,8 @@
   {
     "nom": "Passeport de compétence",
     "segments": [
-      "Accompagnement vers l'emploi"
+      "Accompagnement vers l'emploi",
+      "Communs numériques"
     ],
     "publics": [
       "Jeunes généralistes"
