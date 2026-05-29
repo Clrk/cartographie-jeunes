@@ -158,6 +158,7 @@ def page_to_service(page):
         "url": url,
         "notion": notion_url,
         "maturite": _select(P("Maturité de la plateforme")),
+        "quand_mobiliser": _plain(P("Quand mobiliser").get("rich_text")),
     }
 
 
