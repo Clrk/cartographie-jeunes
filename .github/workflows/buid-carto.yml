@@ -1,0 +1,46 @@
+name: Régénérer la cartographie depuis Notion
+
+# Déclenchement :
+#  - manuel (bouton "Run workflow" dans l'onglet Actions)
+#  - planifié (chaque lundi 6h UTC) — décommenter le bloc "schedule" pour activer
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 6 * * 1'
+
+permissions:
+  contents: write   # nécessaire pour que l'action puisse committer les fichiers régénérés
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Régénérer l'arbre d'opportunités (JSON + HTML) depuis Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python build_carto.py
+
+      - name: Régénérer la bubble chart par segment (JSON + HTML) depuis Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python build_bubble.py
+
+      - name: Committer les fichiers régénérés (si modifiés)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add arbre_opportunites_data.json arbre_opportunites.html bubble_chart_data.json bubble_chart.html
+          if git diff --staged --quiet; then
+            echo "Aucun changement depuis Notion, rien à committer."
+          else
+            git commit -m "build: synchronisation cartographie depuis Notion"
+            git push
+          fi
