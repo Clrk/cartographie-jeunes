@@ -25,7 +25,9 @@
     "porteur": "DNE",
     "url": "https://1eleve1stage.education.gouv.fr/",
     "statut": "Valeur défendable (impact non mesuré)",
-    "marqueur": [],
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
     "volume": "2 - Moyenne",
     "beta": "✅",
     "justification": "Brique structurelle de l'écosystème scolaire qui répond à une obligation légale concernant plus d'un million d'élèves par an, sans alternative publique équivalente. Trajectoire d'usage tangible, satisfaction très élevée. Mais le test central de la mission — réduire le déterminisme social dans l'accès aux stages — n'est pas instrumenté : les indicateurs ne distinguent pas REP/REP+, boursiers ou élèves sans réseau familial. Transfert en cours qui doit activer la transparence et la mesure d'impact différentiel.",
@@ -57,8 +59,10 @@
     "porteur": "Collectif Mentorat, DJEPVA, DGEFP",
     "url": "https://www.1jeune1mentor.fr/",
     "statut": "Valeur défendable (impact non mesuré)",
-    "marqueur": [],
-    "volume": "3 - Forte",
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
+    "volume": "2 - Moyenne",
     "beta": "❌",
     "justification": "Dispositif qui atteint son public prioritaire et démontre une capacité à passer à l'échelle, mais ce n'est pas une plateforme numérique au sens propre — c'est un plan de financement associatif avec une page de redirection. La valeur publique est dans le maillage associatif, pas dans l'outil. L'évaluation est sérieuse mais ne démontre pas encore d'effet causal.",
     "notion": "https://www.notion.so/31708bca6029804f8f64e6a815d6f8bb",
@@ -96,11 +100,12 @@
     "statut": "Usage sans impact démontré",
     "marqueur": [
       "Périmètre dilaté",
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "4 - Très forte",
+    "volume": "3 - Forte",
     "beta": "❌",
-    "justification": "Le portail vit aujourd'hui de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation — un méta-moteur d'offres d'emploi qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides en autonomie complète, des pages dispositif qui captent du trafic SEO mais le retiennent peu. La promesse d'orientation différenciée selon le profil n'est pas tenue. La marque est trop installée pour être supprimée, mais sa fonction reste à construire.",
+    "justification": "Le portail vit de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation : un méta-moteur d'offres qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides dont l'acquisition est en réalité portée par le SEO du portail, des pages dispositif qui orientent correctement mais ne sont pas reliées entre elles. La promesse d'orientation différenciée n'est pas tenue. Verdict : la marque est trop forte pour être supprimée, sa fonction est tranchée, devenir un orienteur qui renvoie vers la solution existante et abandonner le moteur d'offres.",
     "notion": "https://www.notion.so/31708bca602980b88506d7728a1a7d23",
     "quand_mobiliser": "Point d'entrée généraliste quand un jeune ne sait pas où chercher. À utiliser comme aiguilleur vers le service spécialisé, pas comme destination finale."
   },
@@ -130,10 +135,13 @@
     "porteur": "DGCS",
     "url": "https://mes-aides.1jeune1solution.beta.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
-    "volume": "4 - Très forte",
+    "marqueur": [
+      "Impact mesuré et publié",
+      "Recouvrement à arbitrer"
+    ],
+    "volume": "3 - Forte",
     "beta": "✅",
-    "justification": "Cas presque unique de service public numérique qui mesure rigoureusement sa valeur d'usage et son taux d'activation effective. Le service révèle aux jeunes des droits qu'ils ignoraient et oriente vers la démarche, avec une instrumentation produit que le reste de l'écosystème devrait prendre comme modèle. La friction restante n'est pas un défaut produit : elle reflète la réalité du recours aux droits chez le public cible.",
+    "justification": "Cas presque unique de service public numérique qui mesure rigoureusement sa valeur d'usage et son activation effective. Le service révèle aux jeunes des droits qu'ils ignoraient et oriente vers la démarche, avec une instrumentation que le reste de l'écosystème devrait prendre comme modèle. Deux limites structurelles : il n'a pas d'acquisition propre (0,7 % de SEO), son trafic est porté à 84 % par des surfaces embarquées, 1J1S en tête ; et même avec un outil clair, un répondant sur deux seulement obtient une aide, 47 % tentant sans aboutir ou n'agissant pas, ce qui pointe un besoin d'appui humain pour convertir la simulation en droits.",
     "notion": "https://www.notion.so/31f08bca602980fca1e6d56347262828",
     "quand_mobiliser": "Quand un jeune doit identifier et simuler les aides auxquelles il a droit (logement, mobilité, ressources) selon sa situation et son territoire. Mesure son activation réelle."
   },
@@ -163,9 +171,11 @@
     "objectif": "Collecter et diffuser les avis vérifiés des stagiaires demandeurs d'emploi sur les formations professionnelles qu'ils ont suivies, pour éclairer le choix des futurs stagiaires et fournir un indicateur qualité aux financeurs",
     "porteur": "France Travail",
     "url": "https://anotea.francetravail.fr/",
-    "statut": "Référence établie",
-    "marqueur": [],
-    "volume": "",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
+    "volume": "1 - Niche",
     "beta": "✅",
     "justification": "Actif d'infrastructure rare : un système d'évaluation publique avec vérification à la source — seuls les stagiaires effectivement passés en formation reçoivent le questionnaire. Garantie de confiance que les plateformes privées d'avis ne peuvent pas reproduire. Diffusé par API sur les sites où les jeunes cherchent. Limite structurelle : ne couvre que les formations financées pour demandeurs d'emploi, donc apprentis et étudiants hors champ.",
     "notion": "https://www.notion.so/35008bca602980ca803eec8689c540c5",
@@ -190,7 +200,9 @@
     "porteur": "DJEPVA",
     "url": "https://api-engagement.beta.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "",
     "beta": "✅",
     "justification": "Le bon modèle de commun numérique dans le domaine de l'engagement : un service qui agrège les missions de bénévolat et de volontariat venues de plateformes publiques et privées, et les redistribue là où les candidats potentiels se trouvent déjà. Chaque opérateur garde sa marque, aucun ne capte l'audience des autres. A démontré sa valeur en crise (Covid puis Ukraine) et porte aujourd'hui l'extension aux réserves opérationnelles.",
@@ -221,8 +233,10 @@
     "porteur": "ONISEP, MEN",
     "url": "https://reso-avenirs.onisep.fr/",
     "statut": "Valeur défendable (impact non mesuré)",
-    "marqueur": [],
-    "volume": "",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
+    "volume": "1 - Niche",
     "beta": "❌",
     "justification": "Seul outil de la cartographie qui traite l'orientation comme une compétence à construire dans le temps plutôt qu'un guichet à utiliser au moment des choix. Positionnement en amont de tout le reste, fondé sur la recherche, financé sur la durée. Déployé depuis six mois seulement, donc trop tôt pour juger l'adoption effective. La promesse stratégique d'un portfolio de compétences portable du collège à l'emploi tient si l'interopérabilité avec le passeport de compétences est tenue.",
     "notion": "https://www.notion.so/31708bca602980bcb4e1f3c741fdf153",
@@ -256,7 +270,9 @@
     "porteur": "France Travail",
     "url": "https://apps.apple.com/us/app/contrat-dengagement-jeune/id1581603519",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "3 - Forte",
     "beta": "✅",
     "justification": "Exemple le plus abouti dans l'écosystème de ce qu'un outil numérique peut faire quand il sert la relation d'accompagnement plutôt que de prétendre la remplacer. Les conseillers gagnent un temps réel sur l'administratif, les jeunes déclarent gagner en autonomie sur leur projet. Adoption massive et engagement structurel des deux côtés. Reste à mesurer l'impact final sur le décrochage et les sorties positives, objectif principal aujourd'hui non chiffré.",
@@ -291,7 +307,9 @@
     "porteur": "DGEFP, Id6",
     "url": "https://diagoriente.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "2 - Moyenne",
     "beta": "✅",
     "justification": "Outil le plus avancé dans l'écosystème pour valoriser les expériences extra-professionnelles en compétences exploitables — précisément ce dont les publics sans CV classique (NEET, sortis du système scolaire, PJJ) ont besoin. Adopté en routine par les conseillers qui y voient un changement de pratique. Joue un rôle de tiers de confiance : bilan obligatoire des volontaires Service Civique, partenariats Justice, Défense, fédérations sportives. Le moteur de compétences sous-jacent est une brique data utilisée par une dizaine d'autres services.",
@@ -321,9 +339,10 @@
     "url": "https://www.decouvrirlemonde.jeunes.gouv.fr/",
     "statut": "Service sans signal",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Positionnement juste — agréger les programmes de mobilité plutôt que d'opérer un programme de plus — et brique technique pertinente. Mais service largement méconnu des jeunes, qui passent directement par les opérateurs spécialisés. La vraie valeur est dans le moteur réutilisable, pas dans le portail comme destination. Aucune donnée d'usage publiée depuis dix ans pour un service de 2015.",
     "notion": "https://www.notion.so/31708bca6029807e9a09c5658214687c",
@@ -355,9 +374,10 @@
     "url": "https://www.emploi-store.fr/portail/accueil",
     "statut": "Usage sans impact démontré",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "4 - Très forte",
+    "volume": "3 - Forte",
     "beta": "❌",
     "justification": "Concept de catalogue d'applications hérité de 2015 que France Travail a lui-même déprioritisé en supprimant le lien depuis sa page d'accueil. Les outils phares qu'il référence existent indépendamment ; les outils tiers (CV, lettre de motivation) sont aujourd'hui concurrencés par les assistants IA. Le service ne génère pas sa propre demande et son porteur ne le défend plus.",
     "notion": "https://www.notion.so/31708bca602980dd97e7de2c6ea0ddbf",
@@ -391,7 +411,8 @@
     "url": "https://candidat.francetravail.fr/espacepersonnel/",
     "statut": "Référence établie",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Impact mesuré non publié"
     ],
     "volume": "4 - Très forte",
     "beta": "❌",
@@ -424,9 +445,10 @@
     "url": "https://www.etudiant.gouv.fr/fr",
     "statut": "Service sans signal",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Site vitrine institutionnel cohérent dans son positionnement éditorial — informer en amont des démarches, qui se font sur le portail transactionnel. Le contenu est sourcé et à jour, le positionnement légitime. Mais aucune donnée d'usage publiée : on ne sait ni combien d'étudiants le consultent, ni s'il convertit vers la démarche de bourse, ni quel non-recours il contribue à réduire.",
     "notion": "https://www.notion.so/35708bca602981b5803be79c7bf7a00d",
@@ -456,8 +478,10 @@
     "porteur": "ANLCI",
     "url": "https://eva.anlci.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
-    "volume": "",
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
+    "volume": "1 - Niche",
     "beta": "✅",
     "justification": "Seul service de la cartographie qui traite l'illettrisme — angle mort partout ailleurs alors que la difficulté avec la lecture, l'écriture ou les nombres concerne une part significative des jeunes éloignés de l'emploi. Approche par jeu sérieux et restitution positive, cohérente avec un public souvent en rupture avec l'expérience scolaire. Mobilisé en routine par le réseau d'accompagnement, label « service à impact » DINUM. Cas singulier de transfert réussi entre incubateur et opérateur historique.",
     "notion": "https://www.notion.so/32e08bca602980819e15dd0c60c0e32f",
@@ -483,10 +507,12 @@
     "porteur": "DEPP, Dares",
     "url": "https://www.inserjeunes.education.gouv.fr/diffusion/accueil",
     "statut": "Référence établie",
-    "marqueur": [],
-    "volume": "",
+    "marqueur": [
+      "Recouvrement à arbitrer"
+    ],
+    "volume": "4 - Très forte",
     "beta": "❌",
-    "justification": "Modèle de référence du commun numérique : une obligation légale qui produit une donnée fiable, exposée par API, consommée massivement par les plateformes où les jeunes sont déjà. Aucun jeune ne sait que ce service existe, mais ses données alimentent les choix d'orientation de millions de candidats à Parcoursup, Affelnet, LBA. La logique « les données vont aux plateformes, pas l'inverse » fonctionne ici comme elle devrait fonctionner partout.",
+    "justification": "Modèle de référence du commun numérique : une obligation légale qui produit une donnée fiable, exposée par API, consommée massivement par les plateformes où les jeunes sont déjà. Aucun jeune ne sait que ce service existe, mais ses données alimentent les choix d'orientation de millions de candidats à Parcoursup, Affelnet, LBA. La logique « les données vont aux plateformes, pas l'inverse » fonctionne ici comme elle devrait fonctionner partout.\nEn revanche, le site d’interface publique apporte de la confusion et fait doublon avec les autres sites de formation. Devrait être fermé",
     "notion": "https://www.notion.so/31808bca602980cabb99c3c68070dd2c",
     "quand_mobiliser": "Donnée d'insertion par formation, consommée par les plateformes d'orientation. Brique de fond, pas un service à présenter au jeune."
   },
@@ -515,9 +541,12 @@
     "objectif": "Écouter et informer anonymement les 12-25 ans sur la santé physique, mentale et sociale via téléphone et chat",
     "porteur": "Santé Publique France",
     "url": "https://www.filsantejeunes.com/",
-    "statut": "Valeur défendable (impact non mesuré)",
-    "marqueur": [],
-    "volume": "",
+    "statut": "Service sans signal",
+    "marqueur": [
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
+    ],
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Dispositif structurel de l'écosystème santé jeunes, présent depuis trente ans, multi-canal, équipe de professionnels salariés, label santé publique, charte d'anonymat strict. Joue un rôle de premier contact et d'aiguillage vers le soin spécialisé. Mais les dernières données d'audience publiques datent d'une décennie, ce qui empêche tout pilotage. Le besoin existe sans ambiguïté ; ce qui manque, c'est la démonstration qu'il y répond toujours à la bonne échelle.",
     "notion": "https://www.notion.so/31708bca6029806e8d95c0ada5af7e94",
@@ -544,9 +573,11 @@
     "objectif": "Futur Pro aide les accompagnateurs de l’orientation et les élèves de collège à découvrir les formations professionnelles les plus adaptées pour l’après 3ᵉ",
     "porteur": "MEN, DNE",
     "url": "https://data.education.gouv.fr/futur-pro/accueil/",
-    "statut": "Service sans signal",
-    "marqueur": [],
-    "volume": "2 - Moyenne",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
+    "volume": "0 - Inconnu",
     "beta": "✅",
     "justification": "Vraie brique manquante de l'orientation post-3e : rendre concrètes sur le territoire les formations professionnelles accessibles, avec des données d'insertion qu'aucun autre acteur ne peut produire. Croissance forte avant transfert. Mais cas d'école de l'anti-pattern de transfert : l'équipe initiale n'a pas été reprise, l'outil reconstruit en interne sans approche produit, la page d'usage perdue. La valeur potentielle est dans l'intégration des données dans Affelnet, pas dans le maintien d'un front-end séparé.",
     "notion": "https://www.notion.so/32d08bca602980338acaf5d8fdf9d272",
@@ -608,11 +639,11 @@
     "marqueur": [
       "Recouvrement à arbitrer"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Outil métier qui homogénéise la documentation du réseau Info Jeunes — environ mille structures de proximité partout sur le territoire. Le positionnement est juste : outiller le médiateur humain, pas se substituer à lui. Mais huit années d'opération sans aucune donnée d'usage publiée pour un service financé par l'État. Production parallèle de fiches métiers avec l'ONISEP, sans articulation visible.",
     "notion": "https://www.notion.so/33308bca602980ddbbecd7b735b2f3cc",
-    "quand_mobiliser": "Base documentaire de référence pour les professionnels Info Jeunes. Outil métier qui vous équipe, pas un service à présenter au jeune."
+    "quand_mobiliser": "Base documentaire de référence pour les professionnels Info Jeunes. Outil métier qui équipe le pro, pas un service à présenter au jeune."
   },
   {
     "nom": "Immersion facilitée",
@@ -641,7 +672,9 @@
     "porteur": "GIP de l'inclusion, France Travail",
     "url": "https://immersion-facile.beta.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "3 - Forte",
     "beta": "✅",
     "justification": "Démontre que le numérique public peut transformer un irritant administratif en parcours fluide, avec un effet causal mesuré : une part substantielle des bénéficiaires déclare qu'elle n'aurait pas fait d'immersion sans le service. Adoption croissante, satisfaction haute, coût marginal très bas. Le principal angle mort n'est pas le produit lui-même mais sa découvrabilité : plébiscité par ceux qui le connaissent, peu connu hors du réseau prescripteur.",
@@ -669,7 +702,7 @@
     "url": "",
     "statut": "Référence établie",
     "marqueur": [],
-    "volume": "",
+    "volume": "4 - Très forte",
     "beta": "❌",
     "justification": "Pendant supérieur d'InserJeunes, même logique de commun numérique : un dispositif statistique qui produit la mesure d'insertion à partir de sources administratives et expose ses indicateurs là où les choix se font — Parcoursup, Mon Master, ONISEP, L'Étudiant. L'étudiant ne consulte jamais le service, mais en lit les données chaque fois qu'il compare des formations. Modèle abouti à proposer comme cadre pour les services dont le transfert reste à structurer.",
     "notion": "https://www.notion.so/33308bca602980e2a9aad011c6469e39",
@@ -702,7 +735,7 @@
     "marqueur": [
       "Recouvrement à arbitrer"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Vitrine institutionnelle légitime du ministère sur les politiques de jeunesse, utile aux professionnels et partenaires. Mais le site se présente comme un portail pour les 16-25 ans alors que sa rédaction s'adresse aux adultes du secteur — ambiguïté qui crée un doublon de positionnement avec 1J1S sur le grand public. Aucune donnée d'usage publiée, et accessibilité déclarée « non conforme » par le site lui-même, difficile à tenir pour un portail ministériel.",
     "notion": "https://www.notion.so/34808bca60298033a578d33ab777a7d1",
@@ -729,8 +762,10 @@
     "porteur": "Plateformes de l'Engagement Civique., DJEPVA",
     "url": "https://www.jeveuxaider.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
-    "volume": "4 - Très forte",
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
+    "volume": "3 - Forte",
     "beta": "✅",
     "justification": "Cas de référence pour l'engagement bénévole : adoption massive, satisfaction très élevée des bénévoles comme des associations, impact mesuré en heures de bénévolat réelles produites. Le service démontre qu'une plateforme publique peut concurrencer les acteurs privés sur leur terrain quand elle est conçue avec rigueur produit. Standard de transparence exemplaire — matrice d'impact publique, NPS publié, coût d'efficience en baisse. Modèle de ce que la cartographie devrait viser.",
     "notion": "https://www.notion.so/31708bca602980c585a5d5b027372fb0",
@@ -767,7 +802,8 @@
     "url": "https://labonnealternance.apprentissage.beta.gouv.fr/",
     "statut": "Référence établie",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Impact mesuré et publié"
     ],
     "volume": "4 - Très forte",
     "beta": "✅",
@@ -802,9 +838,10 @@
     "url": "https://labonneboite.francetravail.fr/",
     "statut": "Référence établie",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Impact mesuré non publié"
     ],
-    "volume": "4 - Très forte",
+    "volume": "3 - Forte",
     "beta": "✅",
     "justification": "Un des très rares services à mesurer son impact final par croisement automatisé avec les déclarations d'embauche — méthode qui devrait servir de référence. L'algorithme prédictif qui identifie le marché caché est un actif stratégique. Mais situation paradoxale : ce produit phare est le plus ancien produit de l'incubateur France Travail non repris par une direction métier après une décennie — fragilité institutionnelle qui bloque son évolution. La fonctionnalité existe sur trois canaux.",
     "notion": "https://www.notion.so/32008bca602980faad5cd2174e3c5d1b",
@@ -837,9 +874,10 @@
     "url": "https://boussole.jeunes.gouv.fr/",
     "statut": "Service sans signal",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "L'angle mort le plus spectaculaire de la cartographie : sept ans de déploiement sans aucune donnée d'usage ou d'impact publiée, pour un service de l'État qui prétend précisément répondre au non-recours aux droits. L'intuition initiale est juste — orientation territorialisée plus mise en relation humaine — mais l'exécution ne suit pas : couverture territoriale partielle, modèle de déploiement artisanal. Le mécanisme de rappel par un professionnel garde une valeur réelle, à reprendre dans Aides Jeunes plutôt que maintenir une plateforme autonome.",
     "notion": "https://www.notion.so/31708bca60298062b53bea30084dc6fe",
@@ -872,11 +910,12 @@
     "objectif": "Informer sur le cadre réglementaire de l'alternance et simuler les rémunérations pour tous les acteurs",
     "porteur": "Ministère du travail, DGEFP",
     "url": "https://www.alternance.emploi.gouv.fr/accueil",
-    "statut": "Usage sans impact démontré",
+    "statut": "Service sans signal",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Décision déjà prise par le ministère : le portail bascule vers La Bonne Alternance et le site institutionnel du Travail. La seule question stratégique restante est d'éviter la perte de l'actif SEO accumulé sur dix ans — le portail reste leader sur les requêtes Google de l'alternance et ce capital doit être transféré, pas perdu. Les CFA jugent l'expérience site trop formelle pour les jeunes et certains simulateurs trop imprécis.",
     "notion": "https://www.notion.so/32008bca60298063811ffc97515a09ae",
@@ -906,7 +945,9 @@
     "porteur": "GIP de l'inclusion",
     "url": "https://emplois.inclusion.beta.gouv.fr/search/employers",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "3 - Forte",
     "beta": "✅",
     "justification": "Service le plus mature et le plus efficient de la cartographie sur le volet insertion : volume d'embauches cumulées exceptionnel, satisfaction très supérieure à la moyenne, coût à l'impact remarquablement bas, budget public détaillé. Standard de transparence à proposer comme modèle. Hors périmètre stricto sensu jeunes, mais en pratique passage obligé pour une partie des publics prioritaires (NEET, sortie ASE, sortie PJJ) via prescription des missions locales et du CEJ.",
@@ -940,9 +981,10 @@
     "url": "https://www.intercariforef.org/",
     "statut": "Valeur défendable (impact non mesuré)",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Infrastructure invisible mais critique : les Carif-Oref produisent et qualifient au niveau régional le catalogue national de formations professionnelles qui alimente toutes les plateformes. La fonction de producteur de données est irremplaçable. C'est le maintien parallèle de dix-huit portails grand public régionaux, avec des noms et UX différents, qui pose question — la recherche grand public est aujourd'hui mieux servie par les plateformes nationales. Aucune donnée d'usage consolidée nationalement.",
     "notion": "https://www.notion.so/35108bca602980078cfcf71474f31066",
@@ -972,9 +1014,10 @@
     "url": "https://www.francetravail.fr/candidat/vos-services-en-ligne/applications-mobiles/application-mobile-formation.html",
     "statut": "Référence établie",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "3 - Forte",
     "beta": "❌",
     "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Trouver ma formation web). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal.",
     "notion": "https://www.notion.so/33008bca602980f9b391ee8f26282abc",
@@ -1004,7 +1047,9 @@
     "porteur": "France Travail",
     "url": "https://mesevenementsemploi.francetravail.fr/mes-evenements-emploi/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "4 - Très forte",
     "beta": "❌",
     "justification": "Service massif largement sous-estimé : audience comparable aux grands sites d'emploi nationaux, taux de présence effective remarquable, près d'un quart de million de participations réelles chaque mois à des événements emploi. Quand un jeune s'inscrit, il vient — signal que le besoin est réel. Le sujet n'est pas de défendre le service mais de diffuser son catalogue d'événements dans les plateformes où les jeunes sont déjà (LBA, 1J1S, app Parcours Emploi).",
@@ -1037,7 +1082,7 @@
     "marqueur": [
       "Recouvrement à arbitrer"
     ],
-    "volume": "3 - Forte",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Hub vie étudiante le mieux intégré de l'écosystème, organisé par moments de vie réels et non par catalogue de liens. Monopole de fait sur le Dossier Social Étudiant — passage obligé pour des centaines de milliers de boursiers chaque année. Cohabitation à clarifier avec 1J1S sur l'emploi et Aides Jeunes sur les droits : l'enjeu n'est pas de fusionner les hubs mais de définir ce que chacun fait au bon moment. Aucune donnée d'usage publiée.",
     "notion": "https://www.notion.so/31708bca6029807fb916dc17c0dcbb63",
@@ -1066,7 +1111,9 @@
     "porteur": "MESR",
     "url": "https://monmaster.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "3 - Forte",
     "beta": "❌",
     "justification": "Infrastructure structurelle de l'enseignement supérieur, équivalent post-licence de Parcoursup, sans alternative possible. Trajectoire d'amélioration solide après un lancement difficile : phase complémentaire qui a divisé par trois les candidats sans solution, ergonomie allégée. Open data exemplaire. Sujets pendants : inflation du nombre de vœux par candidat, calendrier qui collisionne avec les examens, absence de pont vers les données d'insertion (InserSup non intégré aux fiches formation).",
@@ -1095,8 +1142,10 @@
     "objectif": "Accompagner la construction du projet d'orientation post-bac des lycéens via des suggestions personnalisées de formations",
     "porteur": "MESR, ONISEP",
     "url": "https://app-mps.avenirs.onisep.fr/",
-    "statut": "Référence établie",
-    "marqueur": [],
+    "statut": "Valeur défendable (impact non mesuré)",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
     "volume": "2 - Moyenne",
     "beta": "✅",
     "justification": "Brique spécialisée d'Avenir(s) au taux de complétion exceptionnel — un jeune qui arrive sur le service va jusqu'au bout du parcours, signal rare dans l'écosystème. Le pont vers Parcoursup fonctionne effectivement. Choix produit délibéré et pertinent : suggérer par appétence et non par résultats scolaires, ce qui répond directement au constat de la Cour des comptes sur l'autocensure. Modèle d'intégration d'une brique spécialisée dans un écosystème plus large, plutôt que site isolé.",
@@ -1126,7 +1175,9 @@
     "porteur": "Business France",
     "url": "https://mon-vie-via.businessfrance.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "1 - Niche",
     "beta": "❌",
     "justification": "Programme qui démontre un impact direct et massif sur l'emploi — taux de recrutement post-mission sans équivalent dans l'écosystème, satisfaction quasi-unanime, croissance continue. Mais lucidité sur le périmètre : ce n'est pas un levier d'insertion pour les publics fragiles. Le public est massivement diplômé bac+5 de grandes écoles. Bon positionnement : référencé comme une option de mobilité internationale, sans tentative d'en faire un outil de politique d'insertion sociale.",
@@ -1155,11 +1206,12 @@
     "objectif": "Faciliter l'accès grand public aux informations sur les métiers et les compétences via la vitrine consultable du référentiel ROME 4.0, en appui du niveau 1 du Conseil en Évolution Professionnelle",
     "porteur": "France Travail",
     "url": "https://candidat.francetravail.fr/metierscope/",
-    "statut": "Référence établie",
+    "statut": "Service sans signal",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "✅",
     "justification": "Vitrine grand public du référentiel ROME 4.0, actif stratégique pour la politique d'approche par compétences. Cas réussi de transfert beta.gouv vers l'opérateur public. Positionnement juste : un service d'exploration des métiers qui n'essaie pas de faire du transactionnel et articule proprement les renvois vers les services d'action. Limite : opacité héritée — aucune statistique publique alors que les données sont collectées. La pérennisation impose le standard de transparence.",
     "notion": "https://www.notion.so/34808bca602980fcb4c9eef352706ff1",
@@ -1184,7 +1236,9 @@
     "porteur": "MEN, DNE",
     "url": "https://orion.education.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "",
     "beta": "✅",
     "justification": "Outil de pilotage et non service utilisateur jeune — donc évalué différemment. Mais c'est précisément ce que l'écosystème devrait produire davantage : une infrastructure de décision partagée entre tous les acteurs de la carte des formations, avec un impact concret mesuré sur la transformation effective des places ouvertes et fermées. Cas de transfert beta.gouv vers la DNE qui semble s'être mieux passé que d'autres ; le ralentissement de mise à jour des statistiques publiques post-transfert mérite vigilance.",
@@ -1218,7 +1272,8 @@
     "url": "https://play.google.com/store/apps/details?id=com.poleemploi.pemobile&hl=fr",
     "statut": "Référence établie",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Impact mesuré non publié"
     ],
     "volume": "4 - Très forte",
     "beta": "❌",
@@ -1250,7 +1305,9 @@
     "porteur": "MESR",
     "url": "https://www.parcoursup.gouv.fr/",
     "statut": "Référence établie",
-    "marqueur": [],
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
     "volume": "3 - Forte",
     "beta": "❌",
     "justification": "Infrastructure critique de l'enseignement supérieur français, hors périmètre d'arbitrage — aucune alternative à cette échelle n'existe. Résultats techniques en amélioration continue, open data exemplaire. Paradoxe central : efficacité technique forte sur le taux d'admission, mais perception très dégradée sur l'équité et amplification documentée du déterminisme social. L'enjeu pour la cartographie est l'articulation avec l'écosystème en aval — décrochage L1, intégration InserSup incomplète, bacheliers professionnels en hausse.",
@@ -1312,13 +1369,13 @@
     "objectif": "Centraliser les offres d'emploi, stage et apprentissage de la fonction publique sur un portail unique",
     "porteur": "DGAFP",
     "url": "https://www.pass.fonction-publique.gouv.fr/",
-    "statut": "Référence établie",
+    "statut": "Valeur défendable (impact non mesuré)",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
-    "justification": "PASS est un filtre transformé en site séparé qui ne représente qu'une fraction marginale du volume d'offres de Choisir le service public, opéré par la même direction — fusion déjà actée à l'horizon CSP V2. Sujet plus structurant : Choisir le service public a fait le choix assumé de ne pas exposer ses offres en API ouverte — posture défendable côté marque employeur, mais à contre-courant du principe d'interopérabilité, et à arbitrer face au projet FT-Jeunes.",
+    "justification": "PASS est un filtre transformé en site séparé qui ne représente qu'une fraction marginale du volume d'offres de Choisir le service public, opéré par la même direction — fusion déjà actée à l'horizon CSP V2. Sujet plus structurant : Choisir le service public a fait le choix assumé de ne pas exposer ses offres en API ouverte. Impossible de convaincre un jeune qui ne sait pas déjà qu’il souhaite chercher dans le Service Public.\nA noter également la fragmentation dans la sphère publique des modalités de candidatures (seulement 5% par la plateforme, le reste en fonction des SI partenaires)",
     "notion": "https://www.notion.so/32d08bca60298005a140e3d16269ada9",
     "quand_mobiliser": "Pour un jeune intéressé par un emploi, stage ou apprentissage dans la fonction publique : Choisir le service public est la plateforme de référence."
   },
@@ -1342,8 +1399,10 @@
     "porteur": "Caisse des dépôts",
     "url": "https://competences.moncompteformation.gouv.fr/espace-public/",
     "statut": "Service sans signal",
-    "marqueur": [],
-    "volume": "",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
+    "volume": "1 - Niche",
     "beta": "❌",
     "justification": "Diagnostic en deux briques que la communication institutionnelle confond. Le service grand public — interface, fonctionnalité CV — est en bêta depuis trois ans sans instrument de mesure d'audience, l'authentification renforcée exclut de fait la cible mineure, et le profil d'un jeune en début de parcours est par construction quasi-vide. Le socle data sous-jacent (DSN, AGORA, certificateurs, SI-CPF) est en revanche une infrastructure mutualisée à préserver et exposer en API. Verdict : réorientation — geler l'interface, exposer le socle.",
     "notion": "https://www.notion.so/32008bca602980b3a1c4f87c129b41b8",
@@ -1372,9 +1431,9 @@
     "objectif": "Orienter les jeunes (ou les pros qui les accompagnent) vers les missions d'engagement (bénévolat, service civique, réserves, sapeurs-pompiers, gendarmerie, police) via un moteur de recommandation personnalisé agrégeant tous les dispositifs publics et associatifs",
     "porteur": "DJEPVA",
     "url": "",
-    "statut": "Service sans signal",
+    "statut": "Hors arbitrage cartographie",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Hors arbitrage cartographie"
     ],
     "volume": "",
     "beta": "✅",
@@ -1433,9 +1492,11 @@
     "objectif": "Proposer aux 16-25 ans des missions d'engagement volontaire de 6 à 12 mois dans 9 domaines d'intérêt général",
     "porteur": "Agence du Service Civique, DJEPVA",
     "url": "https://www.service-civique.gouv.fr/",
-    "statut": "Référence établie",
-    "marqueur": [],
-    "volume": "3 - Forte",
+    "statut": "Valeur défendable (impact non mesuré)",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Programme à plus fort impact social de la cartographie — la moitié des volontaires sont demandeurs d'emploi ou inactifs à l'entrée, un quart sans baccalauréat, surreprésentation des quartiers prioritaires. Le tour de force est de toucher massivement ces publics sans être étiqueté « dispositif d'insertion ». Notoriété exceptionnelle, satisfaction très élevée, impact employabilité documenté. Coupe budgétaire 2025 qui fragilise à contretemps le programme qui touche le mieux les publics les plus éloignés.",
     "notion": "https://www.notion.so/31708bca60298048a9dff0fdf5c5db82",
@@ -1491,11 +1552,12 @@
     "objectif": "Rechercher et comparer l'offre de formation professionnelle sur web via le catalogue national Carif-Oref",
     "porteur": "France Travail",
     "url": "https://candidat.francetravail.fr/formations/recherche",
-    "statut": "Référence établie",
+    "statut": "Valeur défendable (impact non mesuré)",
     "marqueur": [
-      "Recouvrement à arbitrer"
+      "Recouvrement à arbitrer",
+      "Pas de mesure d'impact"
     ],
-    "volume": "",
+    "volume": "4 - Très forte",
     "beta": "❌",
     "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Ma Formation app). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Question résiduelle : pourquoi un demandeur d'emploi doit-il choisir entre ce service et Mon Compte Formation pour chercher une formation.",
     "notion": "https://www.notion.so/33608bca60298147b760cca071574746",
@@ -1529,7 +1591,7 @@
     "marqueur": [
       "Hors arbitrage cartographie"
     ],
-    "volume": "",
+    "volume": "0 - Inconnu",
     "beta": "❌",
     "justification": "Hors arbitrage de la cartographie : outil interne du Réseau E2C destiné à ses propres stagiaires, évalué par la gouvernance du réseau et non par un arbitrage national. Présence légitime comme service touchant un public extrêmement fragile (jeunes sans qualification, sortis du système scolaire). Points de vigilance : le portefeuille de compétences doit être interopérable avec le passeport de compétences pour ne pas créer un silo, et l'intégration de solutions privées plutôt que des outils publics reproduit un pattern à questionner.",
     "notion": "https://www.notion.so/32f08bca60298097a5fcf94374791f77",
