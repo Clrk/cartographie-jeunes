@@ -110,6 +110,39 @@
     "quand_mobiliser": "Point d'entrée généraliste quand un jeune ne sait pas où chercher. À utiliser comme aiguilleur vers le service spécialisé, pas comme destination finale."
   },
   {
+    "nom": "Affelnet",
+    "publics": [
+      "Collégiens",
+      "Lycéens voie pro / apprentis",
+      "Équipes pédagogiques",
+      "Accompagnants"
+    ],
+    "categories": [
+      "Orientation parcours et accès aux droits"
+    ],
+    "use_cases": [
+      "Candidature",
+      "Recherche d'information et orientation",
+      "Pilotage"
+    ],
+    "etapes": [
+      "Collège",
+      "Post-collège"
+    ],
+    "objectif": "Application nationale de l'Éducation nationale qui gère l'affectation des élèves de 3e dans les lycées publics (voies générale, technologique, professionnelle, sous statut scolaire ou d'apprenti) : recueil des vœux des familles, application du barème, prononcé de l'affectation par le recteur.",
+    "porteur": "MEN, DNE",
+    "url": "https://www.education.gouv.fr/reussir-au-lycee/l-orientation-en-3e-et-l-affectation-en-lycee-9257",
+    "statut": "Référence établie",
+    "marqueur": [
+      "Hors arbitrage cartographie"
+    ],
+    "volume": "4 - Très forte",
+    "beta": "❌",
+    "justification": "Application nationale d'affectation de l'Éducation nationale (DNE), qui gère l'entrée des élèves de 3e au lycée (voies G/T, pro, scolaire et apprenti). C'est l'aboutissement administratif de l'orientation scolaire, l'équivalent post-3e de Parcoursup. Hors périmètre des services d'insertion à arbitrer : c'est une infrastructure souveraine, pas un service en concurrence. Son intérêt stratégique pour la mission est ailleurs : Affelnet est le point d'intégration où les données d'insertion peuvent être exposées au moment du choix (taux d'insertion via InserJeunes, offres d'alternance via LBA, données métiers via Futur Pro), plutôt que sur un site séparé qu'il faut connaître. Verdict : hors arbitrage, mais à mobiliser comme canal de distribution des communs d'insertion au moment de la décision.",
+    "notion": "https://www.notion.so/37208bca602981f2a20ee503c6551694",
+    "quand_mobiliser": "Au passage de la 3e vers le lycée : l'élève et sa famille saisissent eux-mêmes leurs vœux via le téléservice affectation « Choisir son orientation » (ou, selon les académies, via le collège), Affelnet classe selon le barème (vœux, secteur, résultats), le recteur prononce l'affectation. Saisie usager des vœux + aboutissement administratif de la procédure d'orientation."
+  },
+  {
     "nom": "Aides Jeunes",
     "publics": [
       "Jeunes de 15 à 30 ans",
@@ -1575,6 +1608,39 @@
     "justification": "Hors arbitrage de la cartographie : dispositif en mise en extinction effective au 1er janvier 2026 après vote parlementaire et annonce du Premier ministre. La cartographie n'a pas à statuer sur un service qui n'existera plus. L'enseignement à retenir est le pattern : créer un nouveau dispositif à coût élevé sans évaluation préalable plutôt que renforcer ce qui fonctionne déjà (le Service Civique) est l'anti-pattern récurrent à éviter.",
     "notion": "https://www.notion.so/31708bca602980e4a6f3fae122addbbb",
     "quand_mobiliser": "Dispositif en extinction au 1er janvier 2026. Ne plus orienter de jeunes vers ce service."
+  },
+  {
+    "nom": "Tableau de bord de l'apprentissage",
+    "publics": [
+      "Accompagnants",
+      "Organismes de formation / CFA",
+      "Jeunes en insertion (NEET décrocheurs)"
+    ],
+    "categories": [
+      "Emploi formation insertion pro"
+    ],
+    "use_cases": [
+      "Suivi de parcours",
+      "Mise en relation",
+      "Pilotage"
+    ],
+    "etapes": [
+      "Post-collège",
+      "Post-Lycée",
+      "Hors parcours"
+    ],
+    "objectif": "Permettre aux Missions Locales et aux CFA d'accéder en temps réel aux données des jeunes en rupture de contrat d'apprentissage pour aller vers eux et prévenir le décrochage, en coordonnant CFA, service public de l'emploi, Régions et OPCO.",
+    "porteur": "DINUM",
+    "url": "https://cfas.apprentissage.beta.gouv.fr/",
+    "statut": "Référence établie",
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
+    "volume": "1 - Niche",
+    "beta": "✅",
+    "justification": "Outil professionnel beta.gouv (porté par la DINUM, sponsors MEN-J, MESR, ministère du Travail) de coordination en temps réel entre CFA et Missions Locales sur les ruptures de contrat d'apprentissage. Adresse un angle mort réel : environ 22 % des contrats rompus dans les neuf premiers mois, 60 % des jeunes sans nouveau contrat sous six mois. Premier outil à systématiser l'aller-vers sur cette population. Stratégiquement aligné avec la doctrine : il atteint un public fragile par la médiation des accompagnants, pas par un portail en libre-service. Jeune (en accélération, MVP 35 ML en 2025, en extension), usage publié mais impact non encore mesuré. Verdict : continuation, impact à publier ; sécuriser le passage à l'échelle et vérifier l'articulation avec l'autre brique beta.gouv de prévention des ruptures.",
+    "notion": "https://www.notion.so/37208bca6029819f989df2d247f7ccfa",
+    "quand_mobiliser": "Quand un apprenti rompt son contrat : repérage rapide par la Mission Locale ou le CFA, coordination de l'aller-vers pour proposer une solution avant le décrochage. Outil professionnel, pas un service grand public."
   },
   {
     "nom": "Trouver ma formation (web) - France Travail",

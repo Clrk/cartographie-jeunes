@@ -84,6 +84,29 @@
     "quand_mobiliser": "Point d'entrée généraliste quand un jeune ne sait pas où chercher. À utiliser comme aiguilleur vers le service spécialisé, pas comme destination finale."
   },
   {
+    "nom": "Affelnet",
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
+    "publics": [
+      "Scolaires",
+      "Pros & structures"
+    ],
+    "volume": 4,
+    "arbitrage": "Hors arbitrage",
+    "statut": "Référence établie",
+    "justification": "Application nationale d'affectation de l'Éducation nationale (DNE), qui gère l'entrée des élèves de 3e au lycée (voies G/T, pro, scolaire et apprenti). C'est l'aboutissement administratif de l'orientation scolaire, l'équivalent post-3e de Parcoursup. Hors périmètre des services d'insertion à arbitrer : c'est une infrastructure souveraine, pas un service en concurrence. Son intérêt stratégique pour la mission est ailleurs : Affelnet est le point d'intégration où les données d'insertion peuvent être exposées au moment du choix (taux d'insertion via InserJeunes, offres d'alternance via LBA, données métiers via Futur Pro), plutôt que sur un site séparé qu'il faut connaître. Verdict : hors arbitrage, mais à mobiliser comme canal de distribution des communs d'insertion au moment de la décision.",
+    "objectif": "Application nationale de l'Éducation nationale qui gère l'affectation des élèves de 3e dans les lycées publics (voies générale, technologique, professionnelle, sous statut scolaire ou d'apprenti) : recueil des vœux des familles, application du barème, prononcé de l'affectation par le recteur.",
+    "marqueur": [
+      "Hors arbitrage cartographie"
+    ],
+    "doublons": [],
+    "url": "https://www.education.gouv.fr/reussir-au-lycee/l-orientation-en-3e-et-l-affectation-en-lycee-9257",
+    "notion": "https://www.notion.so/37208bca602981f2a20ee503c6551694",
+    "maturite": "Pérennisé",
+    "quand_mobiliser": "Au passage de la 3e vers le lycée : l'élève et sa famille saisissent eux-mêmes leurs vœux via le téléservice affectation « Choisir son orientation » (ou, selon les académies, via le collège), Affelnet classe selon le barème (vœux, secteur, résultats), le recteur prononce l'affectation. Saisie usager des vœux + aboutissement administratif de la procédure d'orientation."
+  },
+  {
     "nom": "Aides Jeunes",
     "segments": [
       "Aides et droits sociaux"
@@ -285,7 +308,7 @@
       "Jeunes généralistes"
     ],
     "volume": 4,
-    "arbitrage": "Impact à publier pour continuation",
+    "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Premier site emploi de France et brique transactionnelle complète sur l'administratif et la candidature, refondue récemment. Pas un service autonome dans la cartographie — c'est un canal de France Travail dont l'analyse se lit avec celle de l'application mobile. Deux faiblesses : pas de parcours dédié pour les jeunes, et une page de statistiques publiques prête depuis plusieurs mois mais non publiée. Devrait intégrer l’algo de la bonne boite.",
     "objectif": "Offrir le canal web de référence pour la recherche d'emploi, les démarches administratives et le suivi France Travail",
@@ -561,7 +584,8 @@
   {
     "nom": "La Bonne Alternance",
     "segments": [
-      "Alternance"
+      "Alternance",
+      "Communs numériques"
     ],
     "publics": [
       "Scolaires",
@@ -949,7 +973,7 @@
       "Jeunes généralistes"
     ],
     "volume": 4,
-    "arbitrage": "Impact à publier pour continuation",
+    "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Canal mobile principal de France Travail côté demandeur d'emploi, et un des très rares services à mesurer un indicateur d'impact réel : taux de retour à l'emploi mesuré qui surperforme les autres canaux. La moitié des candidatures en ligne France Travail passe désormais par l'app. Question stratégique : le service est conçu pour le grand public en autonomie de recherche — pertinent pour les jeunes qui le sont, insuffisant pour ceux qui ne le sont pas et auxquels les apps CEJ et pass emploi répondent.\nLa différence de parcours entre l’app Parcours Emploi et l’espace personnel Web partie offre apporte de la confusion à l’écosysteme. La partie offre de l’espace personnel Web et Parcours Emploi devrait être identiques",
     "objectif": "Offrir le canal mobile de référence pour la recherche d'emploi personnalisée et le suivi France Travail",
@@ -1146,6 +1170,30 @@
     "notion": "https://www.notion.so/31708bca602980e4a6f3fae122addbbb",
     "maturite": "En cours d'arrêt",
     "quand_mobiliser": "Dispositif en extinction au 1er janvier 2026. Ne plus orienter de jeunes vers ce service."
+  },
+  {
+    "nom": "Tableau de bord de l'apprentissage",
+    "segments": [
+      "Accompagnement vers l'emploi",
+      "Alternance"
+    ],
+    "publics": [
+      "NEET & jeunes fragiles",
+      "Pros & structures"
+    ],
+    "volume": 1,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "Outil professionnel beta.gouv (porté par la DINUM, sponsors MEN-J, MESR, ministère du Travail) de coordination en temps réel entre CFA et Missions Locales sur les ruptures de contrat d'apprentissage. Adresse un angle mort réel : environ 22 % des contrats rompus dans les neuf premiers mois, 60 % des jeunes sans nouveau contrat sous six mois. Premier outil à systématiser l'aller-vers sur cette population. Stratégiquement aligné avec la doctrine : il atteint un public fragile par la médiation des accompagnants, pas par un portail en libre-service. Jeune (en accélération, MVP 35 ML en 2025, en extension), usage publié mais impact non encore mesuré. Verdict : continuation, impact à publier ; sécuriser le passage à l'échelle et vérifier l'articulation avec l'autre brique beta.gouv de prévention des ruptures.",
+    "objectif": "Permettre aux Missions Locales et aux CFA d'accéder en temps réel aux données des jeunes en rupture de contrat d'apprentissage pour aller vers eux et prévenir le décrochage, en coordonnant CFA, service public de l'emploi, Régions et OPCO.",
+    "marqueur": [
+      "Impact mesuré et publié"
+    ],
+    "doublons": [],
+    "url": "https://cfas.apprentissage.beta.gouv.fr/",
+    "notion": "https://www.notion.so/37208bca6029819f989df2d247f7ccfa",
+    "maturite": "Accélération",
+    "quand_mobiliser": "Quand un apprenti rompt son contrat : repérage rapide par la Mission Locale ou le CFA, coordination de l'aller-vers pour proposer une solution avant le décrochage. Outil professionnel, pas un service grand public."
   },
   {
     "nom": "Trouver ma formation (web) - France Travail",
