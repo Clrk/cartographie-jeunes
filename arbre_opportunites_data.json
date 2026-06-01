@@ -722,7 +722,8 @@
       "Accompagnants",
       "Chercheurs",
       "Gestionnaires",
-      "Équipes pédagogiques"
+      "Équipes pédagogiques",
+      "Jeunes de 15 à 30 ans"
     ],
     "categories": [
       "Orientation parcours et accès aux droits",
@@ -1067,7 +1068,7 @@
     "quand_mobiliser": "Pour inscrire un jeune à un job dating, un forum ou une rencontre employeur près de chez lui. Quand il s'inscrit, il vient."
   },
   {
-    "nom": "MesServices.etudiant.gouv.fr",
+    "nom": "Mes Services etudiant",
     "publics": [
       "Étudiants"
     ],
@@ -1233,7 +1234,8 @@
       "Collégiens",
       "Lycéens",
       "Étudiants",
-      "Équipes pédagogiques"
+      "Équipes pédagogiques",
+      "Jeunes de 15 à 30 ans"
     ],
     "categories": [
       "Orientation parcours et accès aux droits"

@@ -516,6 +516,7 @@
       "Information et orientation grand public"
     ],
     "publics": [
+      "Jeunes généralistes",
       "Pros & structures"
     ],
     "volume": null,
@@ -771,7 +772,7 @@
     "quand_mobiliser": "Pour inscrire un jeune à un job dating, un forum ou une rencontre employeur près de chez lui. Quand il s'inscrit, il vient."
   },
   {
-    "nom": "MesServices.etudiant.gouv.fr",
+    "nom": "Mes Services etudiant",
     "segments": [
       "Information et orientation grand public",
       "Aides et droits sociaux"
@@ -899,6 +900,7 @@
     "publics": [
       "Scolaires",
       "Étudiants",
+      "Jeunes généralistes",
       "Pros & structures"
     ],
     "volume": null,
