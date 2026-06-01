@@ -105,7 +105,7 @@
     ],
     "volume": "3 - Forte",
     "beta": "❌",
-    "justification": "Le portail vit de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation : un méta-moteur d'offres qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides dont l'acquisition est en réalité portée par le SEO du portail, des pages dispositif qui orientent correctement mais ne sont pas reliées entre elles. La promesse d'orientation différenciée n'est pas tenue. Verdict : la marque est trop forte pour être supprimée, mais il lui faut une valeur ajoutée propre et lisible :  devenir un orienteur qui renvoie vers la solution existante et abandonner le modèle meta moteur d'offres, stages, formation pour augmenter sa propre lisibilité, et celle de tout l’écosystème.",
+    "justification": "Le portail vit de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation : un méta-moteur d'offres qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides dont l'acquisition est en réalité portée par le SEO du portail, des pages dispositif qui orientent correctement mais ne sont pas reliées entre elles. La promesse d'orientation différenciée n'est pas tenue. Verdict : la marque est trop forte pour être supprimée, mais il lui faut une valeur ajoutée propre et lisible :  devenir la porte d’entrée qui renvoie vers la solution existante et abandonner le modèle meta moteur d'offres, stages, formation pour augmenter sa propre lisibilité, et celle de tout l’écosystème.",
     "notion": "https://www.notion.so/31708bca602980b88506d7728a1a7d23",
     "quand_mobiliser": "Point d'entrée généraliste quand un jeune ne sait pas où chercher. À utiliser comme aiguilleur vers le service spécialisé, pas comme destination finale."
   },
@@ -745,7 +745,7 @@
     ],
     "volume": "0 - Inconnu",
     "beta": "❌",
-    "justification": "Vitrine institutionnelle légitime du ministère sur les politiques de jeunesse, utile aux professionnels et partenaires. Mais le site se présente comme un portail pour les 16-25 ans alors que sa rédaction s'adresse aux adultes du secteur — ambiguïté qui crée un doublon de positionnement avec 1J1S sur le grand public. Aucune donnée d'usage publiée, et accessibilité déclarée « non conforme » par le site lui-même, difficile à tenir pour un portail ministériel.",
+    "justification": "Vitrine institutionnelle légitime du ministère sur les politiques de jeunesse, utile aux professionnels et partenaires. Mais le site se présente comme un portail pour les 16-25 ans alors que sa rédaction s'adresse aux adultes du secteur — ambiguïté qui crée un doublon de positionnement avec 1J1S sur le grand public. Aucune donnée d'usage publiée.",
     "notion": "https://www.notion.so/34808bca60298033a578d33ab777a7d1",
     "quand_mobiliser": "Vitrine institutionnelle utile aux professionnels pour comprendre les politiques de jeunesse. Pas un service opérationnel à proposer au jeune."
   },
@@ -1226,6 +1226,39 @@
     "justification": "Vitrine grand public du référentiel ROME 4.0, actif stratégique pour la politique d'approche par compétences. Cas réussi de transfert beta.gouv vers l'opérateur public. Positionnement juste : un service d'exploration des métiers qui n'essaie pas de faire du transactionnel et articule proprement les renvois vers les services d'action. Limite : opacité héritée — aucune statistique publique alors que les données sont collectées. La pérennisation impose le standard de transparence.",
     "notion": "https://www.notion.so/34808bca602980fcb4c9eef352706ff1",
     "quand_mobiliser": "Pour faire explorer des métiers à un jeune en orientation : fiches du référentiel ROME, sans dimension transactionnelle. Bon point de départ d'un travail d'orientation."
+  },
+  {
+    "nom": "Onisep.fr",
+    "publics": [
+      "Collégiens",
+      "Lycéens",
+      "Étudiants",
+      "Équipes pédagogiques"
+    ],
+    "categories": [
+      "Orientation parcours et accès aux droits"
+    ],
+    "use_cases": [
+      "Recherche d'information et orientation",
+      "Recherche de formation",
+      "Commun de données"
+    ],
+    "etapes": [
+      "Collège",
+      "Lycée"
+    ],
+    "objectif": "Informer le grand public sur les métiers et les formations initiales, et produire le référentiel éditorial métiers/formations consommé par le reste de l'écosystème",
+    "porteur": "ONISEP",
+    "url": "https://www.onisep.fr/",
+    "statut": "Référence établie",
+    "marqueur": [
+      "Pas de mesure d'impact"
+    ],
+    "volume": "",
+    "beta": "❌",
+    "justification": "Portail public de référence sur les métiers et les formations initiales, à la forte notoriété et à l'autorité éditoriale incontestée. Sa vraie valeur n'est pas le portail de destination mais le référentiel éditorial métiers/formations qu'il produit, qui irrigue déjà Avenir(s), IJ box, MétierScope, LBA et les portails régionaux : un commun éditorial souverain à protéger. Deux limites le rapprochent de 1jeune1solution, une forte dépendance au référencement Google qui capte l'intention plus qu'elle ne crée de valeur propre, et l'absence de tout indicateur d'impact publié au niveau service. Sa coexistence avec Avenir(s) est légitime à condition que les rôles soient distingués : Avenir(s) porte l'orientation médiée en classe, Onisep.fr la consultation libre grand public et la distribution du référentiel. Verdict : continuation, à trois conditions, exposer le référentiel par API, articuler explicitement avec Avenir(s), publier une mesure d'usage et d'impact.",
+    "notion": "https://www.notion.so/37208bca602981908c70f81d33e568e8",
+    "quand_mobiliser": "En autonomie, à toute étape de l'orientation scolaire (collège, lycée, supérieur) : s'informer sur un métier, explorer l'offre de formation initiale, préparer un choix d'orientation ou une procédure (Parcoursup, post-3e). Consulté librement par le jeune, les parents et les équipes éducatives, en appui d'une démarche plutôt qu'en accompagnement actif."
   },
   {
     "nom": "Orion",
