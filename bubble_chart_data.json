@@ -51,7 +51,12 @@
   {
     "nom": "1jeune1solution",
     "segments": [
-      "Information et orientation grand public"
+      "Information et orientation grand public",
+      "Aides et droits sociaux",
+      "Recherche de formation professionnelle",
+      "Alternance",
+      "Recherche d'emploi",
+      "Engagement et service civique"
     ],
     "publics": [
       "Jeunes généralistes"
