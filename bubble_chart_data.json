@@ -773,7 +773,8 @@
   {
     "nom": "MesServices.etudiant.gouv.fr",
     "segments": [
-      "Information et orientation grand public"
+      "Information et orientation grand public",
+      "Aides et droits sociaux"
     ],
     "publics": [
       "Étudiants"
@@ -892,7 +893,8 @@
     "nom": "Onisep.fr",
     "segments": [
       "Formation initiale et orientation scolaire",
-      "Communs numériques"
+      "Communs numériques",
+      "Information et orientation grand public"
     ],
     "publics": [
       "Scolaires",
