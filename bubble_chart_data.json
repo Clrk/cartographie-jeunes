@@ -93,12 +93,12 @@
       "Pros & structures"
     ],
     "volume": 4,
-    "arbitrage": "Hors arbitrage",
+    "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Application nationale d'affectation de l'Éducation nationale (DNE), qui gère l'entrée des élèves de 3e au lycée (voies G/T, pro, scolaire et apprenti). C'est l'aboutissement administratif de l'orientation scolaire, l'équivalent post-3e de Parcoursup. Hors périmètre des services d'insertion à arbitrer : c'est une infrastructure souveraine, pas un service en concurrence. Son intérêt stratégique pour la mission est ailleurs : Affelnet est le point d'intégration où les données d'insertion peuvent être exposées au moment du choix (taux d'insertion via InserJeunes, offres d'alternance via LBA, données métiers via Futur Pro), plutôt que sur un site séparé qu'il faut connaître. Verdict : hors arbitrage, mais à mobiliser comme canal de distribution des communs d'insertion au moment de la décision.",
     "objectif": "Application nationale de l'Éducation nationale qui gère l'affectation des élèves de 3e dans les lycées publics (voies générale, technologique, professionnelle, sous statut scolaire ou d'apprenti) : recueil des vœux des familles, application du barème, prononcé de l'affectation par le recteur.",
     "marqueur": [
-      "Hors arbitrage cartographie"
+      "Impact mesuré non publié"
     ],
     "doublons": [],
     "url": "https://www.education.gouv.fr/reussir-au-lycee/l-orientation-en-3e-et-l-affectation-en-lycee-9257",
@@ -275,20 +275,20 @@
   {
     "nom": "Emploi Store",
     "segments": [
-      "Recherche d'emploi"
+      "Accompagnement vers l'emploi"
     ],
     "publics": [
       "Jeunes généralistes",
       "Pros & structures"
     ],
-    "volume": 3,
-    "arbitrage": "Impact à publier pour continuation",
-    "statut": "Usage sans impact démontré",
+    "volume": 2,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
     "justification": "Concept de catalogue d'applications hérité de 2015 que France Travail a lui-même déprioritisé en supprimant le lien depuis sa page d'accueil. Les outils phares qu'il référence existent indépendamment ; les outils tiers (CV, lettre de motivation) sont aujourd'hui concurrencés par les assistants IA. Le service ne génère pas sa propre demande et son porteur ne le défend plus.",
     "objectif": "Agréger dans un catalogue unique les services digitaux France Travail et tiers (recherche d'emploi, formation, orientation, création d'entreprise) pour tous publics",
     "marqueur": [
       "Recouvrement à arbitrer",
-      "Pas de mesure d'impact"
+      "Impact mesuré et publié"
     ],
     "doublons": [
       "1J1S",
@@ -613,7 +613,8 @@
   {
     "nom": "La bonne boite",
     "segments": [
-      "Recherche d'emploi"
+      "Recherche d'emploi",
+      "Communs numériques"
     ],
     "publics": [
       "Jeunes généralistes",
@@ -775,7 +776,7 @@
   {
     "nom": "Mes evenements emploi",
     "segments": [
-      "Recherche d'emploi"
+      "Accompagnement vers l'emploi"
     ],
     "publics": [
       "Jeunes généralistes",

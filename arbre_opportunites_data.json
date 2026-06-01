@@ -134,7 +134,7 @@
     "url": "https://www.education.gouv.fr/reussir-au-lycee/l-orientation-en-3e-et-l-affectation-en-lycee-9257",
     "statut": "Référence établie",
     "marqueur": [
-      "Hors arbitrage cartographie"
+      "Impact mesuré non publié"
     ],
     "volume": "4 - Très forte",
     "beta": "❌",
@@ -406,12 +406,12 @@
     "objectif": "Agréger dans un catalogue unique les services digitaux France Travail et tiers (recherche d'emploi, formation, orientation, création d'entreprise) pour tous publics",
     "porteur": "France Travail",
     "url": "https://www.emploi-store.fr/portail/accueil",
-    "statut": "Usage sans impact démontré",
+    "statut": "Référence établie",
     "marqueur": [
       "Recouvrement à arbitrer",
-      "Pas de mesure d'impact"
+      "Impact mesuré et publié"
     ],
-    "volume": "3 - Forte",
+    "volume": "2 - Moyenne",
     "beta": "❌",
     "justification": "Concept de catalogue d'applications hérité de 2015 que France Travail a lui-même déprioritisé en supprimant le lien depuis sa page d'accueil. Les outils phares qu'il référence existent indépendamment ; les outils tiers (CV, lettre de motivation) sont aujourd'hui concurrencés par les assistants IA. Le service ne génère pas sa propre demande et son porteur ne le défend plus.",
     "notion": "https://www.notion.so/31708bca602980dd97e7de2c6ea0ddbf",
