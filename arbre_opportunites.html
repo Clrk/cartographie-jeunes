@@ -811,13 +811,12 @@ function openModal(s){
     (s.objectif?'<p class="m-obj">'+esc(s.objectif)+'</p>':'')+
     '<div class="m-badges">'+badges+'</div>'+
     '<div class="m-meta">'+(s.porteur?'<b>Porté par :</b> '+esc(s.porteur):'')+'</div>'+
-    (s.url?'<div class="m-meta"><a href="'+esc(s.url)+'" target="_blank" rel="noopener">Site du service ↗</a></div>':'')+
     (s.quand_mobiliser?'<div class="m-qm"><div class="m-qm-label">Quand le mobiliser</div><p class="m-qm-text">'+esc(s.quand_mobiliser)+'</p></div>':'')+
     (s.justification?'<div class="m-sec">Synthèse décisionnelle — audit</div><p class="m-just">'+esc(s.justification)+'</p>':'')+
     '<div class="m-sec">Rattachements dans la cartographie</div>'+
     tagRow("Public cible",s.publics)+
     tagRow("Cas d'usage",s.use_cases)+tagRow("Étape du parcours",s.etapes)+
-    (s.notion?'<a class="notion-btn" href="'+esc(s.notion)+'" target="_blank" rel="noopener">Consulter la fiche d\'audit complète sur Notion ↗</a>':'');
+    (s.url?'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">Site du service ↗</a>':'');
   document.getElementById("overlay").classList.add("on");
   const mx=document.querySelector("#modal-body .modal-x"); if(mx)mx.focus();
 }
