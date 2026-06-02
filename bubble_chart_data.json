@@ -35,9 +35,9 @@
       "Pros & structures"
     ],
     "volume": 2,
-    "arbitrage": "Impact à publier pour continuation",
-    "statut": "Valeur défendable (impact non mesuré)",
-    "justification": "Dispositif qui atteint son public prioritaire et démontre une capacité à passer à l'échelle, mais ce n'est pas une plateforme numérique au sens propre — c'est un plan de financement associatif avec une page de redirection. La valeur publique est dans le maillage associatif, pas dans l'outil. L'évaluation est sérieuse mais ne démontre pas encore d'effet causal.",
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "Dispositif qui atteint son public prioritaire et passe à l'échelle (30 000 jeunes en 2020 à 150 000+ en 2024, 500 000+ cumulés), mais ce n'est pas une plateforme numérique au sens propre : c'est un plan de financement associatif avec une page de redirection. La valeur publique est dans le maillage associatif, pas dans l'outil. L'impact est mesuré et publié (Collectif Mentorat, évaluation INJEP) : effets positifs sur la confiance et l'orientation, mais d'ampleur modérée et sans démonstration causale. Notoriété faible (16 % des 15-30 ans en 2024).",
     "objectif": "Accompagner individuellement par un mentor bénévole les jeunes issus de milieux défavorisés sur 6 mois minimum",
     "marqueur": [
       "Impact mesuré et publié"
@@ -1138,7 +1138,8 @@
       "Engagement et service civique"
     ],
     "publics": [
-      "Jeunes généralistes"
+      "Jeunes généralistes",
+      "NEET & jeunes fragiles"
     ],
     "volume": null,
     "arbitrage": "Impact à publier pour continuation",
