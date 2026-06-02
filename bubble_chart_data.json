@@ -204,6 +204,24 @@
     "quand_mobiliser": "En contexte scolaire (5e à terminale) : construire l'orientation comme une compétence dans le temps, via le portfolio pédagogique. Outil mobilisé par l'équipe éducative."
   },
   {
+    "nom": "Codes diplômes (référentiel MEN)",
+    "segments": [
+      "Communs numériques"
+    ],
+    "publics": [],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "Référentiel socle des diplômes de la formation initiale, géré par le MEN. Identifie chaque diplôme et chaque formation initiale, et fait le pont avec les autres référentiels (RNCP, ROME). Brique discrète mais indispensable pour relier parcours scolaire, diplôme et insertion (croisement avec InserJeunes).",
+    "objectif": "Nomenclature nationale des diplômes de l'Éducation nationale (codes diplôme), qui identifie de façon unique les formations initiales et leurs diplômes.",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.education.gouv.fr/",
+    "notion": "https://www.notion.so/37308bca602981e6a4f3fd08932bff80",
+    "maturite": "Pérennisé",
+    "quand_mobiliser": ""
+  },
+  {
     "nom": "Contrat d’Engagement Jeune Appli",
     "segments": [
       "Accompagnement vers l'emploi"
@@ -669,6 +687,24 @@
     "quand_mobiliser": "Mécanisme de rappel par un professionnel sous 7 jours, à l'intuition juste mais sans données publiées malgré un déploiement national engagé en 2019. Sa fonction a vocation à être reprise dans Aides Jeunes."
   },
   {
+    "nom": "Langage Léo / RCO (référentiel offre de formation)",
+    "segments": [
+      "Communs numériques"
+    ],
+    "publics": [],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "Référentiel socle de l'offre de formation professionnelle, porté par le Réseau des Carif-Oref (RCO) depuis une vingtaine d'années. Langage Léo harmonise la description des formations ; les Carif-Oref collectent au niveau régional, le RCO agrège. C'est, avec la CDC, l'un des deux seuls points de collecte de l'offre de formation en France. Alimente France Travail, Trouver ma formation, Mon Compte Formation et les portails régionaux. Commun discret mais central de la chaîne formation.",
+    "objectif": "Standard harmonisé de description de l'offre de formation professionnelle (Langage Léo), maintenu par le Réseau des Carif-Oref (RCO), qui agrège l'offre collectée par les Carif-Oref régionaux.",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.intercariforef.org/",
+    "notion": "https://www.notion.so/37308bca602981c89805f45a51dd9b69",
+    "maturite": "Pérennisé",
+    "quand_mobiliser": ""
+  },
+  {
     "nom": "Le portail de l’alternance",
     "segments": [
       "Alternance"
@@ -1099,7 +1135,7 @@
     "volume": null,
     "arbitrage": "Continuation",
     "statut": "Hors arbitrage cartographie",
-    "justification": "Service en phase de construction, audit Notion non finalisé. Positionnement annoncé cohérent : un moteur de recommandation personnalisé qui agrège tous les dispositifs publics et associatifs d'engagement, en s'appuyant sur l'API Engagement déjà mature. La question stratégique est l'articulation entre les deux briques : l'API Engagement fonctionne comme commun numérique distribué, et la valeur ajoutée d'un service à interface propre reste à démontrer. À surveiller en construction sans préjuger du verdict.",
+    "justification": "Évolution produit de l'API Engagement : un front en propre (moteur de recommandation, premier « diffuseur maison ») qui agrège tous les dispositifs publics et associatifs d'engagement, élargis aux réserves opérationnelles (armées, gendarmerie, police, pompiers). Positionnement assumé « haut de funnel » (analogie Kayak) : il complète les plateformes existantes en allant chercher les publics non couverts et redirige vers elles, sans absorber les marques (Je veux aider, Service Civique). Cible d'abord les pros accompagnants (CEJ, Mission Locale, CRIJ), puis les jeunes ; lycéens mineurs hors cible. En construction, hors arbitrage à ce stade. La question stratégique reste la valeur ajoutée d'une interface propre par-dessus un commun (l'API Engagement) déjà distribué.",
     "objectif": "Orienter les jeunes (ou les pros qui les accompagnent) vers les missions d'engagement (bénévolat, service civique, réserves, sapeurs-pompiers, gendarmerie, police) via un moteur de recommandation personnalisé agrégeant tous les dispositifs publics et associatifs",
     "marqueur": [
       "Hors arbitrage cartographie"
@@ -1109,6 +1145,42 @@
     "notion": "https://www.notion.so/34308bca6029801fb3afd406a8411d3b",
     "maturite": "Construction",
     "quand_mobiliser": "Pour orienter un jeune (ou vous-même) vers une mission d'engagement via un moteur de recommandation agrégeant les dispositifs publics et associatifs. Service en construction."
+  },
+  {
+    "nom": "RNCP / RS (référentiel certifications)",
+    "segments": [
+      "Communs numériques"
+    ],
+    "publics": [],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "Référentiel socle des certifications et formations, porté par France Compétences (tutelle ministère du Travail). Chaque fiche décrit la certification, ses blocs de compétences et sa correspondance ROME ; il fonde l'éligibilité au CPF. Exposé en API, consommé par Mon Compte Formation, Trouver ma formation, Diagoriente, le Passeport de compétences, AGORA. Commun structurant reliant formation, métier et compétences.",
+    "objectif": "Répertoires nationaux des certifications professionnelles (RNCP) et des certifications et habilitations complémentaires (RS), tenus par France Compétences : recensent les certifications reconnues, leurs blocs de compétences et leurs correspondances métiers.",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://www.francecompetences.fr/",
+    "notion": "https://www.notion.so/37308bca60298159bd44e05b222e22a2",
+    "maturite": "Pérennisé",
+    "quand_mobiliser": ""
+  },
+  {
+    "nom": "ROME (référentiel métiers)",
+    "segments": [
+      "Communs numériques"
+    ],
+    "publics": [],
+    "volume": null,
+    "arbitrage": "Continuation",
+    "statut": "Référence établie",
+    "justification": "Référentiel socle des métiers, porté par France Travail (ROME 4.0, structuré par compétences). Sert au matching offres/demandes et à l'observation du marché ; exposé au grand public via MétierScope et en API, indexé au RNCP, consommé par Diagoriente, LBA, Avenir(s). Limite structurante : il n'est pas conçu pour caractériser un métier tel qu'exercé, couvre mal le numérique et le régalien, et la traduction libellé d'emploi vers compétences y est fragile. Commun à conserver et à mieux croiser, pas à dupliquer.",
+    "objectif": "Référentiel national des métiers et des emplois de France Travail (ROME 4.0), structuré par compétences, langage commun pour décrire métiers et compétences dans l'écosystème emploi-formation.",
+    "marqueur": [],
+    "doublons": [],
+    "url": "https://francetravail.io/",
+    "notion": "https://www.notion.so/37308bca6029817faf5adb277bf8659a",
+    "maturite": "Pérennisé",
+    "quand_mobiliser": ""
   },
   {
     "nom": "Santé Psy Étudiant",
