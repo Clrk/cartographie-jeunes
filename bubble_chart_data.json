@@ -208,7 +208,9 @@
     "segments": [
       "Communs numériques"
     ],
-    "publics": [],
+    "publics": [
+      "Étudiants"
+    ],
     "volume": null,
     "arbitrage": "Continuation",
     "statut": "Référence établie",
@@ -691,7 +693,9 @@
     "segments": [
       "Communs numériques"
     ],
-    "publics": [],
+    "publics": [
+      "Jeunes généralistes"
+    ],
     "volume": null,
     "arbitrage": "Continuation",
     "statut": "Référence établie",
@@ -1151,7 +1155,9 @@
     "segments": [
       "Communs numériques"
     ],
-    "publics": [],
+    "publics": [
+      "Jeunes généralistes"
+    ],
     "volume": null,
     "arbitrage": "Continuation",
     "statut": "Référence établie",
@@ -1169,7 +1175,9 @@
     "segments": [
       "Communs numériques"
     ],
-    "publics": [],
+    "publics": [
+      "Jeunes généralistes"
+    ],
     "volume": null,
     "arbitrage": "Continuation",
     "statut": "Référence établie",

@@ -278,7 +278,9 @@
   },
   {
     "nom": "Codes diplômes (référentiel MEN)",
-    "publics": [],
+    "publics": [
+      "Étudiants"
+    ],
     "categories": [
       "Emploi formation insertion pro"
     ],
@@ -950,7 +952,9 @@
   },
   {
     "nom": "Langage Léo / RCO (référentiel offre de formation)",
-    "publics": [],
+    "publics": [
+      "Jeunes de 15 à 30 ans"
+    ],
     "categories": [
       "Emploi formation insertion pro"
     ],
@@ -1564,7 +1568,9 @@
   },
   {
     "nom": "RNCP / RS (référentiel certifications)",
-    "publics": [],
+    "publics": [
+      "Jeunes de 15 à 30 ans"
+    ],
     "categories": [
       "Emploi formation insertion pro"
     ],
@@ -1585,7 +1591,9 @@
   },
   {
     "nom": "ROME (référentiel métiers)",
-    "publics": [],
+    "publics": [
+      "Jeunes de 15 à 30 ans"
+    ],
     "categories": [
       "Emploi formation insertion pro"
     ],
