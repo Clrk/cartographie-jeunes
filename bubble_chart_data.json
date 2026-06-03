@@ -9,6 +9,7 @@
       "Pros & structures"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Brique structurelle de l'écosystème scolaire qui répond à une obligation légale concernant plus d'un million d'élèves par an, sans alternative publique équivalente. Trajectoire d'usage tangible, satisfaction très élevée. Mais le test central de la mission — réduire le déterminisme social dans l'accès aux stages — n'est pas instrumenté : les indicateurs ne distinguent pas REP/REP+, boursiers ou élèves sans réseau familial. Transfert en cours. Pas de mesure d’impact publiée.",
@@ -35,6 +36,7 @@
       "Pros & structures"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Dispositif qui atteint son public prioritaire et passe à l'échelle (30 000 jeunes en 2020 à 150 000+ en 2024, 500 000+ cumulés), mais ce n'est pas une plateforme numérique au sens propre : c'est un plan de financement associatif avec une page de redirection. La valeur publique est dans le maillage associatif, pas dans l'outil. L'impact est mesuré et publié (Collectif Mentorat, évaluation INJEP) : effets positifs sur la confiance et l'orientation, mais d'ampleur modérée et sans démonstration causale. Notoriété faible (16 % des 15-30 ans en 2024).",
@@ -63,6 +65,15 @@
       "Jeunes généralistes"
     ],
     "volume": 3,
+    "volume_segment": {
+      "Information et orientation grand public": 3,
+      "Formation initiale et orientation scolaire": 2,
+      "Recherche de formation professionnelle": 1,
+      "Alternance": 1,
+      "Recherche d'emploi": 2,
+      "Aides et droits sociaux": 1,
+      "Engagement et service civique": 1
+    },
     "arbitrage": "Réorientation et impact à publier",
     "statut": "Usage sans impact démontré",
     "justification": "Le portail vit de son référencement Google, pas de sa proposition de valeur. Trois services juxtaposés sans articulation : un méta-moteur d'offres qui réplique France Travail sans valeur ajoutée propre, un simulateur d'aides dont l'acquisition est en réalité portée par le SEO du portail, des pages dispositif qui orientent correctement mais ne sont pas reliées entre elles. La promesse d'orientation différenciée n'est pas tenue. Verdict : la marque est trop forte pour être supprimée, mais il lui faut une valeur ajoutée propre et lisible :  devenir la porte d’entrée qui renvoie vers la solution existante et abandonner le modèle meta moteur d'offres, stages, formation pour augmenter sa propre lisibilité, et celle de tout l’écosystème.",
@@ -94,6 +105,7 @@
       "Pros & structures"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Application nationale d'affectation de l'Éducation nationale (DNE), qui gère l'entrée des élèves de 3e au lycée (voies G/T, pro, scolaire et apprenti). C'est l'aboutissement administratif de l'orientation scolaire, l'équivalent post-3e de Parcoursup. Hors périmètre des services d'insertion à arbitrer : c'est une infrastructure souveraine, pas un service en concurrence. Son intérêt stratégique pour la mission est ailleurs : Affelnet est le point d'intégration où les données d'insertion peuvent être exposées au moment du choix (taux d'insertion via InserJeunes, offres d'alternance via LBA, données métiers via Futur Pro), plutôt que sur un site séparé qu'il faut connaître. Verdict : hors arbitrage, mais à mobiliser comme canal de distribution des communs d'insertion au moment de la décision.",
@@ -117,6 +129,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Cas presque unique de service public numérique qui mesure rigoureusement sa valeur d'usage et son activation effective. Le service révèle aux jeunes des droits qu'ils ignoraient et oriente vers la démarche, avec une instrumentation que le reste de l'écosystème devrait prendre comme modèle. Deux limites structurelles : il n'a pas d'acquisition propre (0,7 % de SEO), son trafic est porté à 84 % par des surfaces embarquées, 1J1S en tête ; et même avec un outil clair, un répondant sur deux seulement obtient une aide, 47 % tentant sans aboutir ou n'agissant pas, ce qui pointe un besoin d'appui humain pour convertir la simulation en droits.",
@@ -143,6 +156,7 @@
       "Pros & structures"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Actif d'infrastructure rare : un système d'évaluation publique avec vérification à la source — seuls les stagiaires effectivement passés en formation reçoivent le questionnaire. Garantie de confiance que les plateformes privées d'avis ne peuvent pas reproduire. Diffusé par API sur les sites où les jeunes cherchent. Limite structurelle : ne couvre que les formations financées pour demandeurs d'emploi, donc apprentis et étudiants hors champ.",
@@ -167,6 +181,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Le bon modèle de commun numérique dans le domaine de l'engagement : un service qui agrège les missions de bénévolat et de volontariat venues de plateformes publiques et privées, et les redistribue là où les candidats potentiels se trouvent déjà. Chaque opérateur garde sa marque, aucun ne capte l'audience des autres. A démontré sa valeur en crise (Covid puis Ukraine) et porte aujourd'hui l'extension aux réserves opérationnelles.",
@@ -190,6 +205,7 @@
       "Pros & structures"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Seul outil de la cartographie qui traite l'orientation comme une compétence à construire dans le temps plutôt qu'un guichet à utiliser au moment des choix. Positionnement en amont de tout le reste, fondé sur la recherche, financé sur la durée. Déployé depuis six mois seulement, donc trop tôt pour juger l'adoption effective. La promesse stratégique d'un portfolio de compétences portable du collège à l'emploi tient si l'interopérabilité avec le passeport de compétences est tenue.",
@@ -212,6 +228,7 @@
       "Étudiants"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Référentiel socle des diplômes de la formation initiale, géré par le MEN. Identifie chaque diplôme et chaque formation initiale, et fait le pont avec les autres référentiels (RNCP, ROME). Brique discrète mais indispensable pour relier parcours scolaire, diplôme et insertion (croisement avec InserJeunes).",
@@ -233,6 +250,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Exemple le plus abouti dans l'écosystème de ce qu'un outil numérique peut faire quand il sert la relation d'accompagnement plutôt que de prétendre la remplacer. Les conseillers gagnent un temps réel sur l'administratif, les jeunes déclarent gagner en autonomie sur leur projet. Adoption massive et engagement structurel des deux côtés. Reste à mesurer l'impact final sur le décrochage et les sorties positives, objectif principal aujourd'hui non chiffré.",
@@ -258,6 +276,7 @@
       "Pros & structures"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Outil le plus avancé dans l'écosystème pour valoriser les expériences extra-professionnelles en compétences exploitables — précisément ce dont les publics sans CV classique (NEET, sortis du système scolaire, PJJ) ont besoin. Adopté en routine par les conseillers qui y voient un changement de pratique. Joue un rôle de tiers de confiance : bilan obligatoire des volontaires Service Civique, partenariats Justice, Défense, fédérations sportives. Le moteur de compétences sous-jacent est une brique data utilisée par une dizaine d'autres services. Peu connu par les accompagnants, mais ceux qui l’utilisent en son satisfait dans les ateliers menés en avril 2026",
@@ -280,6 +299,7 @@
       "Jeunes généralistes"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Service sans signal",
     "justification": "Positionnement juste — agréger les programmes de mobilité plutôt que d'opérer un programme de plus — et brique technique pertinente. Mais service largement méconnu des jeunes, qui passent directement par les opérateurs spécialisés. La vraie valeur est dans le moteur réutilisable, pas dans le portail comme destination. Aucune donnée d'usage publiée depuis dix ans pour un service de 2015.",
@@ -304,6 +324,7 @@
       "Pros & structures"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Concept de catalogue d'applications hérité de 2015 que France Travail a lui-même déprioritisé en supprimant le lien depuis sa page d'accueil. Les outils phares qu'il référence existent indépendamment ; les outils tiers (CV, lettre de motivation) sont aujourd'hui concurrencés par les assistants IA. Le service ne génère pas sa propre demande et son porteur ne le défend plus.",
@@ -330,6 +351,7 @@
       "Jeunes généralistes"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Premier site emploi de France et brique transactionnelle complète sur l'administratif et la candidature, refondue récemment. Pas un service autonome dans la cartographie — c'est un canal de France Travail dont l'analyse se lit avec celle de l'application mobile. Deux faiblesses : pas de parcours dédié pour les jeunes, et une page de statistiques publiques prête depuis plusieurs mois mais non publiée. Devrait intégrer l’algo de la bonne boite.",
@@ -356,6 +378,7 @@
       "Étudiants"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Service sans signal",
     "justification": "Site vitrine institutionnel cohérent dans son positionnement éditorial — informer en amont des démarches, qui se font sur le portail transactionnel. Le contenu est sourcé et à jour, le positionnement légitime. Mais aucune donnée d'usage publiée : on ne sait ni combien d'étudiants le consultent, ni s'il convertit vers la démarche de bourse, ni quel non-recours il contribue à réduire.",
@@ -383,6 +406,7 @@
       "Pros & structures"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Seul service de la cartographie qui traite l'illettrisme — angle mort partout ailleurs alors que la difficulté avec la lecture, l'écriture ou les nombres concerne une part significative des jeunes éloignés de l'emploi. Approche par jeu sérieux et restitution positive, cohérente avec un public souvent en rupture avec l'expérience scolaire. Mobilisé en routine par le réseau d'accompagnement, label « service à impact » DINUM. Cas singulier de transfert réussi entre incubateur et opérateur historique.",
@@ -406,6 +430,7 @@
       "Pros & structures"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Modèle de référence du commun numérique : une obligation légale qui produit une donnée fiable, exposée par API, consommée massivement par les plateformes où les jeunes sont déjà. Aucun jeune ne sait que ce service existe, mais ses données alimentent les choix d'orientation de millions de candidats à Parcoursup, Affelnet, LBA. La logique « les données vont aux plateformes, pas l'inverse » fonctionne ici comme elle devrait fonctionner partout.\nEn revanche, le site d’interface publique apporte de la confusion et fait doublon avec les autres sites de formation. Devrait être fermé",
@@ -428,6 +453,7 @@
       "Jeunes généralistes"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Service sans signal",
     "justification": "Dispositif structurel de l'écosystème santé jeunes, présent depuis trente ans, multi-canal, équipe de professionnels salariés, label santé publique, charte d'anonymat strict. Joue un rôle de premier contact et d'aiguillage vers le soin spécialisé. Mais les dernières données d'audience publiques datent d'une décennie, ce qui empêche tout pilotage. Le besoin existe sans ambiguïté ; ce qui manque, c'est la démonstration qu'il y répond toujours à la bonne échelle.",
@@ -452,6 +478,7 @@
       "Pros & structures"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Vraie brique manquante de l'orientation post-3e : rendre concrètes sur le territoire les formations professionnelles accessibles, avec des données d'insertion qu'aucun autre acteur ne peut produire. Croissance forte avant transfert. Mais cas d'école de l'anti-pattern de transfert : l'équipe initiale n'a pas été reprise, l'outil reconstruit en interne sans approche produit, la page d'usage perdue. Le produit est prometteur, risque idendtifié sur le transfert. Indispensable de republier les statistiques d’usage et d’impact",
@@ -475,6 +502,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Couche basse mature de l'écosystème formation professionnelle, adossée à une obligation légale d'alimentation. Sans équivalent en France sur la vision unifiée des parcours de formation financés. La fragilité ne porte pas sur le service mais sur sa sous-exploitation par les outils destinés aux jeunes et aux accompagnants : la donnée existe, peu de services s'en servent. Risque inverse à anticiper : être mobilisé pour porter une infrastructure monolithique au détriment d'usages plus ciblés.",
@@ -495,6 +523,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Service sans signal",
     "justification": "Outil métier qui homogénéise la documentation du réseau Info Jeunes — environ mille structures de proximité partout sur le territoire. Le positionnement est juste : outiller le médiateur humain, pas se substituer à lui. Mais huit années d'opération sans aucune donnée d'usage publiée pour un service financé par l'État. Production parallèle de fiches métiers avec l'ONISEP, sans articulation visible.",
@@ -520,6 +549,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Démontre que le numérique public peut transformer un irritant administratif en parcours fluide, avec un effet causal mesuré : une part substantielle des bénéficiaires déclare qu'elle n'aurait pas fait d'immersion sans le service. Adoption croissante, satisfaction haute, coût marginal très bas. Le principal angle mort n'est pas le produit lui-même mais sa découvrabilité : plébiscité par ceux qui le connaissent, peu connu hors du réseau prescripteur.",
@@ -544,6 +574,7 @@
       "Pros & structures"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Pendant supérieur d'InserJeunes, même logique de commun numérique : un dispositif statistique qui produit la mesure d'insertion à partir de sources administratives et expose ses indicateurs là où les choix se font — Parcoursup, Mon Master, ONISEP, L'Étudiant. L'étudiant ne consulte jamais le service, mais en lit les données chaque fois qu'il compare des formations. Modèle abouti à proposer comme cadre pour les services dont le transfert reste à structurer.",
@@ -565,6 +596,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Réorientation et impact à publier",
     "statut": "Service sans signal",
     "justification": "Vitrine institutionnelle légitime du ministère sur les politiques de jeunesse, utile aux professionnels et partenaires. Mais le site se présente comme un portail pour les 16-25 ans alors que sa rédaction s'adresse aux adultes du secteur — ambiguïté qui crée un doublon de positionnement avec 1J1S sur le grand public. Aucune donnée d'usage publiée.",
@@ -590,6 +622,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Cas de référence pour l'engagement bénévole : adoption massive, satisfaction très élevée des bénévoles comme des associations, impact mesuré en heures de bénévolat réelles produites. Le service démontre qu'une plateforme publique peut concurrencer les acteurs privés sur leur terrain quand elle est conçue avec rigueur produit. Standard de transparence exemplaire — matrice d'impact publique, NPS publié, coût d'efficience en baisse. Modèle de ce que la cartographie devrait viser.",
@@ -616,6 +649,7 @@
       "Pros & structures"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Vrai hub de l'écosystème — un des deux services qui sert simultanément plusieurs profils de jeunes (lycéens en voie pro, étudiants, jeunes en insertion). Catalogue de formations le plus complet, taux de contactabilité direct CFA supérieur aux autres, algorithme prédictif unique sur le marché caché, distribution massive en API et widget. Sujets pendants identifiés par l'étude utilisateurs : hiérarchie d'affichage qui induit en erreur, recherche par métier inadaptée aux débutants, parcours recruteur peu visible, offres postées par des écoles dans une logique de prospection (pas par des employeurs réels), absence recurrente de réponse aux candidatures.\nDoit continuer au détriment du portail de l’alternance",
@@ -643,6 +677,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "A fusionner",
     "statut": "Référence établie",
     "justification": "Un des très rares services à mesurer son impact final par croisement automatisé avec les déclarations d'embauche — méthode qui devrait servir de référence. L'algorithme prédictif qui identifie le marché caché est un actif stratégique. La vraie valeur propre de la plateforme est son algorithme prédictif, qui est déjà intégré dans parcours emploi. S’il intègre également l’espace personnel Web, plus vraiment de valeur propre à exister. Doit fusionner avec l’espace personnel web (partie offre)",
@@ -672,6 +707,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "A fusionner",
     "statut": "Service sans signal",
     "justification": "Service de l'État qui adresse le non-recours aux droits. L'intuition initiale est juste, orientation territorialisée plus mise en relation humaine, mais l'exécution ne suit pas : couverture territoriale partielle, modèle de déploiement artisanal financé au coup par coup (appels à projets France 2030 opérés par l'ANRU). Le mécanisme de rappel par un professionnel garde une valeur réelle, à reprendre dans Aides Jeunes plutôt que maintenir une plateforme autonome. Aucune donnée d'usage ou d'impact publiée",
@@ -697,6 +733,7 @@
       "Jeunes généralistes"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Référentiel socle de l'offre de formation professionnelle, porté par le Réseau des Carif-Oref (RCO) depuis une vingtaine d'années. Langage Léo harmonise la description des formations ; les Carif-Oref collectent au niveau régional, le RCO agrège. C'est, avec la CDC, l'un des deux seuls points de collecte de l'offre de formation en France. Alimente France Travail, Trouver ma formation, Mon Compte Formation et les portails régionaux. Commun discret mais central de la chaîne formation.",
@@ -720,6 +757,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "A fusionner",
     "statut": "Service sans signal",
     "justification": "Doit basculer vers La Bonne Alternance. La seule question stratégique restante est d'éviter la perte de l'actif SEO accumulé sur dix ans — le portail reste leader sur les requêtes Google de l'alternance et ce capital doit être transféré, pas perdu. Les CFA jugent l'expérience site trop formelle pour les jeunes et certains simulateurs trop imprécis.",
@@ -746,6 +784,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Service le plus mature et le plus efficient de la cartographie sur le volet insertion : volume d'embauches cumulées exceptionnel, satisfaction très supérieure à la moyenne, coût à l'impact remarquablement bas, budget public détaillé. Standard de transparence à proposer comme modèle. Hors périmètre stricto sensu jeunes, mais en pratique passage obligé pour une partie des publics prioritaires (NEET, sortie ASE, sortie PJJ) via prescription des missions locales et du CEJ.",
@@ -770,6 +809,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Infrastructure invisible mais critique : les Carif-Oref produisent et qualifient au niveau régional le catalogue national de formations professionnelles qui alimente toutes les plateformes. La fonction de producteur de données est irremplaçable. C'est le maintien parallèle de dix-huit portails grand public régionaux, avec des noms et UX différents, qui pose question — la recherche grand public est aujourd'hui mieux servie par les plateformes nationales. Aucune donnée d'usage consolidée nationalement.",
@@ -797,6 +837,7 @@
       "Jeunes généralistes"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Référence établie",
     "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Trouver ma formation web). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Pourquoi le canal web et mobile n’ont pas le même parcours ?",
@@ -825,6 +866,7 @@
       "Pros & structures"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Service massif largement sous-estimé : audience comparable aux grands sites d'emploi nationaux, taux de présence effective remarquable, près d'un quart de million de participations réelles chaque mois à des événements emploi. Quand un jeune s'inscrit, il vient — signal que le besoin est réel. Le sujet n'est pas de défendre le service mais de diffuser son catalogue d'événements dans les plateformes où les jeunes sont déjà (LBA, 1J1S, app Parcours Emploi).",
@@ -848,6 +890,7 @@
       "Étudiants"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Référence établie",
     "justification": "Hub vie étudiante le mieux intégré de l'écosystème, organisé par moments de vie réels et non par catalogue de liens. Monopole de fait sur le Dossier Social Étudiant — passage obligé pour des centaines de milliers de boursiers chaque année. Cohabitation à clarifier avec 1J1S sur l'emploi et Aides Jeunes sur les droits : l'enjeu n'est pas de fusionner les hubs mais de définir ce que chacun fait au bon moment. Aucune donnée d'usage publiée.",
@@ -874,6 +917,7 @@
       "Étudiants"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Infrastructure structurelle de l'enseignement supérieur, équivalent post-licence de Parcoursup, sans alternative. Trajectoire d'amélioration solide après un lancement difficile : phase complémentaire qui a divisé par trois les candidats sans solution, ergonomie allégée. Open data exemplaire. Sujets pendants : inflation du nombre de vœux par candidat, calendrier qui collisionne avec les examens, absence de pont vers les données d'insertion (InserSup non intégré aux fiches formation).",
@@ -897,6 +941,7 @@
       "Pros & structures"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Brique spécialisée d'Avenir(s) au taux de complétion exceptionnel — un jeune qui arrive sur le service va jusqu'au bout du parcours, signal rare dans l'écosystème. Le pont vers Parcoursup fonctionne effectivement. Choix produit délibéré et pertinent : suggérer par appétence et non par résultats scolaires, ce qui répond directement au constat de la Cour des comptes sur l'autocensure. Modèle d'intégration d'une brique spécialisée dans un écosystème plus large, plutôt que site isolé. Aucun impact mesuré.",
@@ -920,6 +965,7 @@
       "Pros & structures"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Programme qui démontre un impact direct et massif sur l'emploi — taux de recrutement post-mission sans équivalent dans l'écosystème, satisfaction quasi-unanime, croissance continue. Mais lucidité sur le périmètre : ce n'est pas un levier d'insertion pour les publics fragiles. Le public est massivement diplômé bac+5 de grandes écoles. Bon positionnement : référencé comme une option de mobilité internationale, sans tentative d'en faire un outil de politique d'insertion sociale.",
@@ -943,6 +989,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Service sans signal",
     "justification": "Vitrine grand public du référentiel ROME 4.0, actif stratégique pour la politique d'approche par compétences. Cas réussi de transfert beta.gouv vers l'opérateur public. Positionnement juste : un service d'exploration des métiers qui n'essaie pas de faire du transactionnel et articule proprement les renvois vers les services d'action. Limite : opacité héritée — aucune statistique publique alors que les données sont collectées. La pérennisation impose le standard de transparence.",
@@ -971,6 +1018,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Portail public de référence sur les métiers et les formations initiales, à la forte notoriété et à l'autorité éditoriale incontestée. Sa vraie valeur n'est pas le portail de destination mais le référentiel éditorial métiers/formations qu'il produit, qui irrigue déjà Avenir(s), IJ box, MétierScope, LBA et les portails régionaux : un commun éditorial souverain à protéger. Deux limites le rapprochent de 1jeune1solution, une forte dépendance au référencement Google qui capte l'intention plus qu'elle ne crée de valeur propre, et l'absence de tout indicateur d'impact publié au niveau service. Sa coexistence avec Avenir(s) est légitime à condition que les rôles soient distingués : Avenir(s) porte l'orientation médiée en classe, Onisep.fr la consultation libre grand public et la distribution du référentiel. Verdict : continuation, à trois conditions, exposer le référentiel par API, articuler explicitement avec Avenir(s), publier une mesure d'usage et d'impact.",
@@ -994,6 +1042,7 @@
       "Pros & structures"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Outil de pilotage et non service utilisateur jeune — donc évalué différemment. Mais c'est précisément ce que l'écosystème devrait produire davantage : une infrastructure de décision partagée entre tous les acteurs de la carte des formations, avec un impact concret mesuré sur la transformation effective des places ouvertes et fermées. Cas de transfert beta.gouv vers la DNE qui semble s'être mieux passé que d'autres ; le ralentissement de mise à jour des statistiques publiques post-transfert mérite vigilance.",
@@ -1016,6 +1065,7 @@
       "Jeunes généralistes"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Canal mobile principal de France Travail côté demandeur d'emploi, et un des très rares services à mesurer un indicateur d'impact réel : taux de retour à l'emploi mesuré qui surperforme les autres canaux. La moitié des candidatures en ligne France Travail passe désormais par l'app. Question stratégique : le service est conçu pour le grand public en autonomie de recherche — pertinent pour les jeunes qui le sont, insuffisant pour ceux qui ne le sont pas et auxquels les apps CEJ et pass emploi répondent.\nLa différence de parcours entre l’app Parcours Emploi et l’espace personnel Web partie offre apporte de la confusion à l’écosysteme. La partie offre de l’espace personnel Web et Parcours Emploi devrait être identiques",
@@ -1045,6 +1095,7 @@
       "Pros & structures"
     ],
     "volume": 3,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Infrastructure critique de l'enseignement supérieur français — aucune alternative à cette échelle n'existe. Résultats techniques en amélioration continue, open data exemplaire. Paradoxe central : efficacité technique forte sur le taux d'admission, mais perception très dégradée sur l'équité et amplification documentée du déterminisme social. L'enjeu pour la cartographie est l'articulation avec l'écosystème en aval — décrochage L1, intégration InserSup incomplète, bacheliers professionnels en hausse.",
@@ -1069,6 +1120,7 @@
       "Jeunes généralistes"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Adoption la plus élevée de toute la cartographie auprès du public cible — l'application est entrée dans les usages quotidiens des 15-20 ans. Mesure d'impact rigoureuse via études cohortes successives. Mais lucidité nécessaire : c'est un dispositif de politique culturelle, pas d'insertion — son inclusion tient à son échelle, non à sa fonction. Pour l'écosystème insertion, c'est avant tout un canal de contact massif vers les jeunes.",
@@ -1091,6 +1143,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "PASS est un filtre transformé en site séparé qui ne représente qu'une fraction marginale du volume d'offres de Choisir le service public, opéré par la même direction — fusion déjà actée à l'horizon CSP V2. Sujet plus structurant : Choisir le service public a fait le choix assumé de ne pas exposer ses offres en API ouverte. Impossible de convaincre un jeune qui ne sait pas déjà qu’il souhaite chercher dans le Service Public.\nA noter également la fragmentation dans la sphère publique des modalités de candidatures (seulement 5% par la plateforme, le reste en fonction des SI partenaires)",
@@ -1114,6 +1167,7 @@
       "Jeunes généralistes"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Service sans signal",
     "justification": "Diagnostic en deux briques que la communication institutionnelle confond. Le service grand public — interface, fonctionnalité CV — est en bêta depuis trois ans sans instrument de mesure d'audience, l'authentification renforcée exclut de fait la cible mineure, et le profil d'un jeune en début de parcours est par construction quasi-vide. Le socle data sous-jacent (DSN, AGORA, certificateurs, SI-CPF) est en revanche une infrastructure mutualisée à préserver et exposer en API. Verdict : réorientation — geler l'interface, exposer le socle.",
@@ -1137,7 +1191,8 @@
       "Pros & structures"
     ],
     "volume": null,
-    "arbitrage": "Continuation",
+    "volume_segment": {},
+    "arbitrage": "Impact à publier pour continuation",
     "statut": "Hors arbitrage cartographie",
     "justification": "Évolution produit de l'API Engagement : un front en propre (moteur de recommandation, premier « diffuseur maison ») qui agrège tous les dispositifs publics et associatifs d'engagement, élargis aux réserves opérationnelles (armées, gendarmerie, police, pompiers). Positionnement assumé « haut de funnel » (analogie Kayak) : il complète les plateformes existantes en allant chercher les publics non couverts et redirige vers elles, sans absorber les marques (Je veux aider, Service Civique). Cible d'abord les pros accompagnants (CEJ, Mission Locale, CRIJ), puis les jeunes ; lycéens mineurs hors cible. En construction, hors arbitrage à ce stade. La question stratégique reste la valeur ajoutée d'une interface propre par-dessus un commun (l'API Engagement) déjà distribué.",
     "objectif": "Orienter les jeunes (ou les pros qui les accompagnent) vers les missions d'engagement (bénévolat, service civique, réserves, sapeurs-pompiers, gendarmerie, police) via un moteur de recommandation personnalisé agrégeant tous les dispositifs publics et associatifs",
@@ -1159,6 +1214,7 @@
       "Jeunes généralistes"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Référentiel socle des certifications et formations, porté par France Compétences (tutelle ministère du Travail). Chaque fiche décrit la certification, ses blocs de compétences et sa correspondance ROME ; il fonde l'éligibilité au CPF. Exposé en API, consommé par Mon Compte Formation, Trouver ma formation, Diagoriente, le Passeport de compétences, AGORA. Commun structurant reliant formation, métier et compétences.",
@@ -1179,6 +1235,7 @@
       "Jeunes généralistes"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Référentiel socle des métiers, porté par France Travail (ROME 4.0, structuré par compétences). Sert au matching offres/demandes et à l'observation du marché ; exposé au grand public via MétierScope et en API, indexé au RNCP, consommé par Diagoriente, LBA, Avenir(s). Limite structurante : il n'est pas conçu pour caractériser un métier tel qu'exercé, couvre mal le numérique et le régalien, et la traduction libellé d'emploi vers compétences y est fragile. Commun à conserver et à mieux croiser, pas à dupliquer.",
@@ -1199,6 +1256,7 @@
       "Étudiants"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "A fusionner",
     "statut": "Référence établie",
     "justification": "Dispositif qui répond à un besoin documenté avec une trajectoire de simplification réussie : suppression de l'orientation médicale préalable, alignement tarifaire qui a quintuplé le réseau de psychologues partenaires, doublement du nombre de séances. Croissance d'usage régulière, approche transactionnelle aboutie. Fusion programmée avec Mon Soutien Psy en 2026. Enjeu : préserver l'expérience produit lors de l'absorption dans le dispositif de droit commun.",
@@ -1222,6 +1280,7 @@
       "NEET & jeunes fragiles"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Programme à plus fort impact social de la cartographie — la moitié des volontaires sont demandeurs d'emploi ou inactifs à l'entrée, un quart sans baccalauréat, surreprésentation des quartiers prioritaires. Le tour de force est de toucher massivement ces publics sans être étiqueté « dispositif d'insertion ». Notoriété exceptionnelle, satisfaction très élevée, impact employabilité documenté. Coupe budgétaire 2025 qui fragilise à contretemps le programme qui touche le mieux les publics les plus éloignés.",
@@ -1242,6 +1301,7 @@
       "Jeunes généralistes"
     ],
     "volume": 2,
+    "volume_segment": {},
     "arbitrage": "A fermer",
     "statut": "Usage sans impact démontré",
     "justification": "Hors arbitrage de la cartographie : dispositif en mise en extinction effective au 1er janvier 2026 après vote parlementaire et annonce du Premier ministre. La cartographie n'a pas à statuer sur un service qui n'existera plus. L'enseignement à retenir est le pattern : créer un nouveau dispositif à coût élevé sans évaluation préalable plutôt que renforcer ce qui fonctionne déjà (le Service Civique) est l'anti-pattern récurrent à éviter.",
@@ -1266,6 +1326,7 @@
       "Pros & structures"
     ],
     "volume": 1,
+    "volume_segment": {},
     "arbitrage": "Continuation",
     "statut": "Référence établie",
     "justification": "Outil professionnel beta.gouv (porté par la DINUM, sponsors MEN-J, MESR, ministère du Travail) de coordination en temps réel entre CFA et Missions Locales sur les ruptures de contrat d'apprentissage. Adresse un angle mort réel : environ 22 % des contrats rompus dans les neuf premiers mois, 60 % des jeunes sans nouveau contrat sous six mois. Premier outil à systématiser l'aller-vers sur cette population. Stratégiquement aligné avec la doctrine : il atteint un public fragile par la médiation des accompagnants, pas par un portail en libre-service. Jeune (en accélération, MVP 35 ML en 2025, en extension), usage publié mais impact non encore mesuré. Verdict : continuation, impact à publier ; sécuriser le passage à l'échelle et vérifier l'articulation avec l'autre brique beta.gouv de prévention des ruptures.",
@@ -1288,6 +1349,7 @@
       "Jeunes généralistes"
     ],
     "volume": 4,
+    "volume_segment": {},
     "arbitrage": "Impact à publier pour continuation",
     "statut": "Valeur défendable (impact non mesuré)",
     "justification": "Pas deux services autonomes mais les deux canaux du service Formation de France Travail (avec Ma Formation app). Mêmes données Carif-Oref, même brique Anotéa, fonctionnalités quasi-identiques — différenciateur web (comparaison structurée), différenciateur mobile (tri intelligent des favoris). À traiter comme un service unique bi-canal. Question résiduelle : pourquoi un demandeur d'emploi doit-il choisir entre ce service et Mon Compte Formation pour chercher une formation. Pourquoi le canal web et mobile n’ont pas le même parcours ?",
@@ -1314,6 +1376,7 @@
       "Pros & structures"
     ],
     "volume": null,
+    "volume_segment": {},
     "arbitrage": "Hors arbitrage",
     "statut": "Hors arbitrage cartographie",
     "justification": "Hors arbitrage de la cartographie : outil interne du Réseau E2C destiné à ses propres stagiaires, évalué par la gouvernance du réseau et non par un arbitrage national. Présence légitime comme service touchant un public extrêmement fragile (jeunes sans qualification, sortis du système scolaire). Points de vigilance : le portefeuille de compétences doit être interopérable avec le passeport de compétences pour ne pas créer un silo, et l'intégration de solutions privées plutôt que des outils publics reproduit un pattern à questionner.",
