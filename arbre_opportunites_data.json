@@ -16,6 +16,9 @@
       "Mise en relation",
       "Recherche de stage"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Collège",
       "Post-collège",
@@ -48,6 +51,9 @@
     "use_cases": [
       "Mise en relation",
       "Accompagnement humain"
+    ],
+    "segments": [
+      "Accompagnement vers l'emploi"
     ],
     "etapes": [
       "Collège",
@@ -91,6 +97,15 @@
       "Recherche d'engagement",
       "Mobilité internationale"
     ],
+    "segments": [
+      "Information et orientation grand public",
+      "Aides et droits sociaux",
+      "Recherche de formation professionnelle",
+      "Alternance",
+      "Recherche d'emploi",
+      "Engagement et service civique",
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Tout moment de la vie"
     ],
@@ -125,6 +140,9 @@
       "Recherche d'information et orientation",
       "Pilotage"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Collège",
       "Post-collège"
@@ -154,6 +172,9 @@
     "use_cases": [
       "Simulation et diagnostic",
       "Recherche d'aide"
+    ],
+    "segments": [
+      "Aides et droits sociaux"
     ],
     "etapes": [
       "Lycée",
@@ -192,6 +213,9 @@
       "Commun de données",
       "Recherche de formation"
     ],
+    "segments": [
+      "Communs numériques"
+    ],
     "etapes": [
       "Hors parcours",
       "Collège",
@@ -227,6 +251,10 @@
     "use_cases": [
       "Commun de données"
     ],
+    "segments": [
+      "Engagement et service civique",
+      "Communs numériques"
+    ],
     "etapes": [
       "Hors parcours"
     ],
@@ -259,6 +287,9 @@
       "Suivi de parcours",
       "Simulation et diagnostic"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Collège",
       "Lycée"
@@ -286,6 +317,9 @@
     ],
     "use_cases": [
       "Commun de données"
+    ],
+    "segments": [
+      "Communs numériques"
     ],
     "etapes": [],
     "objectif": "Nomenclature nationale des diplômes de l'Éducation nationale (codes diplôme), qui identifie de façon unique les formations initiales et leurs diplômes.",
@@ -315,6 +349,9 @@
       "Candidature",
       "Recherche d'information et orientation",
       "Accompagnement humain"
+    ],
+    "segments": [
+      "Accompagnement vers l'emploi"
     ],
     "etapes": [
       "Lycée",
@@ -355,6 +392,10 @@
       "Recherche de formation",
       "Accompagnement humain"
     ],
+    "segments": [
+      "Accompagnement vers l'emploi",
+      "Engagement et service civique"
+    ],
     "etapes": [
       "Post-Lycée",
       "Hors parcours",
@@ -383,6 +424,9 @@
     ],
     "use_cases": [
       "Mobilité internationale"
+    ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
     ],
     "etapes": [
       "Post-Lycée",
@@ -419,6 +463,9 @@
     ],
     "use_cases": [
       "Catalogue d'outils"
+    ],
+    "segments": [
+      "Accompagnement vers l'emploi"
     ],
     "etapes": [
       "Post-Lycée",
@@ -457,6 +504,9 @@
       "Recherche d'emploi",
       "Recherche de formation"
     ],
+    "segments": [
+      "Recherche d'emploi"
+    ],
     "etapes": [
       "Post-Lycée",
       "Hors parcours",
@@ -493,6 +543,7 @@
       "Recherche d'aide",
       "Catalogue d'outils"
     ],
+    "segments": [],
     "etapes": [
       "Post-Lycée",
       "Études supérieures"
@@ -527,6 +578,9 @@
       "Accompagnement humain",
       "Recherche d'information et orientation"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Post-Lycée",
       "Hors parcours"
@@ -560,6 +614,9 @@
       "Commun de données",
       "Pilotage"
     ],
+    "segments": [
+      "Communs numériques"
+    ],
     "etapes": [
       "Hors parcours"
     ],
@@ -588,6 +645,9 @@
       "Recherche d'information et orientation",
       "Accompagnement humain",
       "Simulation et diagnostic"
+    ],
+    "segments": [
+      "Aides et droits sociaux"
     ],
     "etapes": [
       "Lycée",
@@ -627,6 +687,9 @@
       "Recherche d'information et orientation",
       "Recherche de formation"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Post-collège"
     ],
@@ -657,6 +720,9 @@
       "Pilotage",
       "Commun de données"
     ],
+    "segments": [
+      "Communs numériques"
+    ],
     "etapes": [
       "Hors parcours"
     ],
@@ -685,6 +751,9 @@
       "Recherche d'information et orientation",
       "Catalogue d'outils",
       "Accompagnement humain"
+    ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
     ],
     "etapes": [
       "Lycée",
@@ -723,6 +792,10 @@
       "Mise en relation",
       "Recherche de stage"
     ],
+    "segments": [
+      "Accompagnement vers l'emploi",
+      "Recherche de formation professionnelle"
+    ],
     "etapes": [
       "Post-Lycée",
       "Études supérieures",
@@ -758,6 +831,9 @@
       "Commun de données",
       "Pilotage"
     ],
+    "segments": [
+      "Communs numériques"
+    ],
     "etapes": [
       "Hors parcours"
     ],
@@ -790,6 +866,9 @@
       "Catalogue d'outils",
       "Recherche d'information et orientation"
     ],
+    "segments": [
+      "Information et orientation grand public"
+    ],
     "etapes": [
       "Tout moment de la vie"
     ],
@@ -819,6 +898,9 @@
       "Recherche d'engagement",
       "Candidature",
       "Mise en relation"
+    ],
+    "segments": [
+      "Engagement et service civique"
     ],
     "etapes": [
       "Tout moment de la vie"
@@ -857,6 +939,10 @@
       "Recherche de formation",
       "Recherche d'information et orientation"
     ],
+    "segments": [
+      "Alternance",
+      "Communs numériques"
+    ],
     "etapes": [
       "Collège",
       "Post-collège",
@@ -892,6 +978,10 @@
       "Candidature",
       "Mise en relation",
       "Recherche d'emploi"
+    ],
+    "segments": [
+      "Recherche d'emploi",
+      "Communs numériques"
     ],
     "etapes": [
       "Post-Lycée",
@@ -932,6 +1022,9 @@
       "Mise en relation",
       "Recherche d'aide"
     ],
+    "segments": [
+      "Aides et droits sociaux"
+    ],
     "etapes": [
       "Hors parcours",
       "Tout moment de la vie"
@@ -960,6 +1053,9 @@
     ],
     "use_cases": [
       "Commun de données"
+    ],
+    "segments": [
+      "Communs numériques"
     ],
     "etapes": [],
     "objectif": "Standard harmonisé de description de l'offre de formation professionnelle (Langage Léo), maintenu par le Réseau des Carif-Oref (RCO), qui agrège l'offre collectée par les Carif-Oref régionaux.",
@@ -991,6 +1087,9 @@
       "Recherche d'information et orientation",
       "Recherche de formation",
       "Simulation et diagnostic"
+    ],
+    "segments": [
+      "Alternance"
     ],
     "etapes": [
       "Post-Lycée",
@@ -1026,6 +1125,9 @@
       "Mise en relation",
       "Recherche d'emploi"
     ],
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
     "etapes": [
       "Hors parcours",
       "Post-Lycée",
@@ -1060,6 +1162,10 @@
       "Recherche d'information et orientation",
       "Pilotage"
     ],
+    "segments": [
+      "Recherche de formation professionnelle",
+      "Information et orientation grand public"
+    ],
     "etapes": [
       "Lycée",
       "Post-Lycée",
@@ -1092,6 +1198,9 @@
       "Suivi de parcours",
       "Recherche d'information et orientation",
       "Recherche de formation"
+    ],
+    "segments": [
+      "Recherche de formation professionnelle"
     ],
     "etapes": [
       "Post-Lycée",
@@ -1127,6 +1236,9 @@
       "Candidature",
       "Mise en relation"
     ],
+    "segments": [
+      "Accompagnement vers l'emploi"
+    ],
     "etapes": [
       "Post-Lycée",
       "Hors parcours",
@@ -1161,6 +1273,10 @@
       "Recherche d'information et orientation",
       "Recherche d'aide"
     ],
+    "segments": [
+      "Information et orientation grand public",
+      "Aides et droits sociaux"
+    ],
     "etapes": [
       "Post-Lycée",
       "Études supérieures"
@@ -1192,6 +1308,9 @@
       "Mise en relation",
       "Suivi de parcours",
       "Recherche de formation"
+    ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
     ],
     "etapes": [
       "Post-Lycée",
@@ -1225,6 +1344,9 @@
       "Simulation et diagnostic",
       "Recherche de formation"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Lycée",
       "Post-Lycée"
@@ -1257,6 +1379,9 @@
       "Candidature",
       "Mise en relation"
     ],
+    "segments": [
+      "Engagement et service civique"
+    ],
     "etapes": [
       "Post-Lycée",
       "Études supérieures"
@@ -1287,6 +1412,9 @@
     "use_cases": [
       "Recherche d'information et orientation",
       "Simulation et diagnostic"
+    ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
     ],
     "etapes": [
       "Post-Lycée",
@@ -1324,6 +1452,11 @@
       "Recherche de formation",
       "Commun de données"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire",
+      "Communs numériques",
+      "Information et orientation grand public"
+    ],
     "etapes": [
       "Collège",
       "Lycée"
@@ -1353,6 +1486,9 @@
     "use_cases": [
       "Pilotage",
       "Commun de données"
+    ],
+    "segments": [
+      "Communs numériques"
     ],
     "etapes": [
       "Hors parcours"
@@ -1384,6 +1520,9 @@
       "Candidature",
       "Mise en relation",
       "Suivi de parcours",
+      "Recherche d'emploi"
+    ],
+    "segments": [
       "Recherche d'emploi"
     ],
     "etapes": [
@@ -1422,6 +1561,9 @@
       "Mise en relation",
       "Suivi de parcours"
     ],
+    "segments": [
+      "Formation initiale et orientation scolaire"
+    ],
     "etapes": [
       "Lycée",
       "Post-Lycée"
@@ -1452,6 +1594,9 @@
     ],
     "use_cases": [
       "Recherche d'aide"
+    ],
+    "segments": [
+      "Aides et droits sociaux"
     ],
     "etapes": [
       "Lycée",
@@ -1486,6 +1631,10 @@
       "Candidature",
       "Mise en relation"
     ],
+    "segments": [
+      "Recherche d'emploi",
+      "Alternance"
+    ],
     "etapes": [
       "Post-Lycée",
       "Hors parcours",
@@ -1517,6 +1666,10 @@
       "Commun de données",
       "Suivi de parcours"
     ],
+    "segments": [
+      "Accompagnement vers l'emploi",
+      "Communs numériques"
+    ],
     "etapes": [
       "Hors parcours"
     ],
@@ -1546,6 +1699,9 @@
       "Recherche d'engagement",
       "Mise en relation",
       "Commun de données"
+    ],
+    "segments": [
+      "Engagement et service civique"
     ],
     "etapes": [
       "Post-Lycée",
@@ -1577,6 +1733,9 @@
     "use_cases": [
       "Commun de données"
     ],
+    "segments": [
+      "Communs numériques"
+    ],
     "etapes": [],
     "objectif": "Répertoires nationaux des certifications professionnelles (RNCP) et des certifications et habilitations complémentaires (RS), tenus par France Compétences : recensent les certifications reconnues, leurs blocs de compétences et leurs correspondances métiers.",
     "porteur": "Ministère du travail",
@@ -1599,6 +1758,9 @@
     ],
     "use_cases": [
       "Commun de données"
+    ],
+    "segments": [
+      "Communs numériques"
     ],
     "etapes": [],
     "objectif": "Référentiel national des métiers et des emplois de France Travail (ROME 4.0), structuré par compétences, langage commun pour décrire métiers et compétences dans l'écosystème emploi-formation.",
@@ -1623,6 +1785,9 @@
     "use_cases": [
       "Recherche d'aide",
       "Simulation et diagnostic"
+    ],
+    "segments": [
+      "Aides et droits sociaux"
     ],
     "etapes": [
       "Études supérieures",
@@ -1655,6 +1820,9 @@
       "Candidature",
       "Mise en relation"
     ],
+    "segments": [
+      "Engagement et service civique"
+    ],
     "etapes": [
       "Lycée",
       "Post-Lycée",
@@ -1685,6 +1853,7 @@
     "use_cases": [
       "Recherche d'engagement"
     ],
+    "segments": [],
     "etapes": [
       "Lycée",
       "Post-Lycée"
@@ -1717,6 +1886,10 @@
       "Mise en relation",
       "Pilotage"
     ],
+    "segments": [
+      "Accompagnement vers l'emploi",
+      "Alternance"
+    ],
     "etapes": [
       "Post-collège",
       "Post-Lycée",
@@ -1747,6 +1920,9 @@
       "Recherche d'information et orientation",
       "Suivi de parcours",
       "Recherche de formation"
+    ],
+    "segments": [
+      "Recherche de formation professionnelle"
     ],
     "etapes": [
       "Post-Lycée",
@@ -1784,6 +1960,7 @@
       "Suivi de parcours",
       "Accompagnement humain"
     ],
+    "segments": [],
     "etapes": [
       "Post-Lycée",
       "Études supérieures",
