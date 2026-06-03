@@ -109,6 +109,19 @@ PUBLIC_FAMILY = {
     "Organisation engagement (associatives publiques et privées)": "Pros & structures",
 }
 
+# Usage spécifique par segment (aujourd'hui renseigné pour 1jeune1solution).
+# Clé = segment fonctionnel ; valeur = nom EXACT de la propriété Notion.
+# NB : « Usage Aides et droits » comporte un espace final dans Notion.
+SEGMENT_USAGE_PROP = {
+    "Information et orientation grand public": "Usage Information Grand public",
+    "Formation initiale et orientation scolaire": "Usage Formation initiale et orientation scolaire",
+    "Recherche de formation professionnelle": "Usage Recherche de formation professionnelle",
+    "Alternance": "Usage Alternance",
+    "Recherche d'emploi": "Usage Recherche d'emploi",
+    "Aides et droits sociaux": "Usage Aides et droits ",
+    "Engagement et service civique": "Usage Engagement et service civique",
+}
+
 def _public_families(prop):
     """Multi-select Public Cible -> familles dédupliquées, dans l'ordre canonique."""
     raw = _multi(prop)
@@ -144,11 +157,19 @@ def page_to_service(page):
     notion_id = page["id"].replace("-", "")
     notion_url = "https://www.notion.so/" + notion_id
 
+    # Usage par segment : on ne retient que les segments effectivement renseignés.
+    volume_segment = {}
+    for seg, prop_name in SEGMENT_USAGE_PROP.items():
+        v = _volume(P(prop_name))
+        if v is not None:
+            volume_segment[seg] = v
+
     return {
         "nom": nom,
         "segments": _multi(P("Segment fonctionnel")),
         "publics": _public_families(P("Public Cible")),
         "volume": _volume(P("Volume d'usage")),
+        "volume_segment": volume_segment,
         "arbitrage": _select(P("Arbitrage")),
         "statut": _select(P("Statut")),
         "justification": _plain(P("Justification courte").get("rich_text")),
@@ -215,12 +236,19 @@ def check_only(services):
         inconnus = [seg for seg in s["segments"] if seg not in connus]
         if inconnus:
             print(f"  ATTENTION : segment hors référentiel sur {s['nom']!r} : {inconnus}")
+        # cohérence : un usage par segment ne devrait porter que sur un segment du service
+        hors = [seg for seg in s["volume_segment"] if seg not in s["segments"]]
+        if hors:
+            print(f"  ATTENTION : usage par segment sur {s['nom']!r} hors de ses segments : {hors}")
     sans_seg = [s["nom"] for s in services if not s["segments"]]
     if sans_seg:
         print(f"  {len(sans_seg)} service(s) sans segment fonctionnel : {sans_seg}")
     sans_arb = [s["nom"] for s in services if not s["arbitrage"]]
     if sans_arb:
         print(f"  {len(sans_arb)} service(s) sans arbitrage : {sans_arb}")
+    avec_us = [s["nom"] for s in services if s["volume_segment"]]
+    if avec_us:
+        print(f"  {len(avec_us)} service(s) avec un usage par segment : {avec_us}")
     if os.path.exists(JSON_PATH):
         old = {s["nom"]: s for s in json.load(open(JSON_PATH, encoding="utf-8"))}
         new = {s["nom"]: s for s in services}
