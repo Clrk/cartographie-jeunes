@@ -126,6 +126,10 @@ def page_to_service(page):
         "publics": _multi(P("Public Cible")),
         "categories": _multi(P("Catégories")),
         "use_cases": _multi(P("Cas d'usages")),
+        # Segment fonctionnel (multi-select Notion) : taxonomie en 9 segments
+        # du rapport (ch. 3.2 / 4.2). Multi-valeur : un service peut relever
+        # de plusieurs segments. Consommé par la colonne/filtre de l'arbre.
+        "segments": _multi(P("Segment fonctionnel")),
         "etapes": _multi(P("Étape du parcours d'un jeune")),
         "objectif": _plain(P("Objectif de la plateforme").get("rich_text")),
         "porteur": ", ".join(porteurs),
@@ -185,6 +189,9 @@ def check_only(services):
     sans_qm = [s["nom"] for s in services if not s["quand_mobiliser"]]
     if sans_qm:
         print(f"  ATTENTION : {len(sans_qm)} sans 'quand mobiliser' : {sans_qm}")
+    sans_seg = [s["nom"] for s in services if not s.get("segments")]
+    if sans_seg:
+        print(f"  ATTENTION : {len(sans_seg)} sans segment fonctionnel : {sans_seg}")
     if os.path.exists(JSON_PATH):
         old = {s["nom"]: s for s in json.load(open(JSON_PATH, encoding="utf-8"))}
         new = {s["nom"]: s for s in services}
