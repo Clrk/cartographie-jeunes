@@ -194,6 +194,10 @@
   .m-meta b{color:var(--ink);font-weight:600;}
   .m-meta a{color:var(--accent);text-decoration:none;font-weight:500;}
   .m-meta a:hover{text-decoration:underline;}
+  .m-link{display:inline-flex;align-items:center;gap:6px;margin:14px 0 4px;font-size:14px;font-weight:500;
+    color:var(--accent);text-decoration:none;}
+  .m-link:hover{text-decoration:underline;}
+  .m-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px;}
   .m-sec{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:600;color:var(--muted);
     margin:24px 0 10px;border-top:1px solid var(--hair);padding-top:20px;}
   .m-just{font-size:14px;color:#2A2A28;line-height:1.65;margin:0;}
@@ -838,12 +842,12 @@ function openModal(s){
     '<div class="m-badges">'+badges+'</div>'+
     '<div class="m-meta">'+(s.porteur?'<b>Porté par :</b> '+esc(s.porteur):'')+'</div>'+
     (s.quand_mobiliser?'<div class="m-qm"><div class="m-qm-label">Quand le mobiliser</div><p class="m-qm-text">'+esc(s.quand_mobiliser)+'</p></div>':'')+
+    (s.url?'<a class="m-link" href="'+esc(s.url)+'" target="_blank" rel="noopener">Site du service ↗</a>':'')+
     (s.justification?'<div class="m-sec">Synthèse décisionnelle — audit</div><p class="m-just">'+esc(s.justification)+'</p>':'')+
     '<div class="m-sec">Rattachements dans la cartographie</div>'+
     tagRow("Segment fonctionnel",s.segments)+
     tagRow("Public cible",s.publics)+
-    tagRow("Cas d'usage",s.use_cases)+tagRow("Étape du parcours",s.etapes)+
-    (s.url?'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">Site du service ↗</a>':'');
+    tagRow("Cas d'usage",s.use_cases)+tagRow("Étape du parcours",s.etapes);
   document.getElementById("overlay").classList.add("on");
   const mx=document.querySelector("#modal-body .modal-x"); if(mx)mx.focus();
 }
